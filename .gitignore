@@ -1,6 +1,8 @@
 .Renviron
 /.quarto/
 /_site/
+/_freeze/
+/_extensions/
 .Rproj.user
 .Rhistory
 .Rdata
