@@ -13,8 +13,8 @@ execute:
 website:
   title: "Luong Nguyen Thanh"
   description: "R code, environmental data science, and cats."
-  site-url: https://jadeyryan.com
-  repo-url: https://github.com/jadeynryan/jadey_website
+  site-url: https://ntluong95.github.io/profile
+  repo-url: https://github.com/ntluong95/profile
   repo-actions:
     - source
     - issue

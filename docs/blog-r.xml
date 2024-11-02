@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Luong Nguyen Thanh</title>
-<link>https://jadeyryan.com/blog.html#category=R</link>
-<atom:link href="https://jadeyryan.com/blog-r.xml" rel="self" type="application/rss+xml"/>
+<link>https://ntluong95.github.io/profile/blog.html#category=R</link>
+<atom:link href="https://ntluong95.github.io/profile/blog-r.xml" rel="self" type="application/rss+xml"/>
 <description>R code, environmental data science, and cats.</description>
 <generator>quarto-1.6.32</generator>
 <lastBuildDate>Sat, 18 Nov 2023 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Intermediate guide to publish a Quarto website with GitHub &amp; Netlify</title>
   <dc:creator>Jadey Ryan</dc:creator>
-  <link>https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/</link>
+  <link>https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/</link>
   <description><![CDATA[ <p>Thankfully, many amazing <a href="https://github.com/mcanouil/awesome-quarto">resources</a> for building beautiful websites and blogs with Quarto already exist. Instead of adding to that pool of content, I’ll demo how I built my website with Quarto, connected to a GitHub repository, and then deployed and published with Netlify <a href="https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git">continuous deployment</a>. Special thanks to <a href="https://libbyheeren.com">Libby Heeren</a> for testing this demo and helping me clarify some sticky points! ♥️</p>
 <p>I struggled for hours trying to set up the configurations so my site would deploy every time I pushed a change to my GitHub repo. Hopefully this demo saves you some time when you start your own website! :)</p>
 <p>As with most tech and dev stuff, there’s many ways to do (almost) the same thing. I’d love to hear how other people have their Quarto/Netlify workflows set up. Leave a comment at the end of the post, or reach out!</p>
@@ -49,7 +49,7 @@
 </ol>
 <p>I checked out what other #RStats bloggers<sup>1</sup> were using and found many folks used GitHub Pages or Netlify.</p>
 <p>After some repo-diving and research, I decided to go with Netlify and their starter plan, shown below:</p>
-<p><a href="img/netlify-starter.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-starter.webp" class="img-fluid" alt="Netlify starter stats for my account. Bandwidth is 745 MB/100 GB. Build minutes is 43/300. Concurrent builds is 0/1. Team members is 1." width="600"></a></p>
+<p><a href="img/netlify-starter.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-starter.webp" class="img-fluid" alt="Netlify starter stats for my account. Bandwidth is 745 MB/100 GB. Build minutes is 43/300. Concurrent builds is 0/1. Team members is 1." width="600"></a></p>
 <p>I don’t think I’ll ever get near the <a href="https://www.netlify.com/pricing/">Netlify starter plan limits</a>, but who knows. If I exceed the limits, I pay as I go. Or, I can upgrade to $19/month for much higher limits.</p>
 <p>A major selling point for Netlify is the free <a href="https://docs.netlify.com/site-deploys/overview/">deployment preview system</a>. We can use <strong>branch deploys</strong> to preview changes from a feature branch or <strong>deploy previews</strong> to see changes from pull requests and merges. These deployment previews don’t touch our site in production.</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -81,7 +81,7 @@ Important Note about Continuous Integration (CI)
 <div class="callout-body-container callout-body">
 <p>Netlify servers can render markdown and build the website<sup>2</sup>, but cannot execute code<sup>3</sup>. This means all code must be executed locally on our computer and the output must be saved via the <a href="https://quarto.org/docs/projects/code-execution.html#freeze">Quarto freeze feature</a> AND committed to our repo.<sup>4</sup></p>
 <p>To learn more about rendering Quarto documents and websites with CI, read this <a href="https://quarto.org/docs/publishing/ci.html#rendering-for-ci">article</a>. The article discusses a continuum that extends from running everything <strong>locally</strong> to running everything <strong>remotely</strong> on a CI server. The workflow presented in this post sits in the middle:</p>
-<p><a href="img/ci-continuum.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/ci-continuum.webp" class="img-fluid" alt="Graphic of continuous integration continuum with double sided arrow. On the very left is Local Execution &amp; Rendering where the local machine runs code and renders the site and the C server checks the output is copied from version control to the right place. In the middle is Local Execution with CI Rendering where local machine runs code and saves output in the _freeze directory and the CI server with Quarto installed renders the site. The right is CI Execution and Rendering where the CI server executes all code and renders the site; Quarto and all code dependencies must be available on the CI server."></a></p>
+<p><a href="img/ci-continuum.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/ci-continuum.webp" class="img-fluid" alt="Graphic of continuous integration continuum with double sided arrow. On the very left is Local Execution &amp; Rendering where the local machine runs code and renders the site and the C server checks the output is copied from version control to the right place. In the middle is Local Execution with CI Rendering where local machine runs code and saves output in the _freeze directory and the CI server with Quarto installed renders the site. The right is CI Execution and Rendering where the CI server executes all code and renders the site; Quarto and all code dependencies must be available on the CI server."></a></p>
 </div>
 </div>
 </section><section id="the-complete-walk-through" class="level1 unnumbered"><h1 class="unnumbered">The complete walk-through</h1>
@@ -90,7 +90,7 @@ Important Note about Continuous Integration (CI)
 <span class="header-section-number">1</span> Create a Quarto website</h1>
 <p>In RStudio, go to <code>File</code> &gt; <code>New Project</code> &gt; <code>New Directory</code> to open the <strong>New Project Wizard</strong>.</p>
 <p>Let’s start with a website. If you’d like to add a blog later on, <a href="https://samanthacsik.github.io/">Samantha Csik</a> wrote a great blog post explaining this process <span class="citation" data-cites="csik2022">(Csik 2022)</span>.</p>
-<p><a href="img/rstudio-project-wizard.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/rstudio-project-wizard.webp" class="img-fluid" alt="New project wizard with box around Quarto Website." width="500"></a></p>
+<p><a href="img/rstudio-project-wizard.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/rstudio-project-wizard.webp" class="img-fluid" alt="New project wizard with box around Quarto Website." width="500"></a></p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -105,9 +105,9 @@ Are you new to GitHub?
 </div>
 </div>
 <p>Choose the name of our directory (which will also be the name of our GitHub repository), check the <code>Create a git repository</code> box, then click <code>Create Project</code>.</p>
-<p><a href="img/create-website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/create-website.webp" class="img-fluid" alt="Create Quarto Website dialog box with a field for directory name and a checkbox selected to create a git repository." width="500"></a></p>
+<p><a href="img/create-website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/create-website.webp" class="img-fluid" alt="Create Quarto Website dialog box with a field for directory name and a checkbox selected to create a git repository." width="500"></a></p>
 <p>We should now be in a RStudio project that has <code>index.qmd</code> and <code>_quarto.yml</code> open and some new things in our <code>Files pane</code>:</p>
-<p><a href="img/rstudio-website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/rstudio-website.webp" class="img-fluid" alt="RStudio with index.qmd and _quarto.yml open and many new folders and files in the files pane." width="500"></a></p>
+<p><a href="img/rstudio-website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/rstudio-website.webp" class="img-fluid" alt="RStudio with index.qmd and _quarto.yml open and many new folders and files in the files pane." width="500"></a></p>
 <p>Our <code>Files pane</code> should have the following:</p>
 <pre><code>├── _quarto.yml         # Website configuration file
 ├── about.qmd           # About page
@@ -115,7 +115,7 @@ Are you new to GitHub?
 ├── my-website.Rproj    # RStudio project config file
 └── styles.css          # CSS file for any custom styling</code></pre>
 <p>Notice we also have a <code>Git pane</code> with all of these files unstaged and no branches available. This is because we haven’t created a repository on GitHub and connected it with this project yet.</p>
-<p><a href="img/git-pane.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/git-pane.webp" class="img-fluid" alt="RStudio Git pane with a box around (no branch)." width="500"></a></p>
+<p><a href="img/git-pane.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/git-pane.webp" class="img-fluid" alt="RStudio Git pane with a box around (no branch)." width="500"></a></p>
 </section><section id="create-and-connect-to-github" class="level1" data-number="2"><h1 data-number="2">
 <span class="header-section-number">2</span> Create and connect to GitHub</h1>
 <p>If you’re following along with <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> <span class="citation" data-cites="bryan2023">(Bryan and Hester 2023)</span>, we’re using the <a href="https://happygitwithr.com/existing-github-last"><code>Existing project, GitHub last</code></a> workflow.</p>
@@ -224,7 +224,7 @@ font-style: inherit;"># ✔ Opening URL 'https://github.com/jadeynryan/my-websit
 </section><section id="connect-and-publish-to-netlify" class="level1" data-number="3"><h1 data-number="3">
 <span class="header-section-number">3</span> Connect and publish to Netlify</h1>
 <p>In order to use Netlify’s continuous deployment, we need to connect our Git provider to our Netlify account. If you don’t have a Netlify account yet, you can <a href="https://app.netlify.com/signup">sign up</a> with GitHub.</p>
-<p><a href="img/netlify-signup.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-signup.webp" class="img-fluid" alt="Netlify signup page with GitHub login." width="400"></a></p>
+<p><a href="img/netlify-signup.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-signup.webp" class="img-fluid" alt="Netlify signup page with GitHub login." width="400"></a></p>
 <p>Once we’re logged into Netlify and connected to our GitHub, we can do the initial publishing with the Quarto CLI. In the terminal, run:</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -235,12 +235,12 @@ background-color: null;
 font-style: inherit;">quarto</span> publish netlify</span></code></pre></div>
 </div>
 <p>If you’re not already logged in to Netlify on your browser, there may be an additional authentication step.</p>
-<p><a href="img/quarto-publish-netlify.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/quarto-publish-netlify.webp" class="img-fluid" alt="quarto publish netlify command run in the RStudio terminal."></a></p>
+<p><a href="img/quarto-publish-netlify.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/quarto-publish-netlify.webp" class="img-fluid" alt="quarto publish netlify command run in the RStudio terminal."></a></p>
 <p>This command rendered our site locally, uploaded all the static files to Netlify, and then deployed and published our new site! The site overview on Netlify should have opened in our browser:</p>
-<p><a href="img/netlify-site-overview.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-site-overview.webp" class="img-fluid" alt="Site overview on Netlify with boxes around the random subdomain name and the status as a manual deploy." width="400"></a></p>
+<p><a href="img/netlify-site-overview.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-site-overview.webp" class="img-fluid" alt="Site overview on Netlify with boxes around the random subdomain name and the status as a manual deploy." width="400"></a></p>
 <p>Netlify provided a random site name (<strong><code>stately-chimera-0c91c7</code></strong>) on the <code>netlify.app</code> domain. Also, notice that it says <code>Manual deploys</code> underneath the site link, meaning it was deployed from the <code>quarto publish netlify</code> command in our terminal and not from GitHub.</p>
 <p>Click on that link to open our live site!</p>
-<p><a href="img/live-website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/live-website.webp" class="img-fluid" alt="Screenshot of live website at stately-chimera-0c91c7.netlify.app."></a></p>
+<p><a href="img/live-website.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/live-website.webp" class="img-fluid" alt="Screenshot of live website at stately-chimera-0c91c7.netlify.app."></a></p>
 <section id="site-domain-name" class="level2" data-number="3.1"><h2 data-number="3.1" class="anchored" data-anchor-id="site-domain-name">
 <span class="header-section-number">3.1</span> Site domain name</h2>
 <p>The domain name is the URL or web address to our site. We have two options to rename our site:</p>
@@ -254,17 +254,17 @@ font-style: inherit;">quarto</span> publish netlify</span></code></pre></div>
 <section id="free-domain-name-change" class="level3"><h3 class="anchored" data-anchor-id="free-domain-name-change">Free domain name change</h3>
 <p>Let’s walk through the free option first.</p>
 <p>From the site overview Netlify page, click on <code>Site configuration</code>.</p>
-<p><a href="img/netlify-site-config.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-site-config.webp" class="img-fluid" alt="Netlify website site overview with box around site configuration." width="400"></a></p>
+<p><a href="img/netlify-site-config.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-site-config.webp" class="img-fluid" alt="Netlify website site overview with box around site configuration." width="400"></a></p>
 <p>Scroll down to <code>Site information</code>, and then click on <code>Change site name</code>.</p>
-<p><a href="img/netlify-site-info.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-site-info.webp" class="img-fluid" alt="Site information page on Netlify with button to change site name." width="400"></a></p>
+<p><a href="img/netlify-site-info.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-site-info.webp" class="img-fluid" alt="Site information page on Netlify with button to change site name." width="400"></a></p>
 <p>Now we can update the site name and click <code>Save</code>:</p>
-<p><a href="img/netlify-change-site-name.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-change-site-name.webp" class="img-fluid" alt="Netlify change site name dialog box with new name of my-website24.netlify.app."></a></p>
+<p><a href="img/netlify-change-site-name.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-change-site-name.webp" class="img-fluid" alt="Netlify change site name dialog box with new name of my-website24.netlify.app."></a></p>
 <p>Note our site name is just the prefix to the full URL containing <code>netlify.app</code>.</p>
 </section><section id="buy-a-domain-name" class="level3"><h3 class="anchored" data-anchor-id="buy-a-domain-name">Buy a domain name</h3>
 <p>If you don’t want the <code>netlify.app</code> domain, you can purchase your own. Instead of <code>Site configuration</code>, go to <code>Domain management</code>, and then click <code>Add a domain</code>.</p>
-<p><a href="img/netlify-domain-mgmt.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-domain-mgmt.webp" class="img-fluid" alt="Domain management part of Netlify site with option to add a domain."></a></p>
+<p><a href="img/netlify-domain-mgmt.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-domain-mgmt.webp" class="img-fluid" alt="Domain management part of Netlify site with option to add a domain."></a></p>
 <p>Type in whatever custom domain we want. There are a bajillion different extensions – <a href="https://www.domain.com/domains/new-domain-extensions">domain.com</a> lists them alphabetically and has a helpful FAQ about domain extensions. <code>my-website24.com</code> is available for $13.99 for the first year.</p>
-<p><a href="img/netlify-add-custom-domain.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-add-custom-domain.webp" class="img-fluid" alt="Add a custom domain to your site page on netlify. It says my-website24.com is available and costs $13.99 for the first year." width="500"></a></p>
+<p><a href="img/netlify-add-custom-domain.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-add-custom-domain.webp" class="img-fluid" alt="Add a custom domain to your site page on netlify. It says my-website24.com is available and costs $13.99 for the first year." width="500"></a></p>
 </section></section><section id="new-_publish.yml-file" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="new-_publish.yml-file">
 <span class="header-section-number">3.2</span> New <code>_publish.yml</code> file</h2>
 <p>Now that we’re set up with Netlify and GitHub, let’s head back to RStudio. Notice this new file <code>_publish.yml</code> appeared in the project directory when we used the <code>quarto publish netlify</code> command:</p>
@@ -565,27 +565,27 @@ Note
 <span class="header-section-number">4.4</span> Link Netlify site to GitHub repository</h2>
 <p>We already connected our Netlify and GitHub accounts, but now we need to tell Netlify which GitHub repo provides the source code for our website.</p>
 <p>On Netlify, go to <code>Site configuration</code> &gt; <code>Build &amp; deploy</code> &gt; <code>Continous deployment</code> &gt; <code>Link repository</code>.</p>
-<p><a href="img/netlify-link-repo.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-link-repo.webp" class="img-fluid" alt="Netlify site on the continuous deployment page with a box around the link repository button." width="700"></a></p>
+<p><a href="img/netlify-link-repo.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-link-repo.webp" class="img-fluid" alt="Netlify site on the continuous deployment page with a box around the link repository button." width="700"></a></p>
 <p>Choose <code>Deploy with GitHub</code>:</p>
-<p><a href="img/netlify-connect-git.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-connect-git.webp" class="img-fluid" alt="Netlify site to connect to Git provider. Options to link site to Git repository for GitHub, GitLab, Bitbucket, and Azure DevOps." width="500"></a></p>
+<p><a href="img/netlify-connect-git.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-connect-git.webp" class="img-fluid" alt="Netlify site to connect to Git provider. Options to link site to Git repository for GitHub, GitLab, Bitbucket, and Azure DevOps." width="500"></a></p>
 <p>If you’re already logged into GitHub, it should immediately authorize and allow you to select which repositories the Netlify app can access.</p>
 <p>If this is your first time deploying with Netlify and GitHub, you’ll likely need to click the bottom link <code>Configure the Netlify app on GitHub</code>. This should open a new window where you can make sure the Netlify app is installed on your GitHub and select which repositories it can access.</p>
-<p><a href="img/netlify-select-repos.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-select-repos.webp" class="img-fluid" alt="Netlify website Link your site to a Git Repository with box around 'Can't see your repo here? Configure the Netlify app on GitHub' link and arrow pointing to a new popup window that allows you to select which repositories Netlify can access."></a></p>
+<p><a href="img/netlify-select-repos.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-select-repos.webp" class="img-fluid" alt="Netlify website Link your site to a Git Repository with box around 'Can't see your repo here? Configure the Netlify app on GitHub' link and arrow pointing to a new popup window that allows you to select which repositories Netlify can access."></a></p>
 <p>After selecting the correct repository, configure the build settings on the next screen. Enter <code>_site</code> in the <code>Publish directory</code> field:</p>
-<p><a href="img/netlify-build-settings.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-build-settings.webp" class="img-fluid" alt="Netlify site configuration build settings. All settings are blank except the Publish directory should be set to _site." width="500"></a></p>
+<p><a href="img/netlify-build-settings.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-build-settings.webp" class="img-fluid" alt="Netlify site configuration build settings. All settings are blank except the Publish directory should be set to _site." width="500"></a></p>
 <p>Then click <code>Deploy my-website24</code>, which take us back to our site overview page where it now says <code>Deploys from GitHub</code> instead of <code>Manual deploys</code>.</p>
-<p><a href="img/netlify-deploys-gh.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-deploys-gh.webp" class="img-fluid" alt="Netlify site overview with website URL and text 'Deploys from GitHub'." width="400"></a></p>
+<p><a href="img/netlify-deploys-gh.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-deploys-gh.webp" class="img-fluid" alt="Netlify site overview with website URL and text 'Deploys from GitHub'." width="400"></a></p>
 </section><section id="push-a-change-to-our-repo" class="level2" data-number="4.5"><h2 data-number="4.5" class="anchored" data-anchor-id="push-a-change-to-our-repo">
 <span class="header-section-number">4.5</span> Push a change to our repo</h2>
 <p>Let’s push a change to our repo and make sure it automatically redeploys and republishes our website!</p>
 <p>Add some content to <code>about.qmd</code>, run <code>quarto render</code> in the terminal, and then push to <code>main</code>.</p>
-<p><a href="img/github-push-change.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/github-push-change.webp" class="img-fluid" alt="GitHub repository with recent commit 0b8b526."></a></p>
+<p><a href="img/github-push-change.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/github-push-change.webp" class="img-fluid" alt="GitHub repository with recent commit 0b8b526."></a></p>
 <p>The <code>Deploys</code> page on Netlify tells us that we successfully published from <code>main@0b8b526</code>.</p>
-<p><a href="img/netlify-published.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-published.webp" class="img-fluid" alt="Netlify site Deploys page that shows main@0b8b526 was successfully published."></a></p>
+<p><a href="img/netlify-published.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-published.webp" class="img-fluid" alt="Netlify site Deploys page that shows main@0b8b526 was successfully published."></a></p>
 <section id="auto-publishing" class="level3"><h3 class="anchored" data-anchor-id="auto-publishing">Auto publishing</h3>
 <p>By default, <code>auto publishing</code> is turned on in the Netlify deploy settings. This means all successful deployments are automatically published to the public site.</p>
 <p>Optionally, you can turn this setting off so that you have to click <code>Publish</code> to send the deployment to production. If you do want to turn it off, go to <code>Deploys</code> &gt; and then click <code>Lock to stop auto publishing</code>.</p>
-<p><a href="img/netlify-auto-publishing.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-auto-publishing.webp" class="img-fluid" alt="Netlify site Deploys page with box around button to Lock to stop auto publishing."></a></p>
+<p><a href="img/netlify-auto-publishing.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-auto-publishing.webp" class="img-fluid" alt="Netlify site Deploys page with box around button to Lock to stop auto publishing."></a></p>
 <p>The site will still deploy every time you push changes to your repo, but you need to click a button to actually publish this latest deployment. This is a good option if you don’t want to work in new branches or use pull requests/merges, but still want to preview your site before sending it to production.</p>
 <p>For my personal website, I don’t have this turned off so that the site will automatically publish anytime I push to GitHub. Otherwise I might forget to click <code>Publish</code> and wonder where my changes are 😅.</p>
 <p>Netlify docs provide more detail about <a href="https://docs.netlify.com/site-deploys/manage-deploys/#lock-a-published-deploy">auto publishing</a>.</p>
@@ -639,35 +639,35 @@ Note
 <p>Branch deploys are great if you typically use feature branches in your workflow.</p>
 <p>By default, only the production branch (typically <code>main</code>) is automatically deployed by Netlify.</p>
 <p>To enable branch deploys on other branches, we need to change the branch deploy setting. On the Netlify website &gt; <code>Site Configuration</code> &gt; <code>Build &amp; deploy</code> &gt; <code>Continuous deployment</code> &gt; <code>Branches and deploy contexts</code> &gt; <code>Branch deploys</code> &gt; <code>Configure</code> &gt; select the <code>All</code> radio button &gt; and then click <code>Save</code>.</p>
-<p><a href="img/netlify-branch-deploy-context.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-branch-deploy-context.webp" class="img-fluid" alt="Netlify site configuration webpage with the branches and deploy contexts settings open. Branch deploys is set to All instead of None."></a></p>
+<p><a href="img/netlify-branch-deploy-context.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-branch-deploy-context.webp" class="img-fluid" alt="Netlify site configuration webpage with the branches and deploy contexts settings open. Branch deploys is set to All instead of None."></a></p>
 <p>Or, if we only want to deploy previews for a specific branch, select <code>Let me add individual branches</code> and then enter the name of that branch.</p>
 <p>Let’s try it out by creating a new branch called <code>staging</code> and pushing a commit to it.</p>
 <p>On the Netlify <code>Deploys</code> page, we see our live site is still published from <code>main</code>, but we now have a <code>Branch deploy</code> from the <code>staging</code> branch that we can click to preview.</p>
-<p><a href="img/netlify-branch-deploy.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-branch-deploy.webp" class="img-fluid" alt="Netlify deploys webpage for demo site highlighting the published site is deployed from the main production branch. Lower on the screen is the branch deploy which shows it was deployed from the staging branch."></a></p>
+<p><a href="img/netlify-branch-deploy.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-branch-deploy.webp" class="img-fluid" alt="Netlify deploys webpage for demo site highlighting the published site is deployed from the main production branch. Lower on the screen is the branch deploy which shows it was deployed from the staging branch."></a></p>
 <p>Once we merge our <code>staging</code> branch into <code>main</code>, those changes will be published to our site in production.</p>
 </section><section id="deploy-previews" class="level2" data-number="5.2"><h2 data-number="5.2" class="anchored" data-anchor-id="deploy-previews">
 <span class="header-section-number">5.2</span> Deploy previews</h2>
 <p>Deploy previews are enabled by default once our Netlify site is linked with our GitHub repository. Every time we make a pull request or merge, Netlify will deploy our site and then provide the links to the deploy information as a comment in the pull request/merge conversation on GitHub.</p>
 <p>From our GitHub repository, create a pull request to merge our <code>staging</code> branch into <code>main</code>.</p>
 <p>This triggers Netlify to deploy the site and then comment all the information for the deploy preview including a link to the commit, the deploy log, preview link, and a QR code to preview on a mobile device.</p>
-<p><a href="img/netlify-bot.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-bot.webp" class="img-fluid" alt="GitHub merge request. Netlify bot commented a table with links to the latest commit, latest deploy log, deploy preview, and preview on mobile QR code."></a></p>
+<p><a href="img/netlify-bot.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-bot.webp" class="img-fluid" alt="GitHub merge request. Netlify bot commented a table with links to the latest commit, latest deploy log, deploy preview, and preview on mobile QR code."></a></p>
 <p>We can also access our deploy preview from the Netlify <code>Deploys</code> page. Similar to the branch deploy, our live site is still published from <code>main,</code> but we now have <code>Deploy Preview #2</code> from <code>staging</code>. The #2 just means this was the second pull/merge request in our repository.</p>
-<p><a href="img/netlify-deploy-preview.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-deploy-preview.webp" class="img-fluid" alt="Netlify deploys webpage for demo site highlighting the published site is deployed from the main production branch. Lower on the screen is the deploy preview which shows it was deployed from Pull Request #2."></a></p>
+<p><a href="img/netlify-deploy-preview.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-deploy-preview.webp" class="img-fluid" alt="Netlify deploys webpage for demo site highlighting the published site is deployed from the main production branch. Lower on the screen is the deploy preview which shows it was deployed from Pull Request #2."></a></p>
 <p>Once we complete our pull request and merge to <code>main</code>, those changes will be published to our site in production.</p>
 </section></section><section id="lighthouse-plugin" class="level1" data-number="6"><h1 data-number="6">
 <span class="header-section-number">6</span> Lighthouse plugin</h1>
 <p>Another benefit of Netlify are the integrations with different web tools. The only one I’m using so far is the <a href="https://developer.chrome.com/docs/lighthouse/overview/">Google Lighthouse tool</a>, which helps me abide by my <a href="https://jadeynryan.com/accessibility">accessibility commitment</a>.</p>
 <p>Once installed, the <a href="https://github.com/netlify/netlify-plugin-lighthouse#readme">Lighthouse plugin</a> audits our site for performance, accessibility, best practices, and SEO at build time. The Lighthouse report gives us scores for each of these four categories.</p>
 <p>To enable the plugin, on Netlify &gt; go to <code>Integrations</code> &gt; search for lighthouse &gt; then click <code>Enable</code>.</p>
-<p><a href="img/netlify-lighthouse.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-lighthouse.webp" class="img-fluid" alt="Netlify integrations page searching for lighthouse with box highlighting the Enable button for the Lighthouse plugin."></a></p>
+<p><a href="img/netlify-lighthouse.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-lighthouse.webp" class="img-fluid" alt="Netlify integrations page searching for lighthouse with box highlighting the Enable button for the Lighthouse plugin."></a></p>
 <p>Netlify will then ask if we’re sure we want to install Lighthouse on our website.</p>
 <p>If we click <code>Install</code>, the Lighthouse audit will run the next time we deploy our site.</p>
 <section id="lighthouse-report-on-netlify" class="level3"><h3 class="anchored" data-anchor-id="lighthouse-report-on-netlify">Lighthouse report on Netlify</h3>
 <p>Regardless of whether we push directly to <code>main</code> or use the deployment preview system, we can always see the Lighthouse scores on the Netlify deploys page.</p>
-<p><a href="img/netlify-lighthouse-report.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/netlify-lighthouse-report.webp" class="img-fluid" alt="Netlify deploys page with box around Lighthouse scores for performance (score of 96), accessibility (score of 86), best practices (score of 100), and SEO (score of 82)."></a></p>
+<p><a href="img/netlify-lighthouse-report.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/netlify-lighthouse-report.webp" class="img-fluid" alt="Netlify deploys page with box around Lighthouse scores for performance (score of 96), accessibility (score of 86), best practices (score of 100), and SEO (score of 82)."></a></p>
 </section><section id="lighthouse-report-on-github" class="level3"><h3 class="anchored" data-anchor-id="lighthouse-report-on-github">Lighthouse report on GitHub</h3>
 <p>If we have a pull or merge request open, the Netlify bot will include the Lighthouse scores in its deploy preview comment.</p>
-<p><a href="img/github-lighthouse-report.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img src="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/img/github-lighthouse-report.webp" class="img-fluid" alt="GitHub pull request conversation with netlify bot comment that was edited with the latest commit, deploy log, preview URL, and Lighthouse audit."></a></p>
+<p><a href="img/github-lighthouse-report.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img src="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/img/github-lighthouse-report.webp" class="img-fluid" alt="GitHub pull request conversation with netlify bot comment that was edited with the latest commit, deploy log, preview URL, and Lighthouse audit."></a></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -720,20 +720,20 @@ Csik, Samantha. 2022. <span>“Adding a Blog to Your Existing <span>Quarto</span
   title = {Intermediate Guide to Publish a {Quarto} Website with
     {GitHub} \&amp; {Netlify}},
   date = {2023-11-19},
-  url = {https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/},
+  url = {https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ryan2023" class="csl-entry quarto-appendix-citeas">
 Ryan, Jadey. 2023. <span>“Intermediate Guide to Publish a Quarto Website
-with GitHub &amp; Netlify.”</span> November 19, 2023. <a href="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/">https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/</a>.
+with GitHub &amp; Netlify.”</span> November 19, 2023. <a href="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/">https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Quarto</category>
   <category>GitHub</category>
   <category>Netlify</category>
-  <guid>https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/</guid>
+  <guid>https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/</guid>
   <pubDate>Sat, 18 Nov 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/thumbnail.webp" medium="image" type="image/webp"/>
+  <media:content url="https://ntluong95.github.io/profile/blog/2023-11-19_publish-quarto-website/thumbnail.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>
