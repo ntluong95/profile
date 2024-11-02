@@ -10,26 +10,36 @@ categories:
   - Shiny app
 ---
 
-[ <a href="https://gedb.shinyapps.io/amr_trend/" class="btn" role="button">{{< fa laptop >}} App</a> <a href="https://github.com/ntluong95/sdg-amr-explorer" class="btn" role="button">{{< fa brands github >}} Code</a> ]{.listing-btn-group}
+[<a href="https://gedb.shinyapps.io/amr_trend/" class="btn" role="button">{{< fa laptop >}} App</a> <a href="https://github.com/ntluong95/sdg-amr-explorer" class="btn" role="button">{{< fa brands github >}} Code</a>]{.listing-btn-group}
 
 The ShinyApp is the supplementary materials for the article:
 
 **Association between national policy and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023**
 
-Peter Søgaard Jørgensen^1,2,3,*^, Luong Nguyen Thanh^1,3^, Ege Pehlivanoglu^1^, Franziska Klein^1,#a^, Didier Wernli^4^, Dusan Jasovsky^5,#b^, Athena Aktipis^6^, Rob R. Dunn^7^, Yrjo Gröhn^8^, Guillaume Lhermie^8,#c^, H. Morgan Scott^9^, Eili Y. Klein ^10,11^
+Peter Søgaard Jørgensen^1,2,3^,, Luong Nguyen Thanh^1,3^, Ege Pehlivanoglu^1^, Franziska Klein^1,#a^, Didier Wernli^4^, Dusan Jasovsky^5,#b^, Athena Aktipis^6^, Rob R. Dunn^7^, Yrjo Gröhn^8^, Guillaume Lhermie^8,#c^, H. Morgan Scott^9^, Eili Y. Klein^10,11^
 
 Affiliations:
 
 ^1^ Global Economic Dynamics and the Biosphere, The Royal Swedish Academy of Sciences, SE-114 18, Stockholm, Sweden
+
 ^2^ Stockholm Resilience Centre, Stockholm University, SE-106 91, Stockholm, Sweden
+
 ^3^ Uppsala Antibiotic Centre and Department of Women’s and Children’s Health, Uppsala University, SE-751 05, Uppsala, Sweden
+
 ^4^ University of Geneva, Global Studies Institute, Transformative Governance Lab, CH-1211 Genève 4, Switzerland
+
 ^5^ Uppsala University, ReAct Europe, SE-753 10, Uppsala, Sweden
+
 ^6^ Arizona State University, Department of Psychology, Tempe, AZ 85281, USA
+
 ^7^ North Carolina State University, Department of Applied Ecology, Raleigh, NC 27695-7617, USA
+
 ^8^ Cornell University, College of Veterinary Medicine, Ithaca, NY 14853, USA
+
 ^9^ Texas A&M University, College Station, TX 77843-4467, USA
+
 ^10^ One Health Trust, Washington, D.C. 20015, USA
+
 ^11^ Johns Hopkins School of Medicine, Department of Emergency Medicine, Baltimore, MD 21205, USA
 
 ![Screenshot from the App](../assets/img/amr_trend.png){.img-center fig-alt="amr sdg logo"}

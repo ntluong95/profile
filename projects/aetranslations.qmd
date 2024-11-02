@@ -6,8 +6,6 @@ author:
     affiliation: AppliedEpi
 
 date: "2024-10-10"
-image: "https://github.com/WA-Department-of-Agriculture/washi/blob/main/man/figures/logo.png?raw=true"
-image-alt: "washi logo"
 categories:
   - R package
 ---

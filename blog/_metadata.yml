@@ -19,23 +19,6 @@ lightbox:
 
 
 # html format options
-format:
-  html:
-    pagetitle: "data whiskeRs | {{< meta title >}}"
-    include-after-body:
-      - ../assets/html/kofi.html
-      - ../assets/html/subscribe.html
+format: html
 
-# giscus comments https://giscus.app/
-comments:
-    giscus:
-      repo: jadeynryan/jadey-website-giscus
-      repo-id: R_kgDOKisUNQ
-      category: Announcements
-      category-id: DIC_kwDOKisUNc4CaSRD
-      mapping: pathname
-      reactions-enabled: true
-      loading: lazy
-      input-position: top
-      theme: light
-      language: en
+
