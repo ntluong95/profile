@@ -44,9 +44,9 @@ website:
       # - text: Talks
       #   icon: mic-fill
       #   href: talks.qmd
-      # - text: Projects
-      #   icon: puzzle-fill
-      #   href: projects.qmd
+      - text: Projects
+        icon: puzzle-fill
+        href: projects.qmd
 
     right:
       - icon: rss

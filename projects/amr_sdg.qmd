@@ -1,0 +1,33 @@
+---
+title: "AMR-SDGs interactions"
+description: "AMR-SDGs Explorer: A shiny app for exploring the interaction between AMR and SDGs agenda in national policies"
+author: 
+  - name: Luong Nguyen Thanh
+    affiliation: Uppsala University
+
+date: "2024-06-20"
+categories:
+  - Shiny app
+---
+
+[ <a href="https://ntluong95.shinyapps.io/sdg-amr-explorer/" class="btn" role="button">{{< fa laptop >}} App</a> <a href="https://github.com/ntluong95/sdg-amr-explorer" class="btn" role="button">{{< fa brands github >}} Code</a> ]{.listing-btn-group}
+
+The ShinyApp is the supplementary materials for the article:
+
+**"When Global Health meets Global Goals”: A comparative analysis the alignment between National Action Plans for AMR and Sustainable Development**
+
+*Luong Nguyen-Thanh^1,2,4^, Didier Wernli^3^, Mats Målqvist^1^, Peter Søgaard Jørgensen^1,4,5^*
+
+Affiliations:
+
+^1^ SWEDESD – Sustainability Learning and Research Center, Department of Women’s and Children’s Health, Uppsala University, Uppsala, Sweden
+
+^2^ Uppsala Antibiotic Centre (UAC), Uppsala University
+
+^3^ Global Studies Institute and Faculty of Science, University of Geneva, Geneva, Switzerland
+
+^4^ Global Economic Dynamics and the Biosphere, Royal Swedish Academy of Sciences, Stockholm, Sweden
+
+^5^ Stockholm Resilience Centre, Stockholm University, Stockholm, Sweden
+
+![Screenshot from the App](../assets/img/amr-sdg.png){.img-center fig-alt="amr sdg logo"}

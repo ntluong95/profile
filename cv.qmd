@@ -60,7 +60,7 @@ Hanoi University of Public Health
 :::
 :::::
 
-[Research Assistant, Center for Public Health and Ecosystem Research]{.h5} [Nov 2015 -- May 2019]{.cv-date}
+[Research Assistant, Center for Public Health and Ecosystem Research]{.h5} [Jul 2018 -- Jul 2020]{.cv-date}
 
 Supported three research projects on sanitation, food safety, and disease prevention in Vietnam, focusing on light-touch interventions in pig farms, parasite prevalence in ethnic communities, and assessing disease risk factors at the human-animal-environment interface, including biosecurity practices, animal movement, human-animal contact, and antimicrobial resistance
 

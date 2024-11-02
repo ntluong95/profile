@@ -1,0 +1,24 @@
+---
+title: "{aetranslations}"
+description: "This package hosts functions and guidelines for translating Applied Epi courses and resources"
+author: 
+  - name: Luong Nguyen Thanh
+    affiliation: AppliedEpi
+
+date: "2024-10-10"
+image: "https://github.com/WA-Department-of-Agriculture/washi/blob/main/man/figures/logo.png?raw=true"
+image-alt: "washi logo"
+categories:
+  - R package
+---
+
+<span class="listing-btn-group">
+<a href="https://appliedepi.github.io/aetranslations/" class="btn" role="button">{{< fa box >}} {pkgdown} site</a> 
+<a href="https://github.com/appliedepi/aetranslations" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://cran.r-project.org/web/packages/aetranslations/index.html" class="btn" role="button">{{< fa brands r-project >}} CRAN</a>
+</span>
+
+This package hosts functions and guidelines for translating Applied Epi courses and resources. This includes courses materials (slides, exercises, tutorials), website (i.e. case studies) and books (i.e. the EpiRhandbook and the Applied Epi Manual). By leveraging AI services like DeepL or OpenAI, **{aetranslations}** package streamlines the process to make the Applied Epi materials available in multiple languages.
+
+![](../assets/img/AE_logo.png){.img-center width=15em fig-alt="ae logo"}
+
