@@ -1,0 +1,43 @@
+---
+pagetitle: "Luong Nguyen Thanh | About"
+title: "Luong Nguyen Thanh"
+subtitle: "💻 Tech-savvy enthusiast and aspiring health data scientist 🩺"
+
+about:
+  id: hero-heading
+  template: jolla
+  image: assets/img/headshot.webp
+  image-width: 10em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/ntluong95
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ntluong95/
+    - icon: briefcase-fill
+      text: Research Profile
+      href: https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en
+
+toc: false
+anchor-sections: false
+execute: 
+  freeze: true
+---
+
+::: {#hero-heading}
+:::
+
+## Hi there!
+
+Welcome to my website — I'm glad you're here!
+
+I'm currently a PhD student at [Uppsala University](https://www.uu.se/en/contact-and-organisation/staff?query=N21-1055), following an academic path rooted in `health and sustainability sciences`, with degrees in Public Health (BPH) and One Health and Global Health (MSc).
+
+Beyond academia, I am `passionate about programming`, especially in R, with experience building packages, dashboards, Shiny apps, and working with large language models. My technical skills also extend to intermediate Python and foundational knowledge of SQL, HTML, CSS, and JavaScript. I’m especially `interested in reproducibility and open science`, and finding ways to streamline workflow.
+
+My guiding principles in life are **kindness**, **discipline**, and **integrity**. I have found genuine fulfillment in working within the health and sustainability data science field, where I have the opportunity to engage with an inspiring community of like-minded professionals.
+
+In my spare time, I love exploring history and diving into subjects related to religion and culture.
+
+![](assets/img/winner-quote.jpg){fig-align="center"}

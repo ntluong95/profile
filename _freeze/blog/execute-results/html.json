@@ -1,0 +1,15 @@
+{
+  "hash": "88d317e6238f2dc387bb5afb37aacb0f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"The Data Alchemist\"\ndescription-meta: \"A blog for code & data science content\"\nlisting:\n  contents: blog\n  type: default\n  image-align: left\n  fields: \n    - title\n    - description\n    - date\n    - image\n    - categories\n    - reading-time\n  categories: true\n  sort: \"date desc\"\n  page-size: 5\n  feed:\n    categories: \n      - R\nformat: html\n---\n\n\n\n\n\"Welcome, adventurer! I’m thrilled you’ve joined me on this journey through the world of data science and code. Here, I’ll share the discoveries I’m making, the projects I’m building, and the curiosities I’m exploring—sprinkled with a little feline charm along the way. Let’s learn and uncover insights together!\"\n\n------------------------------------------------------------------------\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

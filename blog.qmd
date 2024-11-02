@@ -1,0 +1,48 @@
+---
+title: "The Data Alchemist"
+description-meta: "A blog for code & data science content"
+listing:
+  contents: blog
+  type: default
+  image-align: left
+  fields: 
+    - title
+    - description
+    - date
+    - image
+    - categories
+    - reading-time
+  categories: true
+  sort: "date desc"
+  page-size: 5
+  feed:
+    categories: 
+      - R
+format: html
+---
+
+"Welcome, adventurer! I’m thrilled you’ve joined me on this journey through the world of data science and code. Here, I’ll share the discoveries I’m making, the projects I’m building, and the curiosities I’m exploring—sprinkled with a little feline charm along the way. Let’s learn and uncover insights together!"
+
+------------------------------------------------------------------------
+
+```{r, include=FALSE}
+# Code snippet modified from Danielle Navarro
+
+# https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#netlify-redirects
+
+# list names of post folders
+posts <- list.dirs(
+  path = here::here("blog"),
+  full.names = FALSE,
+  recursive = FALSE
+)
+
+# extract the slugs
+slugs <- gsub("^.*_", "", posts)
+
+# lines to insert to a netlify _redirect file
+redirects <- paste0("/blog/", slugs, " ", "/blog/", posts)
+
+# write the _redirect file
+writeLines(redirects, here::here("_redirects"))
+```

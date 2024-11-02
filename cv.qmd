@@ -1,0 +1,181 @@
+---
+title: "Curriculum Vitae"
+anchor-sections: false
+---
+
+## {{< fa briefcase >}} Professional Experience
+
+::::: {.d-inline-flex style="align-items:baseline"}
+::: p-2
+![](assets/img/uu-logo.png){width="80px" fig-alt="Uppsala University logo"}
+:::
+
+::: h3
+Uppsala University
+:::
+:::::
+
+[PhD student]{.h5} [Oct 2021 -- Present]{.cv-date}
+
+-   **PhD project**: Analyzed the degree to which factors driving antimicrobial resistance (AMR) development and spread are addressed by AMR-specific policies and interventions versus broader societal approaches, particularly the Sustainable Development Goals (SDGs) agenda.
+
+![Policy gaps in integrating SDGs into AMR planning and implementation.](assets/img/uu-finding.svg){fig-align="center" height="500"}
+
+
+
+-   **INFLUX project** (ERC grant No. 101039376): Contributed to research investigating and establishing database of drivers responsible for the emergence of emerging pests and pathogens, assessing governmental responses and their cascading social-ecological effects.
+
+-   **SUSTAIN project**: Conducted statistical analysis to evaluate the effectiveness of bundled healthcare interventions targeting health workers in Nepal, aimed at enhancing neonatal care quality
+
+::::: {.d-inline-flex style="align-items:baseline"}
+::: p-2
+![](assets/img/AE_logo.png){fig-alt="Applied Epi logo" width="60"}
+:::
+
+::: h3
+Applied Epi
+:::
+:::::
+
+[Instructor, Coordinator]{.h5} [Jun 2021 -- Present]{.cv-date}
+
+-   Instructor: Provide R trainings for many epidemiologists worldwide. Provide public health services support including mentorship, outbreak response to AppliedEpi partners (i.e. Doctors Without Borders – MSF, Australian National University, WHO Philippines)
+
+-   Translation Coordinator: Maintain translation packages and educational resources, including the Epi R Handbook (available in 10 languages), Epi Julia Handbook, slides, and tutorials
+   
+-   Co-Author of Applied Epidemiology Manual (on-going project)
+   
+-   Lead translator the [Vietnamese version](https://epirhandbook.com/vn/index.vn.html) of R for applied epidemiology and public health                                                                        
+
+
+![R training conducted by WHO for Philippines MoH.](assets/img/Ae-training.jpg)
+
+::::: {.d-inline-flex style="align-items:baseline"}
+::: p-2
+![](assets/img/HUPH.png){width="80px" fig-alt="HUPH logo"}
+:::
+
+::: h3
+Hanoi University of Public Health
+:::
+:::::
+
+[Research Assistant, Center for Public Health and Ecosystem Research]{.h5} [Nov 2015 -- May 2019]{.cv-date}
+
+Supported three research projects on sanitation, food safety, and disease prevention in Vietnam, focusing on light-touch interventions in pig farms, parasite prevalence in ethnic communities, and assessing disease risk factors at the human-animal-environment interface, including biosecurity practices, animal movement, human-animal contact, and antimicrobial resistance
+
+**Main responsibilities included**:
+
+-   Participated in the design, monitoring, and evaluation of interventions
+-   Assisted in collecting samples in field and preparing samples at laboratory
+-   Collected and analyzed data, wrote reports and manuscripts for publication
+-   Conducted risk communication campaigns about food-borne diseases and food safety
+-   Conducted project administrative tasks, i.e. contacting with local & international partners, applying ethical approval
+
+
+![Present research findings at Safepork conferece at Berlin 2019](assets/img/berlin.jpg)
+
+
+## {{< fa graduation-cap >}} Education
+
+::::: {.d-inline-flex style="align-items:baseline"}
+::: p-2
+![](assets/img/uu-logo.png){width="80px" fig-alt="Uppsala University logo"}
+:::
+
+::: h3
+Uppsala University
+:::
+:::::
+
+[Doctoral degree in Global Health]{.h5} [Oct 2021 -- Oct 2025]{.cv-date}
+
+-   Thesis: Towards sustainable solutions for AMR: Targeting distal drivers through integrated SDG-policy and actions
+
+::::: {.d-inline-flex style="align-items:baseline"}
+::: p-2
+![](assets/img/liege.png){width="60px" fig-alt="Liege University logo"}
+:::
+
+::: h3
+University of Liège
+:::
+:::::
+
+[Specialized Master in Integrated Management of Health Risks in the Global South]{.h5} [Sep 2020 -- Sep 2021]{.cv-date}
+
+-   Graduated with highest honor
+-   Thesis: Operationalization and measurement of organizational adaptability: experiences from FRIENDSHIP, a non-governmental organization adapting to COVID-19 pandemic in Bangladesh
+
+
+::::: {.d-inline-flex style="align-items:baseline"}
+::: p-2
+![](assets/img/hmu.png){width="60px" fig-alt="Hanoi Medical University"}
+:::
+
+::: h3
+Hanoi Medical University
+:::
+:::::
+
+[Bachelor of Public Health]{.h5} [Sep 2013 -- Sep 2017]{.cv-date}
+
+                                							 
+-   Graduated with high honor
+-   Graduation thesis: 9.5/10
+
+
+## {{< fa user-group >}} Communities and Organizations
+
+![](assets/img/avise.png){width="60px" fig-alt="avise logo" style="padding-right:1em"} [The Association of Vietnamese Science and Technology Experts in Sweden (AVISE)](https://www.linkedin.com/groups/14482383/)
+
+![](assets/img/AE_logo.png){width="60px" fig-alt="AE logo" style="padding-right:1em"} [Applied Epi Community](https://community.appliedepi.org/)
+
+![](assets/img/globelife.png){width="60px" fig-alt="GlobeLife" style="padding-right:1em"} [GlobeLife](https://www.globelife.se/w/gl/en)
+
+## {{< fa book >}} Publication
+
+[Link to my Google Scholar profile](https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en&authuser=1) *(14 peer-reviewed, h-index: 7, i10-index: 4, total number of citations: 110)*
+
+**Selected 5 articles:** 
+
+1. `Luong NT`, Didier W, Mats M, Tiscar G, Peter SJ (2024) Characterizing proximal and distal drivers of antimicrobial resistance: An umbrella review. Journal of Global Antimicrobial Resistance
+   
+2. `Luong NT`, Didier W, Mats M, Peter SJ (2024) Characterizing proximal and distal drivers of antimicrobial resistance: An umbrella review. Journal of Global Antimicrobial Resistance
+   
+3. Peter SJ, `Luong NT` and 10 co-authors (2024). Association between national action and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023
+   
+4. Ngo HTH, `Nguyen TL`, and 6 co-authors (2021). Microbial contamination and associated risk factors in retailed pork from key value chains in Northern Vietnam. Food Microbiology 
+   
+5. Lam S, Huyen NTT, Ngo HTH, `Nguyen TL`, and 6 co-authors (2021). Unpacking the Theory Behind One Health Food Safety Programs: A Vietnam Case Study. Frontiers in Veterinary Science
+
+## {{< fa person-chalkboard >}} Academic events attendance
+
+-   2024 Oral presentation: The Nordic AMR Centre Conference, Tromsø, Norway
+-   2023 Poster presentation: EAR LTC-Sarea-ENLIGHT CONGRESS “Strengthening Antibiotic Resistance Networks”, Bordeaux, France
+-   2023 CIRCUS' Interdisciplinary Summer School, Uppsala, Sweden
+-   2022 MIRAI 2.0 Research and Innovation week 2022, Fukuoka, Japan
+-   2022 NorDoc PhD Summit and summer school, Bergen Norway
+-   2022 SweDev PhD conference, Gothenburg, Sweden
+-   2019 Poster presentation: 13th SafePork 2019: One Health – Tear down interdisciplinary wall” conference, Berlin, Germany 
+-   2019 Poster presentation: Regional symposium on research into smallholder pig production, and pork safety, Hanoi, Vietnam
+
+
+## {{< fa user-gear >}} Skills
+
+[Professional skills]{.h5}
+
+-   **Statistical & Machine Learning Frameworks**: Extensive experience with generalized linear mixed models, time series analysis, spatial statistics, network analysis, clustering techniques, natural language processing, and large language models
+-   **Epidemiological Methods**: Skilled in conducting systematic reviews and meta-analyses, health policy analysis, household surveys, data collection (including in-depth interviews, focus group discussions), and risk communication.
+-   **Software Engineering**: Advanced proficiency in using programming language for statistical analysis (R, Python, STATA), product communication (R Markdown, Quarto, Shiny and Power BI), database management & query (SQL), version control (Git, Github Action), web framework (HTML, CSS, JS), package development (R, TypeScript).
+-   **Data Management**: Proficiency in field/clinical data management using Open Data Kit (ODK) and RedCap
+-   **Laboratory techniques**: Familiar with laboratory microbiological and molecular techniques including Salmonella isolation, Total Bacteria Count, ELISA and PCR
+-   **Project Management**: Budget planning, M&E skills, proposal writing
+
+[Personal skills]{.h5}
+
+-   Interdisciplinary, adaptability, organized, independent, innovative, optimistic, constructive
+
+[Languages]{.h5}
+
+-   Vietnamese, English, Swedish
