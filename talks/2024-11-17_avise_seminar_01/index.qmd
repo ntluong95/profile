@@ -1,0 +1,29 @@
+---
+title: "How to keep information 'fresh'"
+description: "The talk will introduce the concept of the 'age of information'—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices"
+author: Luong Nguyen Thanh
+date: "2024-11-17"
+image: avise_seminar_01.png
+image-alt: "Poster of the event"
+categories:
+  - Communication
+  - Technology
+---
+
+<a href="https://drive.google.com/file/d/1wdA8ZnNlShH7SlAg7ABdzdFB4m7nibVF/view" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recorded</a>
+
+### Details
+
+📆 November 17, 2024 // 2:00 pm - 3:00 pm CET  
+🏨 Virtual  
+🌠 [The Association of Vietnamese Science and Technology Experts in Sweden](https://www.linkedin.com/groups/14482383/)
+
+### Abstract
+
+Wireless communication not only facilitates the transmission of information between mobile users but also serves as a stepping stone for delivering information to subsequent processing points in an intelligent system. In this context, the goal of communication extends beyond ensuring accuracy and continuity to maintaining the value of information. This value can be measured by the freshness of information.
+
+The talk will introduce the concept of the "age of information"—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices. The content of the talk is designed for a general audience and does not require a technical background.
+
+### Screenshot
+
+![](screenshot.jpg)

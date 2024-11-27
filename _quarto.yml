@@ -41,9 +41,9 @@ website:
       # - text: Blog
       #   icon: pen-fill
       #   href: blog.qmd
-      # - text: Talks
-      #   icon: mic-fill
-      #   href: talks.qmd
+      - text: Event organizations
+        icon: people-fill
+        href: talks.qmd
       - text: Projects
         icon: puzzle-fill
         href: projects.qmd
