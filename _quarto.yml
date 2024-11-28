@@ -38,9 +38,9 @@ website:
       - text: CV
         icon: file-earmark-text-fill
         href: cv.qmd
-      # - text: Blog
-      #   icon: pen-fill
-      #   href: blog.qmd
+      - text: Data science Blog
+        icon: pen-fill
+        href: blog.qmd
       - text: Event organizations
         icon: people-fill
         href: talks.qmd

@@ -277,7 +277,7 @@
     "href": "blog.html",
     "title": "The Data Alchemist",
     "section": "",
-    "text": "“Welcome, adventurer! I’m thrilled you’ve joined me on this journey through the world of data science and code. Here, I’ll share the discoveries I’m making, the projects I’m building, and the curiosities I’m exploring—sprinkled with a little feline charm along the way. Let’s learn and uncover insights together!”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA beginner’s guide to building a simple website with Quarto & Netlify\n\n\n\n\n\n\nQuarto\n\n\nNetlify\n\n\n\nLearn how to create a simple website without any technical knowledge using Quarto’s visual editor and deploy it effortlessly with Netlify’s drag and drop tool.\n\n\n\n\n\nFeb 19, 2024\n\n\n17 min\n\n\n\n\n\n\n\n\n\n\n\n\nIntermediate guide to publish a Quarto website with GitHub & Netlify\n\n\n\n\n\n\nR\n\n\nQuarto\n\n\nGitHub\n\n\nNetlify\n\n\n\nLearn how to publish a Quarto website, connect it to GitHub, & deploy it with Netlify using continuous integration.\n\n\n\n\n\nNov 19, 2023\n\n\n23 min\n\n\n\n\n\n\nNo matching items"
+    "text": "“Welcome, adventurer! I’m thrilled you’ve joined me on this journey through the world of data science and code. Here, I’ll share the discoveries I’m making, the projects I’m building, and the curiosities I’m exploring—sprinkled with a little feline charm along the way. Let’s learn and uncover insights together!”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwitching from R to Python: A Beginner’s Guide to Equivalent Tools\n\n\n\n\n\n\nPython\n\n\nR\n\n\nData Science\n\n\n\nLearn how to transition from R to Python seamlessly with tools that match your R favorites like dplyr, ggplot2, Shiny, and more.\n\n\n\n\n\nNov 28, 2024\n\n\n5 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -320,5 +320,54 @@
     "title": "How to keep information ‘fresh’",
     "section": "",
     "text": "Recorded\n\nDetails\n📆 November 17, 2024 // 2:00 pm - 3:00 pm CET\n🏨 Virtual\n🌠 The Association of Vietnamese Science and Technology Experts in Sweden\n\n\nAbstract\nWireless communication not only facilitates the transmission of information between mobile users but also serves as a stepping stone for delivering information to subsequent processing points in an intelligent system. In this context, the goal of communication extends beyond ensuring accuracy and continuity to maintaining the value of information. This value can be measured by the freshness of information.\nThe talk will introduce the concept of the “age of information”—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices. The content of the talk is designed for a general audience and does not require a technical background.\n\n\nScreenshot\n\n\n\n\n\nCitationBibTeX citation:@online{nguyen_thanh2024,\n  author = {Nguyen Thanh, Luong},\n  title = {How to Keep Information “Fresh”},\n  date = {2024-11-17},\n  url = {https://ntluong95.github.io/profile/talks/2024-11-17_avise_seminar_01/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nNguyen Thanh, Luong. 2024. “How to Keep Information\n‘Fresh’.” November 17, 2024. https://ntluong95.github.io/profile/talks/2024-11-17_avise_seminar_01/."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html",
+    "href": "blog/2024-11-28_transition_to_python/index.html",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "",
+    "text": "Transitioning from R to Python can feel like a daunting leap, especially if you’ve grown comfortable with R’s ecosystem. The good news? Python offers several tools and libraries that mimic the syntax and functionality of your favorite R packages. Let’s explore these equivalents to ease your journey."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#data-manipulation-ibis",
+    "href": "blog/2024-11-28_transition_to_python/index.html#data-manipulation-ibis",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "1.1 Data Manipulation: ibis",
+    "text": "1.1 Data Manipulation: ibis\nIn R, dplyr and dbplyr are go-to packages for data manipulation, offering a clean, declarative syntax to filter, mutate, summarize, and join datasets. Python’s ibis serves as an excellent alternative, providing a similar experience for working with structured data.\nWhat sets ibis apart is its performance optimization. It abstracts SQL-like operations and enables you to specify a backend engine, such as DuckDB, Polars, or Pandas. This allows for efficient in-memory data processing or seamless database querying without switching languages. Whether you’re dealing with small data or large-scale analytics, ibis scales beautifully.\nTo get started, explore this dplyr-to-ibis tutorial, which maps your familiar R syntax to ibis equivalents."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#data-visualization-plotnine",
+    "href": "blog/2024-11-28_transition_to_python/index.html#data-visualization-plotnine",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "1.2 Data Visualization: plotnine",
+    "text": "1.2 Data Visualization: plotnine\nggplot2 is beloved in the R community for its intuitive grammar of graphics, enabling users to create complex, layered visualizations with minimal effort. If you’ve relied on ggplot2 for your data storytelling, Python’s plotnine is your best friend.\nplotnine mirrors ggplot2’s syntax almost exactly. It supports layering plots with +, theming options, faceting for multi-panel plots, and customization of aesthetics. As a bonus, Python’s ecosystem integrates well with other visualization libraries, such as Matplotlib and Seaborn, for additional flexibility.\nDive into these plotnine tutorials to recreate your favorite ggplot2 visualizations in Python."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#interactive-web-apps-shiny-for-python",
+    "href": "blog/2024-11-28_transition_to_python/index.html#interactive-web-apps-shiny-for-python",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "1.3 Interactive Web Apps: Shiny for Python",
+    "text": "1.3 Interactive Web Apps: Shiny for Python\nShiny revolutionized how R users build interactive web applications with minimal code. The good news is that Shiny for Python brings the same simplicity to Python, letting you create interactive dashboards, data visualizations, and applications to showcase your work.\nShiny for Python follows a reactive programming paradigm, where outputs automatically update when inputs change. With Python’s robust backend options and Shiny’s UI capabilities, you can build powerful applications for both internal and external stakeholders. Whether you’re demonstrating a machine learning model or building a tool for non-technical audiences, Shiny has you covered.\nCheck out this Shiny for Python guide to start building your first app."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#deploy-machine-learning-models-vetiver",
+    "href": "blog/2024-11-28_transition_to_python/index.html#deploy-machine-learning-models-vetiver",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "1.4 Deploy Machine Learning Models: Vetiver",
+    "text": "1.4 Deploy Machine Learning Models: Vetiver\nDeploying machine learning models can often be complex and time-consuming. R’s vetiver package streamlines this process by creating APIs for your models, and Vetiver for Python does the same, making deployment accessible and consistent.\nWith Vetiver, you can deploy models built using scikit-learn, TensorFlow, PyTorch, or even custom algorithms. It generates prediction endpoints with minimal setup, allowing you to integrate your models into web applications, APIs, or automation workflows. This simplifies the journey from model development to production.\nLearn more about deploying models with vetiver in this comprehensive tutorial."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#publishing-reports-quarto",
+    "href": "blog/2024-11-28_transition_to_python/index.html#publishing-reports-quarto",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "1.5 Publishing Reports: Quarto",
+    "text": "1.5 Publishing Reports: Quarto\nR Markdown users transitioning to Python will be delighted to know that Quarto supports Python as well. Quarto extends the capabilities of R Markdown, enabling you to create HTML, PDF, and Word reports seamlessly. It even allows mixing code from Python, R, and Julia in the same document.\nQuarto offers numerous customization options, such as beautiful themes and dynamic content embedding, making it a versatile tool for technical reports, academic papers, and blog posts. As your projects grow, you can also use Quarto for building websites or books.\nExplore how to use Python with Quarto in this getting started guide."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#an-ide-for-both-worlds-positron",
+    "href": "blog/2024-11-28_transition_to_python/index.html#an-ide-for-both-worlds-positron",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "1.6 An IDE for Both Worlds: Positron",
+    "text": "1.6 An IDE for Both Worlds: Positron\nMany R users prefer RStudio for its clean, feature-rich interface. Fortunately, Positron, developed by Posit (formerly RStudio), provides a similar experience for Python. This integrated development environment (IDE) supports both R and Python, making it perfect for multi-language projects.\nWith Positron, you can enjoy a consistent environment for coding, debugging, and project management. Its features include a robust editor, version control integration, and support for Quarto documents. Download Positron from its GitHub repository and see how it complements your Python workflow."
   }
 ]
