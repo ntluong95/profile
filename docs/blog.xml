@@ -133,7 +133,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This article was written at the end of 2021 with the latest versions of the libraries and the number of Github stars at that time.</p>
+<p>This article was written at the end of 2022 with the latest versions of the libraries and the number of Github stars at that time.</p>
 </div>
 </div>
 <p>Adopting Python means making choices on which libraries to invest time into learning. Manipulating data frames is one of the most common data science activities, so choosing the right library for it is key.</p>
@@ -290,7 +290,7 @@ font-style: inherit;">"Pandas is by far the most popular choice"</span>,</span>
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Comparison of Github stars on 2021-12-25"</span>,</span>
+font-style: inherit;">"Comparison of Github stars"</span>,</span>
 <span id="cb1-13">        <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
@@ -348,8 +348,8 @@ font-style: inherit;">head</span>(flights, <span class="dv" style="color: #AD000
 background-color: null;
 font-style: inherit;">10</span>))</span></code></pre></div>
 <div class="cell-output-display">
-<div class="reactable html-widget html-fill-item" id="htmlwidget-0e1501413d1bdc423ecc" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-0e1501413d1bdc423ecc">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"year":[2013,2013,2013,2013,2013,2013,2013,2013,2013,2013],"month":[1,1,1,1,1,1,1,1,1,1],"day":[1,1,1,1,1,1,1,1,1,1],"dep_time":[517,533,542,544,554,554,555,557,557,558],"sched_dep_time":[515,529,540,545,600,558,600,600,600,600],"dep_delay":[2,4,2,-1,-6,-4,-5,-3,-3,-2],"arr_time":[830,850,923,1004,812,740,913,709,838,753],"sched_arr_time":[819,830,850,1022,837,728,854,723,846,745],"arr_delay":[11,20,33,-18,-25,12,19,-14,-8,8],"carrier":["UA","UA","AA","B6","DL","UA","B6","EV","B6","AA"],"flight":[1545,1714,1141,725,461,1696,507,5708,79,301],"tailnum":["N14228","N24211","N619AA","N804JB","N668DN","N39463","N516JB","N829AS","N593JB","N3ALAA"],"origin":["EWR","LGA","JFK","JFK","LGA","EWR","EWR","LGA","JFK","LGA"],"dest":["IAH","IAH","MIA","BQN","ATL","ORD","FLL","IAD","MCO","ORD"],"air_time":[227,227,160,183,116,150,158,53,140,138],"distance":[1400,1416,1089,1576,762,719,1065,229,944,733],"hour":[5,5,5,5,6,5,6,6,6,6],"minute":[15,29,40,45,0,58,0,0,0,0],"time_hour":["2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z"]},"columns":[{"id":"year","name":"year","type":"numeric"},{"id":"month","name":"month","type":"numeric"},{"id":"day","name":"day","type":"numeric"},{"id":"dep_time","name":"dep_time","type":"numeric"},{"id":"sched_dep_time","name":"sched_dep_time","type":"numeric"},{"id":"dep_delay","name":"dep_delay","type":"numeric"},{"id":"arr_time","name":"arr_time","type":"numeric"},{"id":"sched_arr_time","name":"sched_arr_time","type":"numeric"},{"id":"arr_delay","name":"arr_delay","type":"numeric"},{"id":"carrier","name":"carrier","type":"character"},{"id":"flight","name":"flight","type":"numeric"},{"id":"tailnum","name":"tailnum","type":"character"},{"id":"origin","name":"origin","type":"character"},{"id":"dest","name":"dest","type":"character"},{"id":"air_time","name":"air_time","type":"numeric"},{"id":"distance","name":"distance","type":"numeric"},{"id":"hour","name":"hour","type":"numeric"},{"id":"minute","name":"minute","type":"numeric"},{"id":"time_hour","name":"time_hour","type":"Date"}],"dataKey":"efb7087d9e2b5bd5b3155062bf174300"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-2fdacf64ccf62c66b42f" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-2fdacf64ccf62c66b42f">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"year":[2013,2013,2013,2013,2013,2013,2013,2013,2013,2013],"month":[1,1,1,1,1,1,1,1,1,1],"day":[1,1,1,1,1,1,1,1,1,1],"dep_time":[517,533,542,544,554,554,555,557,557,558],"sched_dep_time":[515,529,540,545,600,558,600,600,600,600],"dep_delay":[2,4,2,-1,-6,-4,-5,-3,-3,-2],"arr_time":[830,850,923,1004,812,740,913,709,838,753],"sched_arr_time":[819,830,850,1022,837,728,854,723,846,745],"arr_delay":[11,20,33,-18,-25,12,19,-14,-8,8],"carrier":["UA","UA","AA","B6","DL","UA","B6","EV","B6","AA"],"flight":[1545,1714,1141,725,461,1696,507,5708,79,301],"tailnum":["N14228","N24211","N619AA","N804JB","N668DN","N39463","N516JB","N829AS","N593JB","N3ALAA"],"origin":["EWR","LGA","JFK","JFK","LGA","EWR","EWR","LGA","JFK","LGA"],"dest":["IAH","IAH","MIA","BQN","ATL","ORD","FLL","IAD","MCO","ORD"],"air_time":[227,227,160,183,116,150,158,53,140,138],"distance":[1400,1416,1089,1576,762,719,1065,229,944,733],"hour":[5,5,5,5,6,5,6,6,6,6],"minute":[15,29,40,45,0,58,0,0,0,0],"time_hour":["2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z"]},"columns":[{"id":"year","name":"year","type":"numeric"},{"id":"month","name":"month","type":"numeric"},{"id":"day","name":"day","type":"numeric"},{"id":"dep_time","name":"dep_time","type":"numeric"},{"id":"sched_dep_time","name":"sched_dep_time","type":"numeric"},{"id":"dep_delay","name":"dep_delay","type":"numeric"},{"id":"arr_time","name":"arr_time","type":"numeric"},{"id":"sched_arr_time","name":"sched_arr_time","type":"numeric"},{"id":"arr_delay","name":"arr_delay","type":"numeric"},{"id":"carrier","name":"carrier","type":"character"},{"id":"flight","name":"flight","type":"numeric"},{"id":"tailnum","name":"tailnum","type":"character"},{"id":"origin","name":"origin","type":"character"},{"id":"dest","name":"dest","type":"character"},{"id":"air_time","name":"air_time","type":"numeric"},{"id":"distance","name":"distance","type":"numeric"},{"id":"hour","name":"hour","type":"numeric"},{"id":"minute","name":"minute","type":"numeric"},{"id":"time_hour","name":"time_hour","type":"Date"}],"dataKey":"efb7087d9e2b5bd5b3155062bf174300"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -359,8 +359,8 @@ font-style: inherit;">head</span>(airlines, <span class="dv" style="color: #AD00
 background-color: null;
 font-style: inherit;">10</span>))</span></code></pre></div>
 <div class="cell-output-display">
-<div class="reactable html-widget html-fill-item" id="htmlwidget-b01b9f9a81e585d5f53a" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-b01b9f9a81e585d5f53a">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"carrier":["9E","AA","AS","B6","DL","EV","F9","FL","HA","MQ"],"name":["Endeavor Air Inc.","American Airlines Inc.","Alaska Airlines Inc.","JetBlue Airways","Delta Air Lines Inc.","ExpressJet Airlines Inc.","Frontier Airlines Inc.","AirTran Airways Corporation","Hawaiian Airlines Inc.","Envoy Air"]},"columns":[{"id":"carrier","name":"carrier","type":"character"},{"id":"name","name":"name","type":"character"}],"dataKey":"f306daa08a2136046ead72a665ae9011"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-82af8b2c371e6d380ec6" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-82af8b2c371e6d380ec6">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"carrier":["9E","AA","AS","B6","DL","EV","F9","FL","HA","MQ"],"name":["Endeavor Air Inc.","American Airlines Inc.","Alaska Airlines Inc.","JetBlue Airways","Delta Air Lines Inc.","ExpressJet Airlines Inc.","Frontier Airlines Inc.","AirTran Airways Corporation","Hawaiian Airlines Inc.","Envoy Air"]},"columns":[{"id":"carrier","name":"carrier","type":"character"},{"id":"name","name":"name","type":"character"}],"dataKey":"f306daa08a2136046ead72a665ae9011"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>The <code>flights</code> tables has 336776 rows, one for each flight of an airplane. The <code>airlines</code> table has 16 rows, one for each airline mapping the full name of the company to a code.</p>
@@ -865,7 +865,7 @@ background-color: null;
 font-style: inherit;">', header = True);"</span></span>
 <span id="cb15-11">)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>&lt;duckdb.duckdb.DuckDBPyConnection object at 0x00000205F9A4F2B0&gt;</code></pre>
+<pre><code>&lt;duckdb.duckdb.DuckDBPyConnection object at 0x0000014F23081730&gt;</code></pre>
 </div>
 </div>
 <p>DuckDB’s <code>read_csv_auto()</code> works just like the csv readers in Python.</p>
@@ -1096,27 +1096,26 @@ font-style: inherit;">=</span>_.arr_delay.mean())</span>
 <li><a href="https://news.ycombinator.com/item?id=29584698">Discussion of Polars on Hacker News</a></li>
 <li><a href="https://hakibenita.com/sql-for-data-analysis">Practical SQL for Data Analysis</a></li>
 </ul>
-<p>Photo by <a href="https://unsplash.com/@hharritt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hunter Harritt</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2021,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2023,
   author = {Nguyen Thanh, Luong},
   title = {Data Frame Wars: {Choosing} a {Python} Dataframe Library as a
     Dplyr User},
-  date = {2021-12-20},
+  date = {2023-01-25},
   url = {https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-nguyen_thanh2021" class="csl-entry quarto-appendix-citeas">
-Nguyen Thanh, Luong. 2021. <span>“Data Frame Wars: Choosing a Python
-Dataframe Library as a Dplyr User.”</span> December 20, 2021. <a href="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/">https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</a>.
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-nguyen_thanh2023" class="csl-entry quarto-appendix-citeas">
+Nguyen Thanh, Luong. 2023. <span>“Data Frame Wars: Choosing a Python
+Dataframe Library as a Dplyr User.”</span> January 25, 2023. <a href="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/">https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Python</category>
   <guid>https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</guid>
-  <pubDate>Sun, 19 Dec 2021 23:00:00 GMT</pubDate>
+  <pubDate>Tue, 24 Jan 2023 23:00:00 GMT</pubDate>
   <media:content url="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

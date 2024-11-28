@@ -9,7 +9,7 @@ image: "image.jpg"
 I'm a long time R user and lately I've seen more and more [signals](https://www.tiobe.com/tiobe-index/python/) that it's worth investing into Python. I use it for NLP with [spaCy](https://spacy.io) and to build functions on [AWS Lambda](https://aws.amazon.com/lambda/features/). Further, there are many more data API libraries and machine learning libraries for Python than for R.
 
 ::: {.callout-note}
-This article was written at the end of 2021 with the latest versions of the libraries and the number of Github stars at that time.
+This article was written at the end of 2022 with the latest versions of the libraries and the number of Github stars at that time.
 :::
 
 Adopting Python means making choices on which libraries to invest time into learning. Manipulating data frames is one of the most common data science activities, so choosing the right library for it is key.
@@ -62,7 +62,7 @@ ggplot(libs, aes(x = reorder(library, -stars), y = stars, fill = language)) +
     geom_col() +
     labs(
         title = "Pandas is by far the most popular choice",
-        subtitle = "Comparison of Github stars on 2021-12-25",
+        subtitle = "Comparison of Github stars",
         fill = "Language",
         x = "Library",
         y = "Github stars"
