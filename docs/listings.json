@@ -6,18 +6,18 @@
     ]
   },
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/2024-11-28_transition_to_python/index.html",
-      "/blog/2024-11-01_dplyr_candidate/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/aetranslations.html",
       "/projects/amr_trend.html",
       "/projects/amr_sdg.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/2024-11-28_transition_to_python/index.html",
+      "/blog/2024-11-01_dplyr_candidate/index.html"
     ]
   }
 ]
