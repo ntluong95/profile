@@ -14,7 +14,7 @@ number-depth: 2
 
 Transitioning from R to Python can feel like a daunting leap, especially if you’ve grown comfortable with R’s ecosystem. The good news? Python offers several tools and libraries that mimic the syntax and functionality of your favorite R packages. Let’s explore these equivalents to ease your journey.
 
-# Why Transition? {.unnumbered}
+# Why Transition?
 
 Both R and Python are powerful tools for data analysis, visualization, and statistical computing. While R is often praised for its simplicity in data manipulation and visualization, Python offers a more extensive ecosystem, making it a better choice for machine learning, web development, and integration into production systems. 
 
@@ -88,7 +88,7 @@ With Positron, you can enjoy a consistent environment for coding, debugging, and
 
 
 
-# Wrap Up {.unnumbered}
+# Wrap Up
 
 Switching from R to Python doesn’t have to be overwhelming. By leveraging tools like ibis, plotnine, Shiny for Python, Vetiver, Quarto, and Positron, you can recreate your familiar R workflows in Python while gaining the flexibility and scalability of Python’s broader ecosystem.
 
