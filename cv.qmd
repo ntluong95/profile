@@ -59,7 +59,7 @@ Applied Epi
 #| echo: false
 #| fig-align: center
 #| out-width: 70%
-knitr::include_graphics(here::here("assets/img/Ae-training.jpg"))
+knitr::include_graphics(here::here("assets/img/AE-training.jpg"))
 ```
 
 ::::: {.d-inline-flex style="align-items:baseline"}
