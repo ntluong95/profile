@@ -12,7 +12,7 @@ execute:
 
 website:
   title: "Luong Nguyen Thanh"
-  description: "R code, environmental data science, and cats."
+  description: "R & Python code, global health and sustainability data science."
   site-url: https://ntluong95.github.io/profile
   repo-url: https://github.com/ntluong95/profile
   repo-actions:
@@ -61,7 +61,7 @@ website:
 
   page-footer:
     border: true
-    left: "&#169; 2024 Luong Nguyen Thanh"
+    left: "&#169; 2025 Luong Nguyen Thanh"
     right: "Made with [Quarto Website](https://quarto.org)"
 
 format:
