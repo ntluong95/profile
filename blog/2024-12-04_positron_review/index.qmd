@@ -1,0 +1,137 @@
+---
+title: "Positron - a VSCode fork for Data Science"
+description: "At the end of June, the public beta version of Positron was released. That’s almost 6 months ago, and the Positron team certainly hasn’t been idle! So what happened over the last half year? And is it worth switching? 👀 Some of my personal highlights about this IDE 👇🏻"
+author: Luong Nguyen Thanh
+date: "2024-12-04"
+image: positron-UI.png
+image-alt: "User Interface of Positron"
+categories:
+  - Python
+  - R
+  - IDE
+  - Tool reviews
+number-sections: true
+number-depth: 2
+---
+
+::: {.callout-important}
+🔹 The Data Explorer is a great way to inspect your data! You see things like the percentage of missing data or summary statistics per column. There’s multi-sorting and filtering. Some things are known in RStudio as well, but this Data Explorer goes a few steps further. And over the past 6 months, there were many updates to the Data Explorer like better handling of large datasets, a collapsible summary section, automatic column sizing and smooth scrolling support.
+🔹 In October, a new (experimental) feature was added to view data files directly in that same Data Explorer (think about .csv or .parquet files)
+🔹 Code completions are quite good. This is about displaying which package R functions or objects come from, for example.
+🔹 Help on hover: get some help when hovering over functions
+🔹 The command palette (Cmd/Ctrl + shift + P) with fuzzy finder: instantly get commands that are super common to R, especially for package development. It’s kind of a replacement for all the different panes in RStudio, like the build pane. You can also easily change the layout there. You might know RStudio has a command palette as well, but especially for long-time users it’s not their weapon of choice.
+🔹 The use of extensions: you can use anything from Open VSX and it really makes the IDE “yours”. Some cool ones are: indent-rainbow, TODO highlight and GitLens.
+🔹 The test explorer: a separate pane for R packages with testthat that gives you all kind of insights and actions related to testing.
+🔹 Easily switch between R versions, which is often perceived as a HUGE pain. But in combination with a tool like rig, this is actually easy peasy.
+🔹 And let’s be honest: we all love R, but there’s more in this world. Positron is very well equipped to deal with other languages as well. A polyglot IDE.
+:::
+
+## Hello Positron IDE – Key Features You Must Know 
+
+Positron is a next-generation data science IDE delivered by Posit. It’s still in active development, so it’s expected to see some features not working properly (more on this later). But, as mentioned in the introduction, it’s in public beta, which means you’re free to take it for a spin!
+
+You can download the latest Positron release from the official GitHub releases page.
+
+In essence, Positron is a fork of a famous IDE – Visual Studio Code. If you’re familiar with it, Positron should feel right at home. It has some neat features delivered out of the box, but you could configure most of these through plugins on a fresh VSCode installation.
+
+Up next, let’s discuss some key features you must know about.
+
+### RStudio Meets Visual Studio Code 
+
+Here’s what you’ll see when you first launch Positron:
+
+‍
+
+Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.
+
+The top left panel allows you to start working on your data science projects – either in R or Python, through a notebook or file. Positron automatically detects installed programming languages and their version, but also picks up any virtual environments you’ve previously created:
+
+‍
+
+Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail.
+
+### Multi-Language Support 
+
+The big selling point of Positron IDE is that it comes configured for R and Python out of the box – Jupyter Notebooks included. This means you don’t have to set everything up from scratch, which in the case of R and Jupyter is not as easy as it sounds.
+
+To create a new R script, click on the New File button on the welcome screen and select R File. Writing and running code works just like in RStudio – Command/Control + Enter will run the cell on which your cursor is located:
+
+Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it:
+
+‍
+
+Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.
+
+Because of this flexibility, you can also sprinkle text/markdown content between your cells to provide resources or explanations:
+
+‍
+
+Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.
+
+### Ark Kernel 
+
+Ark is an R kernel for Jupyter applications and is a default interface between R and the Positron IDE. Previously, you’d have to install IRkernel if you wanted to run R in Jupyter Notebooks. You also had the option to install Ark, but it now ships by default with Positron.
+
+What Ark does for you is provide structured interaction between R language and Jupyter, enable IntelliSense features through the LSP server, and sophisticated step-debugging of R functions through a DAP server. Now, Ark doesn’t support breakpoints so far, but you can use `debug()`, `debugonce()`, or `browser()` as substitutes.
+
+Let’s talk more about the IntelliSense part. For example, you can hit Tab to display autocomplete suggestions:
+
+‍
+
+Image 6 – Autocomplete suggestions This also works if you want to, for example, list all functions available in a given package:
+
+‍
+
+Image 7 – Autocomplete suggestions (2) Sure, it’s nothing groundbreaking, and is something you’ll take for granted if coming from RStudio, but Jupyter and R don’t always work nicely. Ark kernel is a way to fix that, and thanks to Positron, you don’t have to install and configure it manually.
+
+But by far the most important quality of life improvement for developers is box imports. Let’s talk about them next.
+
+## Running Code In Positron IDE – Tips And Tricks 
+
+Positron, being a mixture of RStudio and Visual Studio Code, combines the best features of both worlds. This section will take you through useful keyboard shortcuts and features for working with data.
+
+### Useful Shortcuts 
+
+While you don’t necessarily need to use keyboard shortcuts, they significantly improve developer productivity. The following image illustrates what it takes to run a single cell without keyboard shortcuts:
+
+‍
+
+Image 9 – Running Jupyter cell without shortcuts Manually clicking on the play button will become pretty annoying after a couple of iterations. Instead, you can opt for one of the following:
+
+Control + Enter: Run the current cell without creating a new one Shift + Enter: Run the current cell and create a new cell for the same programming language While in a notebook environment, you might also find the following shortcuts useful:
+
+C: Copy cell X: Cut cell V: Paste cell D: Delete cell Command/Control + P: Navigate between files Note that they are different from the usual jupyter notebook keyboard shortcuts, but you can see the full list of available shortcuts in Settings – Keyboard Shortcuts. Every shortcut is adjustable.
+
+### DataFrame Viewer 
+
+Dataframes are the core of all data science workflows, so having an IDE that can display all relevant information about them is a must-have feature.
+
+Positron allows you to print the dataframe content to the R console by calling R-specific functions, such as `head()`:
+
+‍
+
+Image 10 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer. Once your dataframe is declared, you’ll see it in the Variables panel. You can expand the variable to view all columns and their respective values, or you can click on the table column to inspect the dataframe in an Excel-like fashion:
+
+‍
+
+Image 11 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.
+
+### Plot Viewer 
+
+An amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface:
+
+‍
+
+Image 12 – Plot inspection Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel:
+
+‍
+
+Image 13 – Plot inspection (2) Up next, let’s discuss the powerful and improved variable inspector.
+
+### Variable Inspector 
+
+Being able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface:
+
+‍
+
+Image 14 – Variable inspection As you can see, you can drill down into all the small pieces that are combined to make complex objects.

@@ -38,10 +38,10 @@ website:
       - text: CV
         icon: file-earmark-text-fill
         href: cv.qmd
-      - text: Data science Blog
+      - text: Blog
         icon: pen-fill
         href: blog.qmd
-      - text: Event organizations
+      - text: Event organized
         icon: people-fill
         href: talks.qmd
       - text: Projects

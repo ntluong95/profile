@@ -1,5 +1,5 @@
 ---
-title: "How to keep information 'fresh'"
+title: "How to keep information 'young'"
 description: "The talk will introduce the concept of the 'age of information'—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices"
 author: Luong Nguyen Thanh
 date: "2024-11-17"

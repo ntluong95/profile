@@ -10,7 +10,124 @@
 <atom:link href="https://ntluong95.github.io/profile/blog-r.xml" rel="self" type="application/rss+xml"/>
 <description>R code, environmental data science, and cats.</description>
 <generator>quarto-1.6.36</generator>
-<lastBuildDate>Wed, 27 Nov 2024 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 03 Dec 2024 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Positron - a VSCode fork for Data Science</title>
+  <dc:creator>Luong Nguyen Thanh</dc:creator>
+  <link>https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>🔹 The Data Explorer is a great way to inspect your data! You see things like the percentage of missing data or summary statistics per column. There’s multi-sorting and filtering. Some things are known in RStudio as well, but this Data Explorer goes a few steps further. And over the past 6 months, there were many updates to the Data Explorer like better handling of large datasets, a collapsible summary section, automatic column sizing and smooth scrolling support. 🔹 In October, a new (experimental) feature was added to view data files directly in that same Data Explorer (think about .csv or .parquet files) 🔹 Code completions are quite good. This is about displaying which package R functions or objects come from, for example. 🔹 Help on hover: get some help when hovering over functions 🔹 The command palette (Cmd/Ctrl + shift + P) with fuzzy finder: instantly get commands that are super common to R, especially for package development. It’s kind of a replacement for all the different panes in RStudio, like the build pane. You can also easily change the layout there. You might know RStudio has a command palette as well, but especially for long-time users it’s not their weapon of choice. 🔹 The use of extensions: you can use anything from Open VSX and it really makes the IDE “yours”. Some cool ones are: indent-rainbow, TODO highlight and GitLens. 🔹 The test explorer: a separate pane for R packages with testthat that gives you all kind of insights and actions related to testing. 🔹 Easily switch between R versions, which is often perceived as a HUGE pain. But in combination with a tool like rig, this is actually easy peasy. 🔹 And let’s be honest: we all love R, but there’s more in this world. Positron is very well equipped to deal with other languages as well. A polyglot IDE.</p>
+</div>
+</div>
+<section id="hello-positron-ide-key-features-you-must-know" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="hello-positron-ide-key-features-you-must-know"><span class="header-section-number">1</span> Hello Positron IDE – Key Features You Must Know</h2>
+<p>Positron is a next-generation data science IDE delivered by Posit. It’s still in active development, so it’s expected to see some features not working properly (more on this later). But, as mentioned in the introduction, it’s in public beta, which means you’re free to take it for a spin!</p>
+<p>You can download the latest Positron release from the official GitHub releases page.</p>
+<p>In essence, Positron is a fork of a famous IDE – Visual Studio Code. If you’re familiar with it, Positron should feel right at home. It has some neat features delivered out of the box, but you could configure most of these through plugins on a fresh VSCode installation.</p>
+<p>Up next, let’s discuss some key features you must know about.</p>
+<section id="rstudio-meets-visual-studio-code" class="level3">
+<h3 class="anchored" data-anchor-id="rstudio-meets-visual-studio-code">RStudio Meets Visual Studio Code</h3>
+<p>Here’s what you’ll see when you first launch Positron:</p>
+<p>‍</p>
+<p>Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.</p>
+<p>The top left panel allows you to start working on your data science projects – either in R or Python, through a notebook or file. Positron automatically detects installed programming languages and their version, but also picks up any virtual environments you’ve previously created:</p>
+<p>‍</p>
+<p>Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail.</p>
+</section>
+<section id="multi-language-support" class="level3">
+<h3 class="anchored" data-anchor-id="multi-language-support">Multi-Language Support</h3>
+<p>The big selling point of Positron IDE is that it comes configured for R and Python out of the box – Jupyter Notebooks included. This means you don’t have to set everything up from scratch, which in the case of R and Jupyter is not as easy as it sounds.</p>
+<p>To create a new R script, click on the New File button on the welcome screen and select R File. Writing and running code works just like in RStudio – Command/Control + Enter will run the cell on which your cursor is located:</p>
+<p>Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it:</p>
+<p>‍</p>
+<p>Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.</p>
+<p>Because of this flexibility, you can also sprinkle text/markdown content between your cells to provide resources or explanations:</p>
+<p>‍</p>
+<p>Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.</p>
+</section>
+<section id="ark-kernel" class="level3">
+<h3 class="anchored" data-anchor-id="ark-kernel">Ark Kernel</h3>
+<p>Ark is an R kernel for Jupyter applications and is a default interface between R and the Positron IDE. Previously, you’d have to install IRkernel if you wanted to run R in Jupyter Notebooks. You also had the option to install Ark, but it now ships by default with Positron.</p>
+<p>What Ark does for you is provide structured interaction between R language and Jupyter, enable IntelliSense features through the LSP server, and sophisticated step-debugging of R functions through a DAP server. Now, Ark doesn’t support breakpoints so far, but you can use <code>debug()</code>, <code>debugonce()</code>, or <code>browser()</code> as substitutes.</p>
+<p>Let’s talk more about the IntelliSense part. For example, you can hit Tab to display autocomplete suggestions:</p>
+<p>‍</p>
+<p>Image 6 – Autocomplete suggestions This also works if you want to, for example, list all functions available in a given package:</p>
+<p>‍</p>
+<p>Image 7 – Autocomplete suggestions (2) Sure, it’s nothing groundbreaking, and is something you’ll take for granted if coming from RStudio, but Jupyter and R don’t always work nicely. Ark kernel is a way to fix that, and thanks to Positron, you don’t have to install and configure it manually.</p>
+<p>But by far the most important quality of life improvement for developers is box imports. Let’s talk about them next.</p>
+</section>
+</section>
+<section id="running-code-in-positron-ide-tips-and-tricks" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="running-code-in-positron-ide-tips-and-tricks"><span class="header-section-number">2</span> Running Code In Positron IDE – Tips And Tricks</h2>
+<p>Positron, being a mixture of RStudio and Visual Studio Code, combines the best features of both worlds. This section will take you through useful keyboard shortcuts and features for working with data.</p>
+<section id="useful-shortcuts" class="level3">
+<h3 class="anchored" data-anchor-id="useful-shortcuts">Useful Shortcuts</h3>
+<p>While you don’t necessarily need to use keyboard shortcuts, they significantly improve developer productivity. The following image illustrates what it takes to run a single cell without keyboard shortcuts:</p>
+<p>‍</p>
+<p>Image 9 – Running Jupyter cell without shortcuts Manually clicking on the play button will become pretty annoying after a couple of iterations. Instead, you can opt for one of the following:</p>
+<p>Control + Enter: Run the current cell without creating a new one Shift + Enter: Run the current cell and create a new cell for the same programming language While in a notebook environment, you might also find the following shortcuts useful:</p>
+<p>C: Copy cell X: Cut cell V: Paste cell D: Delete cell Command/Control + P: Navigate between files Note that they are different from the usual jupyter notebook keyboard shortcuts, but you can see the full list of available shortcuts in Settings – Keyboard Shortcuts. Every shortcut is adjustable.</p>
+</section>
+<section id="dataframe-viewer" class="level3">
+<h3 class="anchored" data-anchor-id="dataframe-viewer">DataFrame Viewer</h3>
+<p>Dataframes are the core of all data science workflows, so having an IDE that can display all relevant information about them is a must-have feature.</p>
+<p>Positron allows you to print the dataframe content to the R console by calling R-specific functions, such as <code>head()</code>:</p>
+<p>‍</p>
+<p>Image 10 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer. Once your dataframe is declared, you’ll see it in the Variables panel. You can expand the variable to view all columns and their respective values, or you can click on the table column to inspect the dataframe in an Excel-like fashion:</p>
+<p>‍</p>
+<p>Image 11 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.</p>
+</section>
+<section id="plot-viewer" class="level3">
+<h3 class="anchored" data-anchor-id="plot-viewer">Plot Viewer</h3>
+<p>An amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface:</p>
+<p>‍</p>
+<p>Image 12 – Plot inspection Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel:</p>
+<p>‍</p>
+<p>Image 13 – Plot inspection (2) Up next, let’s discuss the powerful and improved variable inspector.</p>
+</section>
+<section id="variable-inspector" class="level3">
+<h3 class="anchored" data-anchor-id="variable-inspector">Variable Inspector</h3>
+<p>Being able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface:</p>
+<p>‍</p>
+<p>Image 14 – Variable inspection As you can see, you can drill down into all the small pieces that are combined to make complex objects.</p>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2024,
+  author = {Nguyen Thanh, Luong},
+  title = {Positron - a {VSCode} Fork for {Data} {Science}},
+  date = {2024-12-04},
+  url = {https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-nguyen_thanh2024" class="csl-entry quarto-appendix-citeas">
+Nguyen Thanh, Luong. 2024. <span>“Positron - a VSCode Fork for Data
+Science.”</span> December 4, 2024. <a href="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/">https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/</a>.
+</div></div></section></div> ]]></description>
+  <category>Python</category>
+  <category>R</category>
+  <category>IDE</category>
+  <category>Tool reviews</category>
+  <guid>https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/</guid>
+  <pubDate>Tue, 03 Dec 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/positron-UI.png" medium="image" type="image/png" height="78" width="144"/>
+</item>
 <item>
   <title>Switching from R to Python: A Beginner’s Guide to Equivalent Tools</title>
   <dc:creator>Luong Nguyen Thanh</dc:creator>
@@ -1102,15 +1219,14 @@ font-style: inherit;">=</span>_.arr_delay.mean())</span>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2023,
   author = {Nguyen Thanh, Luong},
-  title = {Data Frame Wars: {Choosing} a {Python} Dataframe Library as a
-    Dplyr User},
+  title = {Choosing a {Python} Dataframe Library as a {dplyR} {useR}},
   date = {2023-01-25},
   url = {https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-nguyen_thanh2023" class="csl-entry quarto-appendix-citeas">
-Nguyen Thanh, Luong. 2023. <span>“Data Frame Wars: Choosing a Python
-Dataframe Library as a Dplyr User.”</span> January 25, 2023. <a href="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/">https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</a>.
+Nguyen Thanh, Luong. 2023. <span>“Choosing a Python Dataframe Library as
+a dplyR useR.”</span> January 25, 2023. <a href="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/">https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Python</category>
