@@ -9,7 +9,7 @@
 <link>https://ntluong95.github.io/profile/blog.html</link>
 <atom:link href="https://ntluong95.github.io/profile/blog.xml" rel="self" type="application/rss+xml"/>
 <description>R code, environmental data science, and cats.</description>
-<generator>quarto-1.6.36</generator>
+<generator>quarto-1.7.3</generator>
 <lastBuildDate>Tue, 03 Dec 2024 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Positron - a VSCode fork for Data Science</title>
@@ -26,11 +26,17 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important
+Key notes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>🔹 The Data Explorer is a great way to inspect your data! You see things like the percentage of missing data or summary statistics per column. There’s multi-sorting and filtering. Some things are known in RStudio as well, but this Data Explorer goes a few steps further. And over the past 6 months, there were many updates to the Data Explorer like better handling of large datasets, a collapsible summary section, automatic column sizing and smooth scrolling support. 🔹 In October, a new (experimental) feature was added to view data files directly in that same Data Explorer (think about .csv or .parquet files) 🔹 Code completions are quite good. This is about displaying which package R functions or objects come from, for example. 🔹 Help on hover: get some help when hovering over functions 🔹 The command palette (Cmd/Ctrl + shift + P) with fuzzy finder: instantly get commands that are super common to R, especially for package development. It’s kind of a replacement for all the different panes in RStudio, like the build pane. You can also easily change the layout there. You might know RStudio has a command palette as well, but especially for long-time users it’s not their weapon of choice. 🔹 The use of extensions: you can use anything from Open VSX and it really makes the IDE “yours”. Some cool ones are: indent-rainbow, TODO highlight and GitLens. 🔹 The test explorer: a separate pane for R packages with testthat that gives you all kind of insights and actions related to testing. 🔹 Easily switch between R versions, which is often perceived as a HUGE pain. But in combination with a tool like rig, this is actually easy peasy. 🔹 And let’s be honest: we all love R, but there’s more in this world. Positron is very well equipped to deal with other languages as well. A polyglot IDE.</p>
+<ul>
+<li>The Data Explorer is a great way to inspect your data! You see things like the percentage of missing data or summary statistics per column. There’s multi-sorting and filtering. Some things are known in RStudio as well, but this Data Explorer goes a few steps further.</li>
+<li>Code completions works out-of-the-box for both R and Python.</li>
+<li>Help on hover: get some help when hovering over functions</li>
+<li>The use of extensions: you can use anything from Open VSX and it really makes the IDE “yours”. Some cool ones are: indent-rainbow, TODO highlight and GitLens.</li>
+<li>The test explorer: a separate pane for R packages with testthat that gives you all kind of insights and actions related to testing.</li>
+</ul>
 </div>
 </div>
 <section id="hello-positron-ide-key-features-you-must-know" class="level2" data-number="1">
@@ -38,75 +44,181 @@ Important
 <p>Positron is a next-generation data science IDE delivered by Posit. It’s still in active development, so it’s expected to see some features not working properly (more on this later). But, as mentioned in the introduction, it’s in public beta, which means you’re free to take it for a spin!</p>
 <p>You can download the latest Positron release from the official GitHub releases page.</p>
 <p>In essence, Positron is a fork of a famous IDE – Visual Studio Code. If you’re familiar with it, Positron should feel right at home. It has some neat features delivered out of the box, but you could configure most of these through plugins on a fresh VSCode installation.</p>
-<p>Up next, let’s discuss some key features you must know about.</p>
-<section id="rstudio-meets-visual-studio-code" class="level3">
-<h3 class="anchored" data-anchor-id="rstudio-meets-visual-studio-code">RStudio Meets Visual Studio Code</h3>
-<p>Here’s what you’ll see when you first launch Positron:</p>
-<p>‍</p>
-<p>Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.</p>
-<p>The top left panel allows you to start working on your data science projects – either in R or Python, through a notebook or file. Positron automatically detects installed programming languages and their version, but also picks up any virtual environments you’ve previously created:</p>
-<p>‍</p>
-<p>Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail.</p>
 </section>
-<section id="multi-language-support" class="level3">
-<h3 class="anchored" data-anchor-id="multi-language-support">Multi-Language Support</h3>
+<section id="rstudio-meets-visual-studio-code" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="rstudio-meets-visual-studio-code"><span class="header-section-number">2</span> RStudio Meets Visual Studio Code</h2>
+<p>Here’s what you’ll see when you first launch Positron:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables."></a></p>
+</figure>
+</div>
+<figcaption>Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The top left panel allows you to start working on your data science projects – either in R or Python, through a notebook or file. Positron automatically detects installed programming languages and their version, but also picks up any virtual environments you’ve previously created:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image2.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."></a></p>
+</figure>
+</div>
+<figcaption>Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="multi-language-support" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="multi-language-support"><span class="header-section-number">3</span> Multi-Language Support</h2>
 <p>The big selling point of Positron IDE is that it comes configured for R and Python out of the box – Jupyter Notebooks included. This means you don’t have to set everything up from scratch, which in the case of R and Jupyter is not as easy as it sounds.</p>
 <p>To create a new R script, click on the New File button on the welcome screen and select R File. Writing and running code works just like in RStudio – Command/Control + Enter will run the cell on which your cursor is located:</p>
-<p>Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it:</p>
-<p>‍</p>
-<p>Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it"></a></p>
+</figure>
+</div>
+<figcaption>Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell."></a></p>
+</figure>
+</div>
+<figcaption>Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <p>Because of this flexibility, you can also sprinkle text/markdown content between your cells to provide resources or explanations:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features."></a></p>
+</figure>
+</div>
+<figcaption>Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <p>‍</p>
-<p>Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.</p>
 </section>
-<section id="ark-kernel" class="level3">
-<h3 class="anchored" data-anchor-id="ark-kernel">Ark Kernel</h3>
-<p>Ark is an R kernel for Jupyter applications and is a default interface between R and the Positron IDE. Previously, you’d have to install IRkernel if you wanted to run R in Jupyter Notebooks. You also had the option to install Ark, but it now ships by default with Positron.</p>
-<p>What Ark does for you is provide structured interaction between R language and Jupyter, enable IntelliSense features through the LSP server, and sophisticated step-debugging of R functions through a DAP server. Now, Ark doesn’t support breakpoints so far, but you can use <code>debug()</code>, <code>debugonce()</code>, or <code>browser()</code> as substitutes.</p>
-<p>Let’s talk more about the IntelliSense part. For example, you can hit Tab to display autocomplete suggestions:</p>
-<p>‍</p>
-<p>Image 6 – Autocomplete suggestions This also works if you want to, for example, list all functions available in a given package:</p>
-<p>‍</p>
-<p>Image 7 – Autocomplete suggestions (2) Sure, it’s nothing groundbreaking, and is something you’ll take for granted if coming from RStudio, but Jupyter and R don’t always work nicely. Ark kernel is a way to fix that, and thanks to Positron, you don’t have to install and configure it manually.</p>
-<p>But by far the most important quality of life improvement for developers is box imports. Let’s talk about them next.</p>
-</section>
-</section>
-<section id="running-code-in-positron-ide-tips-and-tricks" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="running-code-in-positron-ide-tips-and-tricks"><span class="header-section-number">2</span> Running Code In Positron IDE – Tips And Tricks</h2>
-<p>Positron, being a mixture of RStudio and Visual Studio Code, combines the best features of both worlds. This section will take you through useful keyboard shortcuts and features for working with data.</p>
-<section id="useful-shortcuts" class="level3">
-<h3 class="anchored" data-anchor-id="useful-shortcuts">Useful Shortcuts</h3>
-<p>While you don’t necessarily need to use keyboard shortcuts, they significantly improve developer productivity. The following image illustrates what it takes to run a single cell without keyboard shortcuts:</p>
-<p>‍</p>
-<p>Image 9 – Running Jupyter cell without shortcuts Manually clicking on the play button will become pretty annoying after a couple of iterations. Instead, you can opt for one of the following:</p>
-<p>Control + Enter: Run the current cell without creating a new one Shift + Enter: Run the current cell and create a new cell for the same programming language While in a notebook environment, you might also find the following shortcuts useful:</p>
-<p>C: Copy cell X: Cut cell V: Paste cell D: Delete cell Command/Control + P: Navigate between files Note that they are different from the usual jupyter notebook keyboard shortcuts, but you can see the full list of available shortcuts in Settings – Keyboard Shortcuts. Every shortcut is adjustable.</p>
-</section>
-<section id="dataframe-viewer" class="level3">
-<h3 class="anchored" data-anchor-id="dataframe-viewer">DataFrame Viewer</h3>
+<section id="dataframe-viewer" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="dataframe-viewer"><span class="header-section-number">4</span> DataFrame Viewer</h2>
 <p>Dataframes are the core of all data science workflows, so having an IDE that can display all relevant information about them is a must-have feature.</p>
 <p>Positron allows you to print the dataframe content to the R console by calling R-specific functions, such as <code>head()</code>:</p>
 <p>‍</p>
-<p>Image 10 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer. Once your dataframe is declared, you’ll see it in the Variables panel. You can expand the variable to view all columns and their respective values, or you can click on the table column to inspect the dataframe in an Excel-like fashion:</p>
-<p>‍</p>
-<p>Image 11 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer."></a></p>
+</figure>
+</div>
+<figcaption>Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>‍Once your dataframe is declared, you’ll see it in the Variables panel. You can expand the variable to view all columns and their respective values, or you can click on the table column to inspect the dataframe in an Excel-like fashion</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image7.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image7.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI."></a></p>
+</figure>
+</div>
+<figcaption>Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The Data Explorer has three primary components, discussed in greater detail in the sections below:</p>
+<ul>
+<li>Data grid: Spreadsheet-like display of the individual cells and columns, as well as sorting</li>
+<li>Summary panel: Column name, type and missing data percentage for each column</li>
+<li>Filter bar: Ephemeral filters for specific columns</li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image8.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Image 8 – Data Explorer three main components."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image8.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 8 – Data Explorer three main components."></a></p>
+</figure>
+</div>
+<figcaption>Image 8 – Data Explorer three main components.</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="plot-viewer" class="level3">
-<h3 class="anchored" data-anchor-id="plot-viewer">Plot Viewer</h3>
-<p>An amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface:</p>
-<p>‍</p>
-<p>Image 12 – Plot inspection Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel:</p>
-<p>‍</p>
-<p>Image 13 – Plot inspection (2) Up next, let’s discuss the powerful and improved variable inspector.</p>
+<section id="plot-viewer" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="plot-viewer"><span class="header-section-number">5</span> Plot Viewer</h2>
+<p>An amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface. Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel ‍</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Image 9 – Plot inspection"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 9 – Plot inspection"></a></p>
+</figure>
+</div>
+<figcaption>Image 9 – Plot inspection</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="variable-inspector" class="level3">
-<h3 class="anchored" data-anchor-id="variable-inspector">Variable Inspector</h3>
-<p>Being able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface:</p>
-<p>‍</p>
-<p>Image 14 – Variable inspection As you can see, you can drill down into all the small pieces that are combined to make complex objects.</p>
+<section id="variable-inspector" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="variable-inspector"><span class="header-section-number">6</span> Variable Inspector</h2>
+<p>Being able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface. As you can see, you can drill down into all the small pieces that are combined to make complex objects.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image10.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Image 10 – Variable inspection"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image10.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 10 – Variable inspection"></a></p>
+</figure>
+</div>
+<figcaption>Image 10 – Variable inspection</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2024,
