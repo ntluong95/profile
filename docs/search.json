@@ -4,7 +4,14 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Upcoming\nNone at this time.\n\n\nPast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to keep information ‘young’\n\n\n\n\n\n\nCommunication\n\n\nTechnology\n\n\n\nThe talk will introduce the concept of the ‘age of information’—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices\n\n\n\n\n\nNov 17, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Upcoming\nNone at this time.\n\n\nPast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding your future career in Global Health\n\n\n\n\n\n\nGlobal Health\n\n\nInternship\n\n\n\nThe GlobeLife Students Section ONLINE event on ‘Insights and Internships: Building your future career in Global Health’ aims to provide insider tips and share about the value of internships from decent speakers who have successfully navigated this path.\n\n\n\n\n\nDec 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to keep information ‘young’\n\n\n\n\n\n\nCommunication\n\n\nTechnology\n\n\n\nThe talk will introduce the concept of the ‘age of information’—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices\n\n\n\n\n\nNov 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGlobalLife Annual Networking Event\n\n\n\n\n\n\nGlobal Health\n\n\nNetworking\n\n\n\nThe event was held to connect alumni and current MSc and PhD students in Global Health between Uppsala University and Karolinska Institutet.\n\n\n\n\n\nFeb 2, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks/2024-11-17_avise_seminar_01/index.html",
+    "href": "talks/2024-11-17_avise_seminar_01/index.html",
+    "title": "How to keep information ‘young’",
+    "section": "",
+    "text": "Recorded\n\nDetails\n📆 November 17, 2024 // 2:00 pm - 3:00 pm CET\n🏨 Virtual\n🌠 The Association of Vietnamese Science and Technology Experts in Sweden\n\n\nAbstract\nWireless communication not only facilitates the transmission of information between mobile users but also serves as a stepping stone for delivering information to subsequent processing points in an intelligent system. In this context, the goal of communication extends beyond ensuring accuracy and continuity to maintaining the value of information. This value can be measured by the freshness of information.\nThe talk will introduce the concept of the “age of information”—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices. The content of the talk is designed for a general audience and does not require a technical background.\n\n\nScreenshot\n\n\n\n\n\nCitationBibTeX citation:@online{nguyen_thanh2024,\n  author = {Nguyen Thanh, Luong},\n  title = {How to Keep Information “Young”},\n  date = {2024-11-17},\n  url = {https://ntluong95.github.io/profile/talks/2024-11-17_avise_seminar_01/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nNguyen Thanh, Luong. 2024. “How to Keep Information\n‘Young’.” November 17, 2024. https://ntluong95.github.io/profile/talks/2024-11-17_avise_seminar_01/."
   },
   {
     "objectID": "projects.html",
@@ -28,18 +35,60 @@
     "text": "GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Research Profile\n  \n\n\n\n\n\n         \n\n\nHi there!\nWelcome to my website — I’m glad you’re here!\nI’m currently a PhD student at Uppsala University, following an academic path rooted in health and sustainability science, with degrees in Public Health (BPH) and One Health/Global Health (MSc).\nBeyond academia, I am passionate about programming, especially in R, with experience building packages, dashboards, Shiny apps, and working with large language models. My technical skills also extend to intermediate Python and foundational knowledge of SQL, HTML, CSS, and JavaScript. I’m especially interested in reproducibility and open science, and finding ways to streamline workflow.\nMy guiding principles in life are kindness, discipline, and integrity. I have found genuine fulfillment in working within the health and sustainability data science field, where I have the opportunity to engage with an inspiring community of like-minded professionals.\nIn my spare time, I love exploring history and diving into subjects related to religion and culture.\n\n\n\nGitHub Streak\n\n\n\n\n\n  \n\n\n  \n\n\n\nNote: Top languages is only a metric of the languages my public code consists of and doesn’t reflect experience or skill level."
   },
   {
-    "objectID": "index.html#hi-there",
-    "href": "index.html#hi-there",
-    "title": "Luong Nguyen Thanh",
-    "section": "Hi there!",
-    "text": "Hi there!\nWelcome to my website — I’m glad you’re here!\nI’m currently a PhD student at Uppsala University, following an academic path rooted in health and sustainability sciences, with degrees in Public Health (BPH) and One Health and Global Health (MSc).\nBeyond academia, I am passionate about programming, especially in R, with experience building packages, dashboards, Shiny apps, and working with large language models. My technical skills also extend to intermediate Python and foundational knowledge of SQL, HTML, CSS, and JavaScript. I’m especially interested in reproducibility and open science, and finding ways to streamline workflow.\nMy guiding principles in life are kindness, discipline, and integrity. I have found genuine fulfillment in working within the health and sustainability data science field, where I have the opportunity to engage with an inspiring community of like-minded professionals.\nIn my spare time, I love exploring history and diving into subjects related to religion and culture."
-  },
-  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "The Data Alchemist",
     "section": "",
     "text": "“Welcome, adventurer! I’m thrilled you’ve joined me on this journey through the world of data science and code. Here, I’ll share the discoveries I’m making, the projects I’m building, and the curiosities I’m exploring—sprinkled with a little feline charm along the way. Let’s learn and uncover insights together!”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositron - a VSCode fork for Data Science\n\n\n\n\n\n\nPython\n\n\nR\n\n\nIDE\n\n\nTool reviews\n\n\n\nAt the end of June, the public beta version of Positron was released. That’s almost 6 months ago, and the Positron team certainly hasn’t been idle! So what happened over the last half year? And is it worth switching? 👀 Some of my personal highlights about this IDE 👇🏻\n\n\n\n\n\nDec 4, 2024\n\n\n5 min\n\n\n\n\n\n\n\n\n\n\n\n\nSwitching from R to Python: A Beginner’s Guide to Equivalent Tools\n\n\n\n\n\n\nPython\n\n\nR\n\n\nData Science\n\n\n\nLearn how to transition from R to Python seamlessly with tools that match your R favorites like dplyr, ggplot2, Shiny, and more.\n\n\n\n\n\nNov 28, 2024\n\n\n5 min\n\n\n\n\n\n\n\n\n\n\n\n\nChoosing a Python dataframe library as a dplyR useR\n\n\n\n\n\n\nR\n\n\nPython\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\n17 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html",
+    "href": "blog/2024-11-28_transition_to_python/index.html",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "",
+    "text": "Transitioning from R to Python can feel like a daunting leap, especially if you’ve grown comfortable with R’s ecosystem. The good news? Python offers several tools and libraries that mimic the syntax and functionality of your favorite R packages. Let’s explore these equivalents to ease your journey."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#data-manipulation-ibis",
+    "href": "blog/2024-11-28_transition_to_python/index.html#data-manipulation-ibis",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "2.1 Data Manipulation: ibis",
+    "text": "2.1 Data Manipulation: ibis\nIn R, dplyr and dbplyr are go-to packages for data manipulation, offering a clean, declarative syntax to filter, mutate, summarize, and join datasets. Python’s ibis serves as an excellent alternative, providing a similar experience for working with structured data.\nWhat sets ibis apart is its performance optimization. It abstracts SQL-like operations and enables you to specify a backend engine, such as DuckDB, Polars, or Pandas. This allows for efficient in-memory data processing or seamless database querying without switching languages. Whether you’re dealing with small data or large-scale analytics, ibis scales beautifully.\nTo get started, explore this dplyr-to-ibis tutorial, which maps your familiar R syntax to ibis equivalents."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#data-visualization-plotnine",
+    "href": "blog/2024-11-28_transition_to_python/index.html#data-visualization-plotnine",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "2.2 Data Visualization: plotnine",
+    "text": "2.2 Data Visualization: plotnine\nggplot2 is beloved in the R community for its intuitive grammar of graphics, enabling users to create complex, layered visualizations with minimal effort. If you’ve relied on ggplot2 for your data storytelling, Python’s plotnine is your best friend.\nplotnine mirrors ggplot2’s syntax almost exactly. It supports layering plots with +, theming options, faceting for multi-panel plots, and customization of aesthetics. As a bonus, Python’s ecosystem integrates well with other visualization libraries, such as Matplotlib and Seaborn, for additional flexibility.\nDive into these plotnine tutorials to recreate your favorite ggplot2 visualizations in Python."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#interactive-web-apps-shiny-for-python",
+    "href": "blog/2024-11-28_transition_to_python/index.html#interactive-web-apps-shiny-for-python",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "2.3 Interactive Web Apps: Shiny for Python",
+    "text": "2.3 Interactive Web Apps: Shiny for Python\nShiny revolutionized how R users build interactive web applications with minimal code. The good news is that Shiny for Python brings the same simplicity to Python, letting you create interactive dashboards, data visualizations, and applications to showcase your work.\nShiny for Python follows a reactive programming paradigm, where outputs automatically update when inputs change. With Python’s robust backend options and Shiny’s UI capabilities, you can build powerful applications for both internal and external stakeholders. Whether you’re demonstrating a machine learning model or building a tool for non-technical audiences, Shiny has you covered.\nCheck out this Shiny for Python guide to start building your first app."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#deploy-machine-learning-models-vetiver",
+    "href": "blog/2024-11-28_transition_to_python/index.html#deploy-machine-learning-models-vetiver",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "2.4 Deploy Machine Learning Models: Vetiver",
+    "text": "2.4 Deploy Machine Learning Models: Vetiver\nDeploying machine learning models can often be complex and time-consuming. R’s vetiver package streamlines this process by creating APIs for your models, and Vetiver for Python does the same, making deployment accessible and consistent.\nWith Vetiver, you can deploy models built using scikit-learn, TensorFlow, PyTorch, or even custom algorithms. It generates prediction endpoints with minimal setup, allowing you to integrate your models into web applications, APIs, or automation workflows. This simplifies the journey from model development to production.\nLearn more about deploying models with vetiver in this comprehensive tutorial."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#publishing-reports-quarto",
+    "href": "blog/2024-11-28_transition_to_python/index.html#publishing-reports-quarto",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "2.5 Publishing Reports: Quarto",
+    "text": "2.5 Publishing Reports: Quarto\nR Markdown users transitioning to Python will be delighted to know that Quarto supports Python as well. Quarto extends the capabilities of R Markdown, enabling you to create HTML, PDF, and Word reports seamlessly. It even allows mixing code from Python, R, and Julia in the same document.\nQuarto offers numerous customization options, such as beautiful themes and dynamic content embedding, making it a versatile tool for technical reports, academic papers, and blog posts. As your projects grow, you can also use Quarto for building websites or books.\nExplore how to use Python with Quarto in this getting started guide."
+  },
+  {
+    "objectID": "blog/2024-11-28_transition_to_python/index.html#an-ide-for-both-worlds-positron",
+    "href": "blog/2024-11-28_transition_to_python/index.html#an-ide-for-both-worlds-positron",
+    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "section": "2.6 An IDE for Both Worlds: Positron",
+    "text": "2.6 An IDE for Both Worlds: Positron\nMany R users prefer RStudio for its clean, feature-rich interface. Fortunately, Positron, developed by Posit (formerly RStudio), provides a similar experience for Python. This integrated development environment (IDE) supports both R and Python, making it perfect for multi-language projects.\nWith Positron, you can enjoy a consistent environment for coding, debugging, and project management. Its features include a robust editor, version control integration, and support for Quarto documents. Download Positron from its GitHub repository and see how it complements your Python workflow."
   },
   {
     "objectID": "blog/2024-11-01_dplyr_candidate/index.html",
@@ -112,53 +161,53 @@
     "text": "Conclusion\nIt’s not a clear-cut choice. None of the options offer a syntax that is as convenient for interactive analysis as dplyr. siuba is the closest to it, but dplyr still has an edge with tidy evaluation, letting users refer to columns in a data frame by their names (colname) directly, without any wrappers. But I’ve also seen it be confusing for newbies to R that mix it up with base R’s syntax. It’s also harder to program with, where it’s necessary to use operators like { } and :=.\nMy appreciation for dplyr (and the closely associated tidyr) grew during this research. Not only is it a widely accepted standard like pandas, it can also be used as a translation layer for backends like SQL databases (including duckdb), data.table, and Spark. All while having the most elegant and flexible syntax available.\nPersonally, I’ll primarily leverage SQL and a OLAP database (such as Clickhouse or Snowflake) running on a server to do the heavy lifting. For steps that are better done locally, I’ll use pandas for maximum compatibility. I find the use of an index inconvenient, but there’s so much online help available on StackOverflow. Github Copilot also deserves a mention for making it easier to pick up. Other use cases can be very different, so I don’t mean to say that my way is the best. For instance, if the data is not already on a server, fast local processing with polars may be best.\nMost data science work happens in a team. Choosing a library that all team members are familiar with is critical for collaboration. That is typically SQL, pandas or dplyr. The performance gains from using a less common library like polars have to be weighed against the effort spent learning the syntax as well as the increased likelihood of bugs, when beginners write in a new syntax.\nRelated articles:\n\nPolars: the fastest DataFrame library you’ve never heard of\nWhat would it take to recreate dplyr in python?\nPandas has a hard job (and does it well)\ndplyr in Python? First impressions of the siuba module\nAn Overview of Python’s Datatable package\nDiscussion of DuckDB on Hacker News\nDiscussion of Polars on Hacker News\nPractical SQL for Data Analysis"
   },
   {
-    "objectID": "blog/2024-11-28_transition_to_python/index.html",
-    "href": "blog/2024-11-28_transition_to_python/index.html",
-    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
+    "objectID": "blog/2024-12-04_positron_review/index.html",
+    "href": "blog/2024-12-04_positron_review/index.html",
+    "title": "Positron - a VSCode fork for Data Science",
     "section": "",
-    "text": "Transitioning from R to Python can feel like a daunting leap, especially if you’ve grown comfortable with R’s ecosystem. The good news? Python offers several tools and libraries that mimic the syntax and functionality of your favorite R packages. Let’s explore these equivalents to ease your journey."
+    "text": "Key notes\n\n\n\n\nThe Data Explorer is a great way to inspect your data! You see things like the percentage of missing data or summary statistics per column. There’s multi-sorting and filtering. Some things are known in RStudio as well, but this Data Explorer goes a few steps further.\nCode completions works out-of-the-box for both R and Python.\nHelp on hover: get some help when hovering over functions\nThe use of extensions: you can use anything from Open VSX and it really makes the IDE “yours”. Some cool ones are: indent-rainbow, TODO highlight and GitLens.\nThe test explorer: a separate pane for R packages with testthat that gives you all kind of insights and actions related to testing."
   },
   {
-    "objectID": "blog/2024-11-28_transition_to_python/index.html#data-manipulation-ibis",
-    "href": "blog/2024-11-28_transition_to_python/index.html#data-manipulation-ibis",
-    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
-    "section": "2.1 Data Manipulation: ibis",
-    "text": "2.1 Data Manipulation: ibis\nIn R, dplyr and dbplyr are go-to packages for data manipulation, offering a clean, declarative syntax to filter, mutate, summarize, and join datasets. Python’s ibis serves as an excellent alternative, providing a similar experience for working with structured data.\nWhat sets ibis apart is its performance optimization. It abstracts SQL-like operations and enables you to specify a backend engine, such as DuckDB, Polars, or Pandas. This allows for efficient in-memory data processing or seamless database querying without switching languages. Whether you’re dealing with small data or large-scale analytics, ibis scales beautifully.\nTo get started, explore this dplyr-to-ibis tutorial, which maps your familiar R syntax to ibis equivalents."
+    "objectID": "blog/2024-12-04_positron_review/index.html#hello-positron-ide-key-features-you-must-know",
+    "href": "blog/2024-12-04_positron_review/index.html#hello-positron-ide-key-features-you-must-know",
+    "title": "Positron - a VSCode fork for Data Science",
+    "section": "1 Hello Positron IDE – Key Features You Must Know",
+    "text": "1 Hello Positron IDE – Key Features You Must Know\nPositron is a next-generation data science IDE delivered by Posit. It’s still in active development, so it’s expected to see some features not working properly (more on this later). But, as mentioned in the introduction, it’s in public beta, which means you’re free to take it for a spin!\nYou can download the latest Positron release from the official GitHub releases page.\nIn essence, Positron is a fork of a famous IDE – Visual Studio Code. If you’re familiar with it, Positron should feel right at home. It has some neat features delivered out of the box, but you could configure most of these through plugins on a fresh VSCode installation."
   },
   {
-    "objectID": "blog/2024-11-28_transition_to_python/index.html#data-visualization-plotnine",
-    "href": "blog/2024-11-28_transition_to_python/index.html#data-visualization-plotnine",
-    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
-    "section": "2.2 Data Visualization: plotnine",
-    "text": "2.2 Data Visualization: plotnine\nggplot2 is beloved in the R community for its intuitive grammar of graphics, enabling users to create complex, layered visualizations with minimal effort. If you’ve relied on ggplot2 for your data storytelling, Python’s plotnine is your best friend.\nplotnine mirrors ggplot2’s syntax almost exactly. It supports layering plots with +, theming options, faceting for multi-panel plots, and customization of aesthetics. As a bonus, Python’s ecosystem integrates well with other visualization libraries, such as Matplotlib and Seaborn, for additional flexibility.\nDive into these plotnine tutorials to recreate your favorite ggplot2 visualizations in Python."
+    "objectID": "blog/2024-12-04_positron_review/index.html#rstudio-meets-visual-studio-code",
+    "href": "blog/2024-12-04_positron_review/index.html#rstudio-meets-visual-studio-code",
+    "title": "Positron - a VSCode fork for Data Science",
+    "section": "2 RStudio Meets Visual Studio Code",
+    "text": "2 RStudio Meets Visual Studio Code\nHere’s what you’ll see when you first launch Positron:\n\n\n\n\n\n\n\n\n\nImage 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.\n\n\n\n\nThe top left panel allows you to start working on your data science projects – either in R or Python, through a notebook or file. Positron automatically detects installed programming languages and their version, but also picks up any virtual environments you’ve previously created:\n\n\n\n\n\n\n\n\n\nImage 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."
   },
   {
-    "objectID": "blog/2024-11-28_transition_to_python/index.html#interactive-web-apps-shiny-for-python",
-    "href": "blog/2024-11-28_transition_to_python/index.html#interactive-web-apps-shiny-for-python",
-    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
-    "section": "2.3 Interactive Web Apps: Shiny for Python",
-    "text": "2.3 Interactive Web Apps: Shiny for Python\nShiny revolutionized how R users build interactive web applications with minimal code. The good news is that Shiny for Python brings the same simplicity to Python, letting you create interactive dashboards, data visualizations, and applications to showcase your work.\nShiny for Python follows a reactive programming paradigm, where outputs automatically update when inputs change. With Python’s robust backend options and Shiny’s UI capabilities, you can build powerful applications for both internal and external stakeholders. Whether you’re demonstrating a machine learning model or building a tool for non-technical audiences, Shiny has you covered.\nCheck out this Shiny for Python guide to start building your first app."
+    "objectID": "blog/2024-12-04_positron_review/index.html#multi-language-support",
+    "href": "blog/2024-12-04_positron_review/index.html#multi-language-support",
+    "title": "Positron - a VSCode fork for Data Science",
+    "section": "3 Multi-Language Support",
+    "text": "3 Multi-Language Support\nThe big selling point of Positron IDE is that it comes configured for R and Python out of the box – Jupyter Notebooks included. This means you don’t have to set everything up from scratch, which in the case of R and Jupyter is not as easy as it sounds.\nTo create a new R script, click on the New File button on the welcome screen and select R File. Writing and running code works just like in RStudio – Command/Control + Enter will run the cell on which your cursor is located:\n\n\n\n\n\n\n\n\n\nImage 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it\n\n\n\n\n\n\n\n\n\n\n\n\n\nImage 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.\n\n\n\n\nBecause of this flexibility, you can also sprinkle text/markdown content between your cells to provide resources or explanations:\n\n\n\n\n\n\n\n\n\nImage 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.\n\n\n\n\n‍"
   },
   {
-    "objectID": "blog/2024-11-28_transition_to_python/index.html#deploy-machine-learning-models-vetiver",
-    "href": "blog/2024-11-28_transition_to_python/index.html#deploy-machine-learning-models-vetiver",
-    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
-    "section": "2.4 Deploy Machine Learning Models: Vetiver",
-    "text": "2.4 Deploy Machine Learning Models: Vetiver\nDeploying machine learning models can often be complex and time-consuming. R’s vetiver package streamlines this process by creating APIs for your models, and Vetiver for Python does the same, making deployment accessible and consistent.\nWith Vetiver, you can deploy models built using scikit-learn, TensorFlow, PyTorch, or even custom algorithms. It generates prediction endpoints with minimal setup, allowing you to integrate your models into web applications, APIs, or automation workflows. This simplifies the journey from model development to production.\nLearn more about deploying models with vetiver in this comprehensive tutorial."
+    "objectID": "blog/2024-12-04_positron_review/index.html#dataframe-viewer",
+    "href": "blog/2024-12-04_positron_review/index.html#dataframe-viewer",
+    "title": "Positron - a VSCode fork for Data Science",
+    "section": "4 DataFrame Viewer",
+    "text": "4 DataFrame Viewer\nDataframes are the core of all data science workflows, so having an IDE that can display all relevant information about them is a must-have feature.\nPositron allows you to print the dataframe content to the R console by calling R-specific functions, such as head():\n‍\n\n\n\n\n\n\n\n\n\nImage 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer.\n\n\n\n\n‍Once your dataframe is declared, you’ll see it in the Variables panel. You can expand the variable to view all columns and their respective values, or you can click on the table column to inspect the dataframe in an Excel-like fashion\n\n\n\n\n\n\n\n\n\nImage 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.\n\n\n\n\nThe Data Explorer has three primary components, discussed in greater detail in the sections below:\n\nData grid: Spreadsheet-like display of the individual cells and columns, as well as sorting\nSummary panel: Column name, type and missing data percentage for each column\nFilter bar: Ephemeral filters for specific columns\n\n\n\n\n\n\n\n\n\n\nImage 8 – Data Explorer three main components."
   },
   {
-    "objectID": "blog/2024-11-28_transition_to_python/index.html#publishing-reports-quarto",
-    "href": "blog/2024-11-28_transition_to_python/index.html#publishing-reports-quarto",
-    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
-    "section": "2.5 Publishing Reports: Quarto",
-    "text": "2.5 Publishing Reports: Quarto\nR Markdown users transitioning to Python will be delighted to know that Quarto supports Python as well. Quarto extends the capabilities of R Markdown, enabling you to create HTML, PDF, and Word reports seamlessly. It even allows mixing code from Python, R, and Julia in the same document.\nQuarto offers numerous customization options, such as beautiful themes and dynamic content embedding, making it a versatile tool for technical reports, academic papers, and blog posts. As your projects grow, you can also use Quarto for building websites or books.\nExplore how to use Python with Quarto in this getting started guide."
+    "objectID": "blog/2024-12-04_positron_review/index.html#plot-viewer",
+    "href": "blog/2024-12-04_positron_review/index.html#plot-viewer",
+    "title": "Positron - a VSCode fork for Data Science",
+    "section": "5 Plot Viewer",
+    "text": "5 Plot Viewer\nAn amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface. Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel ‍\n\n\n\n\n\n\n\n\n\nImage 9 – Plot inspection"
   },
   {
-    "objectID": "blog/2024-11-28_transition_to_python/index.html#an-ide-for-both-worlds-positron",
-    "href": "blog/2024-11-28_transition_to_python/index.html#an-ide-for-both-worlds-positron",
-    "title": "Switching from R to Python: A Beginner’s Guide to Equivalent Tools",
-    "section": "2.6 An IDE for Both Worlds: Positron",
-    "text": "2.6 An IDE for Both Worlds: Positron\nMany R users prefer RStudio for its clean, feature-rich interface. Fortunately, Positron, developed by Posit (formerly RStudio), provides a similar experience for Python. This integrated development environment (IDE) supports both R and Python, making it perfect for multi-language projects.\nWith Positron, you can enjoy a consistent environment for coding, debugging, and project management. Its features include a robust editor, version control integration, and support for Quarto documents. Download Positron from its GitHub repository and see how it complements your Python workflow."
+    "objectID": "blog/2024-12-04_positron_review/index.html#variable-inspector",
+    "href": "blog/2024-12-04_positron_review/index.html#variable-inspector",
+    "title": "Positron - a VSCode fork for Data Science",
+    "section": "6 Variable Inspector",
+    "text": "6 Variable Inspector\nBeing able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface. As you can see, you can drill down into all the small pieces that are combined to make complex objects.\n\n\n\n\n\n\n\n\n\nImage 10 – Variable inspection"
   },
   {
     "objectID": "cv.html",
@@ -224,94 +273,17 @@
     "text": "App  Code\nThe ShinyApp is the supplementary materials for the article:\nAssociation between national policy and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023\nPeter Søgaard Jørgensen1,2,3,, Luong Nguyen Thanh1,3, Ege Pehlivanoglu1, Franziska Klein1,#a, Didier Wernli4, Dusan Jasovsky5,#b, Athena Aktipis6, Rob R. Dunn7, Yrjo Gröhn8, Guillaume Lhermie8,#c, H. Morgan Scott9, Eili Y. Klein10,11\nAffiliations:\n1 Global Economic Dynamics and the Biosphere, The Royal Swedish Academy of Sciences, SE-114 18, Stockholm, Sweden\n2 Stockholm Resilience Centre, Stockholm University, SE-106 91, Stockholm, Sweden\n3 Uppsala Antibiotic Centre and Department of Women’s and Children’s Health, Uppsala University, SE-751 05, Uppsala, Sweden\n4 University of Geneva, Global Studies Institute, Transformative Governance Lab, CH-1211 Genève 4, Switzerland\n5 Uppsala University, ReAct Europe, SE-753 10, Uppsala, Sweden\n6 Arizona State University, Department of Psychology, Tempe, AZ 85281, USA\n7 North Carolina State University, Department of Applied Ecology, Raleigh, NC 27695-7617, USA\n8 Cornell University, College of Veterinary Medicine, Ithaca, NY 14853, USA\n9 Texas A&M University, College Station, TX 77843-4467, USA\n10 One Health Trust, Washington, D.C. 20015, USA\n11 Johns Hopkins School of Medicine, Department of Emergency Medicine, Baltimore, MD 21205, USA\n\n\n\nScreenshot from the App"
   },
   {
-    "objectID": "talks/2024-11-17_avise_seminar_01/index.html",
-    "href": "talks/2024-11-17_avise_seminar_01/index.html",
-    "title": "How to keep information ‘young’",
+    "objectID": "talks/2024-02-02_globelife_02/index.html",
+    "href": "talks/2024-02-02_globelife_02/index.html",
+    "title": "GlobalLife Annual Networking Event",
     "section": "",
-    "text": "Recorded\n\nDetails\n📆 November 17, 2024 // 2:00 pm - 3:00 pm CET\n🏨 Virtual\n🌠 The Association of Vietnamese Science and Technology Experts in Sweden\n\n\nAbstract\nWireless communication not only facilitates the transmission of information between mobile users but also serves as a stepping stone for delivering information to subsequent processing points in an intelligent system. In this context, the goal of communication extends beyond ensuring accuracy and continuity to maintaining the value of information. This value can be measured by the freshness of information.\nThe talk will introduce the concept of the “age of information”—a metric used to assess the freshness of information—and analyze this metric within a random multi-access system involving numerous devices. The content of the talk is designed for a general audience and does not require a technical background.\n\n\nScreenshot\n\n\n\n\n\nCitationBibTeX citation:@online{nguyen_thanh2024,\n  author = {Nguyen Thanh, Luong},\n  title = {How to Keep Information “Young”},\n  date = {2024-11-17},\n  url = {https://ntluong95.github.io/profile/talks/2024-11-17_avise_seminar_01/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nNguyen Thanh, Luong. 2024. “How to Keep Information\n‘Young’.” November 17, 2024. https://ntluong95.github.io/profile/talks/2024-11-17_avise_seminar_01/."
+    "text": "Details\n📆 February 02, 2024 // 5:00 pm - 8:00 pm CET\n🏨 Virtual\n🌠 GlobeLife\n\n\nAbstract\nOn Friday, 2/2/2024! The GlobeLife Student Section is thrilled to announce our inaugural “Annual Networking Event,” fostering connections between alumni and current MSc and PhD students in Global Health from Uppsala University and Karolinska Institutet.\n🤝 Join us for an evening of networking, where you can meet like-minded individuals and expand your professional network within the Global Health community.\n📅 Date: Friday, 2/2/2024 📍 Location: KI Solna campus 🚨 Limited seats available – first come, first served! We’re also providing transportation support between Uppsala University and Karolinska Institute.\nInvited speakers are: * Abdel El Manira, The Nobel committee for Physiology or Medicine * Eva Garmendia, Communication Expert and Project Coordinator, Uppsala Antibiotic Center.\n🔗 Ready to secure your spot? Register now by scanning the QR code in the flyer below or by clicking on this link: https://lnkd.in/dS9nf_4G\n\n\nScreenshot\n\n\n\n\n\nCitationBibTeX citation:@online{nguyen_thanh2024,\n  author = {Nguyen Thanh, Luong},\n  title = {GlobalLife {Annual} {Networking} {Event}},\n  date = {2024-02-02},\n  url = {https://ntluong95.github.io/profile/talks/2024-02-02_globelife_02/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nNguyen Thanh, Luong. 2024. “GlobalLife Annual Networking\nEvent.” February 2, 2024. https://ntluong95.github.io/profile/talks/2024-02-02_globelife_02/."
   },
   {
-    "objectID": "blog/2024-12-04_positron_review/index.html",
-    "href": "blog/2024-12-04_positron_review/index.html",
-    "title": "Positron - a VSCode fork for Data Science",
+    "objectID": "talks/2024-12-05_globelife_04/index.html",
+    "href": "talks/2024-12-05_globelife_04/index.html",
+    "title": "Building your future career in Global Health",
     "section": "",
-    "text": "Key notes\n\n\n\n\nThe Data Explorer is a great way to inspect your data! You see things like the percentage of missing data or summary statistics per column. There’s multi-sorting and filtering. Some things are known in RStudio as well, but this Data Explorer goes a few steps further.\nCode completions works out-of-the-box for both R and Python.\nHelp on hover: get some help when hovering over functions\nThe use of extensions: you can use anything from Open VSX and it really makes the IDE “yours”. Some cool ones are: indent-rainbow, TODO highlight and GitLens.\nThe test explorer: a separate pane for R packages with testthat that gives you all kind of insights and actions related to testing."
-  },
-  {
-    "objectID": "blog/2024-12-04_positron_review/index.html#hello-positron-ide-key-features-you-must-know",
-    "href": "blog/2024-12-04_positron_review/index.html#hello-positron-ide-key-features-you-must-know",
-    "title": "Positron - a VSCode fork for Data Science",
-    "section": "1 Hello Positron IDE – Key Features You Must Know",
-    "text": "1 Hello Positron IDE – Key Features You Must Know\nPositron is a next-generation data science IDE delivered by Posit. It’s still in active development, so it’s expected to see some features not working properly (more on this later). But, as mentioned in the introduction, it’s in public beta, which means you’re free to take it for a spin!\nYou can download the latest Positron release from the official GitHub releases page.\nIn essence, Positron is a fork of a famous IDE – Visual Studio Code. If you’re familiar with it, Positron should feel right at home. It has some neat features delivered out of the box, but you could configure most of these through plugins on a fresh VSCode installation."
-  },
-  {
-    "objectID": "blog/2024-12-04_positron_review/index.html#running-code-in-positron-ide-tips-and-tricks",
-    "href": "blog/2024-12-04_positron_review/index.html#running-code-in-positron-ide-tips-and-tricks",
-    "title": "Positron - a VSCode fork for Data Science",
-    "section": "2 Running Code In Positron IDE – Tips And Tricks",
-    "text": "2 Running Code In Positron IDE – Tips And Tricks\nPositron, being a mixture of RStudio and Visual Studio Code, combines the best features of both worlds. This section will take you through useful keyboard shortcuts and features for working with data.\n\nUseful Shortcuts\nWhile you don’t necessarily need to use keyboard shortcuts, they significantly improve developer productivity. The following image illustrates what it takes to run a single cell without keyboard shortcuts:\n‍\nImage 9 – Running Jupyter cell without shortcuts Manually clicking on the play button will become pretty annoying after a couple of iterations. Instead, you can opt for one of the following:\nControl + Enter: Run the current cell without creating a new one Shift + Enter: Run the current cell and create a new cell for the same programming language While in a notebook environment, you might also find the following shortcuts useful:\nC: Copy cell X: Cut cell V: Paste cell D: Delete cell Command/Control + P: Navigate between files Note that they are different from the usual jupyter notebook keyboard shortcuts, but you can see the full list of available shortcuts in Settings – Keyboard Shortcuts. Every shortcut is adjustable.\n\n\nDataFrame Viewer\nDataframes are the core of all data science workflows, so having an IDE that can display all relevant information about them is a must-have feature.\nPositron allows you to print the dataframe content to the R console by calling R-specific functions, such as head():\n‍\nImage 10 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer. Once your dataframe is declared, you’ll see it in the Variables panel. You can expand the variable to view all columns and their respective values, or you can click on the table column to inspect the dataframe in an Excel-like fashion:\n‍\nImage 11 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.\n\n\nPlot Viewer\nAn amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface:\n‍\nImage 12 – Plot inspection Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel:\n‍\nImage 13 – Plot inspection (2) Up next, let’s discuss the powerful and improved variable inspector.\n\n\nVariable Inspector\nBeing able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface:\n‍\nImage 14 – Variable inspection As you can see, you can drill down into all the small pieces that are combined to make complex objects."
-  },
-  {
-    "objectID": "README-THAM_KHAO.html",
-    "href": "README-THAM_KHAO.html",
-    "title": "Welcome to Luong Nguyen’s Profile 👋",
-    "section": "",
-    "text": "Hey there! I’m a self-taught Full-Stack developer hailing from the beautiful country of Vietnam 🇻🇳. When I’m not typing away at my keyboard, you can find me sipping on some coffee and munching on some delicious street food.\n\n🔭 Currently, I’m embarking on a 365-day commit challenge, which means my GitHub chart is looking greener than a jungle! But let’s be real, who doesn’t love a green chart?\n🌱 I’m all about React, Typescript, NextJS, and TailwindCSS, and I’m always looking for ways to create beautiful and speedy applications. Oh, and did I mention that I’m a proud Neovim user? Yeah, I like to live on the edge.\n👉 Check out my repo for some cool stuff I have been doing. Hit me up if you ever need a chat or have some ideas. My DMs are always open, well at least when I’m not stuck in Vim.\n\n\n\n\n           \n \n\n\n\n\n\n                   \n\n\n\n\n\n\nGitHub Streak\n\n\n\n\n\n     Note: Top languages is only a metric of the languages my public code consists of and doesn’t reflect experience or skill level."
-  },
-  {
-    "objectID": "README-THAM_KHAO.html#streak-stats",
-    "href": "README-THAM_KHAO.html#streak-stats",
-    "title": "Welcome to Luong Nguyen’s Profile 👋",
-    "section": "",
-    "text": "GitHub Streak"
-  },
-  {
-    "objectID": "README-THAM_KHAO.html#github-stats",
-    "href": "README-THAM_KHAO.html#github-stats",
-    "title": "Welcome to Luong Nguyen’s Profile 👋",
-    "section": "",
-    "text": "Note: Top languages is only a metric of the languages my public code consists of and doesn’t reflect experience or skill level."
-  },
-  {
-    "objectID": "index.html#streak-stats",
-    "href": "index.html#streak-stats",
-    "title": "Luong Nguyen Thanh",
-    "section": "🔥 Streak stats",
-    "text": "🔥 Streak stats\n\n\n\nGitHub Streak"
-  },
-  {
-    "objectID": "blog/2024-12-04_positron_review/index.html#rstudio-meets-visual-studio-code",
-    "href": "blog/2024-12-04_positron_review/index.html#rstudio-meets-visual-studio-code",
-    "title": "Positron - a VSCode fork for Data Science",
-    "section": "2 RStudio Meets Visual Studio Code",
-    "text": "2 RStudio Meets Visual Studio Code\nHere’s what you’ll see when you first launch Positron:\n\n\n\n\n\n\n\n\n\nImage 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.\n\n\n\n\nThe top left panel allows you to start working on your data science projects – either in R or Python, through a notebook or file. Positron automatically detects installed programming languages and their version, but also picks up any virtual environments you’ve previously created:\n\n\n\n\n\n\n\n\n\nImage 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."
-  },
-  {
-    "objectID": "blog/2024-12-04_positron_review/index.html#multi-language-support",
-    "href": "blog/2024-12-04_positron_review/index.html#multi-language-support",
-    "title": "Positron - a VSCode fork for Data Science",
-    "section": "3 Multi-Language Support",
-    "text": "3 Multi-Language Support\nThe big selling point of Positron IDE is that it comes configured for R and Python out of the box – Jupyter Notebooks included. This means you don’t have to set everything up from scratch, which in the case of R and Jupyter is not as easy as it sounds.\nTo create a new R script, click on the New File button on the welcome screen and select R File. Writing and running code works just like in RStudio – Command/Control + Enter will run the cell on which your cursor is located:\n\n\n\n\n\n\n\n\n\nImage 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it\n\n\n\n\n\n\n\n\n\n\n\n\n\nImage 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.\n\n\n\n\nBecause of this flexibility, you can also sprinkle text/markdown content between your cells to provide resources or explanations:\n\n\n\n\n\n\n\n\n\nImage 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.\n\n\n\n\n‍"
-  },
-  {
-    "objectID": "blog/2024-12-04_positron_review/index.html#dataframe-viewer",
-    "href": "blog/2024-12-04_positron_review/index.html#dataframe-viewer",
-    "title": "Positron - a VSCode fork for Data Science",
-    "section": "4 DataFrame Viewer",
-    "text": "4 DataFrame Viewer\nDataframes are the core of all data science workflows, so having an IDE that can display all relevant information about them is a must-have feature.\nPositron allows you to print the dataframe content to the R console by calling R-specific functions, such as head():\n‍\n\n\n\n\n\n\n\n\n\nImage 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer.\n\n\n\n\n‍Once your dataframe is declared, you’ll see it in the Variables panel. You can expand the variable to view all columns and their respective values, or you can click on the table column to inspect the dataframe in an Excel-like fashion\n\n\n\n\n\n\n\n\n\nImage 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.\n\n\n\n\nThe Data Explorer has three primary components, discussed in greater detail in the sections below:\n\nData grid: Spreadsheet-like display of the individual cells and columns, as well as sorting\nSummary panel: Column name, type and missing data percentage for each column\nFilter bar: Ephemeral filters for specific columns\n\n\n\n\n\n\n\n\n\n\nImage 8 – Data Explorer three main components."
-  },
-  {
-    "objectID": "blog/2024-12-04_positron_review/index.html#plot-viewer",
-    "href": "blog/2024-12-04_positron_review/index.html#plot-viewer",
-    "title": "Positron - a VSCode fork for Data Science",
-    "section": "5 Plot Viewer",
-    "text": "5 Plot Viewer\nAn amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface. Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel ‍\n\n\n\n\n\n\n\n\n\nImage 9 – Plot inspection"
-  },
-  {
-    "objectID": "blog/2024-12-04_positron_review/index.html#variable-inspector",
-    "href": "blog/2024-12-04_positron_review/index.html#variable-inspector",
-    "title": "Positron - a VSCode fork for Data Science",
-    "section": "6 Variable Inspector",
-    "text": "6 Variable Inspector\nBeing able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface. As you can see, you can drill down into all the small pieces that are combined to make complex objects.\n\n\n\n\n\n\n\n\n\nImage 10 – Variable inspection"
+    "text": "Details\n📆 December 05, 2024 // 1:30 pm - 3:00 pm CET\n🏨 Virtual\n🌠 GlobeLife\n\n\nAbstract\nInternships are essential for gaining work experience and often a requirement for many jobs. Applying for competitive positions, like those at the WHO, can sometimes feel like a lottery or shooting an arrow into a black box, hoping to hit the target.\nJoin us to receive insider tips and learn about the value of internships from those who have successfully navigated this path.\n\n\nScreenshot\n\n\n\n\n\nCitationBibTeX citation:@online{nguyen_thanh2024,\n  author = {Nguyen Thanh, Luong},\n  title = {Building Your Future Career in {Global} {Health}},\n  date = {2024-12-05},\n  url = {https://ntluong95.github.io/profile/talks/2024-12-05_globelife_04/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nNguyen Thanh, Luong. 2024. “Building Your Future Career in Global\nHealth.” December 5, 2024. https://ntluong95.github.io/profile/talks/2024-12-05_globelife_04/."
   }
 ]

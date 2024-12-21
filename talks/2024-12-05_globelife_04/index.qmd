@@ -1,0 +1,27 @@
+---
+title: "Building your future career in Global Health"
+description: "The GlobeLife Students Section ONLINE event on 'Insights and Internships: Building your future career in Global Health' aims to provide insider tips and share about the value of internships from decent speakers who have successfully navigated this path."
+author: Luong Nguyen Thanh
+date: "2024-12-05"
+image: globelife_04.png
+image-alt: "Poster of the event"
+categories:
+  - Global Health
+  - Internship
+---
+
+### Details
+
+📆 December 05, 2024 // 1:30 pm - 3:00 pm CET  
+🏨 Virtual  
+🌠 [GlobeLife](https://www.linkedin.com/company/77266299/)
+
+### Abstract
+
+Internships are essential for gaining work experience and often a requirement for many jobs. Applying for competitive positions, like those at the WHO, can sometimes feel like a lottery or shooting an arrow into a black box, hoping to hit the target. 
+
+Join us to receive insider tips and learn about the value of internships from those who have successfully navigated this path.
+
+### Screenshot
+
+![](screenshot.png)
