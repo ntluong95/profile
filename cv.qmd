@@ -124,19 +124,19 @@ Applied Epi
 ```{r}
 #| echo: false
 #| fig-align: center
-#| out-width: 70%
+#| out-width: 100%
 knitr::include_graphics(here::here("assets/img/AE-leadership.png"))
 ```
 
 
-<!-- ![R training conducted by WHO for Philippines MoH.](assets/img/Ae-training.jpg) -->
+![R training conducted by WHO for Philippines MoH.](assets/img/Ae-training.jpg)
 
-```{r}
+<!-- ```{r}
 #| echo: false
 #| fig-align: center
 #| out-width: 70%
 knitr::include_graphics(here::here("assets/img/AE-training.jpg"))
-```
+``` -->
 
 
 ::::: {.d-inline-flex style="align-items:baseline"}
