@@ -1,0 +1,30 @@
+---
+title: "AI in Global Health - Applications & Ethical dilemmas"
+description: "How is AI changing the future of healthcare—and your role in it? Join us for an interactive session with three experts leading the way in AI-driven diagnostics, research, and ethics. Discover real-world applications, debate ethical dilemmas, and explore how AI could shape your career in global health."
+author: Luong Nguyen Thanh
+date: "2025-02-14"
+image: globelife_05.png
+image-alt: "Poster of the event"
+categories:
+  - Global Health
+  - Artificial Intelligence
+---
+
+<a href="https://www.globelife.se/w/gl/en/student-section/recordings-student-section-seminars" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recording</a>
+
+### Details
+
+📆 February 14, 2025 // 1:30 pm - 2:30 pm CET  
+🏨 Virtual  
+🌠 [GlobeLife](https://www.linkedin.com/company/77266299/)
+
+### Abstract
+
+How is AI changing the future of healthcare—and your role in it? Join us for an interactive session with three experts leading the way in AI-driven diagnostics, research, and ethics. Discover real-world applications, debate ethical dilemmas, and explore how AI could shape your career in global health. 
+
+Nina Linder: Discover a groundbreaking AI-powered method for cervical cancer screening. Nina will showcase how mobile diagnostics, enhanced by wireless connectivity and advanced AI analysis, are transforming access to quality care in low-resource settings.
+
+Johan Lagerros: Explore the applications of AI in study and research. Johan will discuss how AI tools are reshaping study methodologies and unlocking new insights, driving forward the frontier of scientific research.
+
+Lovisa Håkansson: Engage in an interactive discussion on the ethical use of AI in study and research. Lovisa will lead a collaborative dialogue, encouraging participants to share insights and explore responsible practices for integrating AI technologies in research environments. 
+

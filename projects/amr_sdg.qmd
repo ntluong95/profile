@@ -14,7 +14,7 @@ categories:
 
 The ShinyApp is the supplementary materials for the article:
 
-**"When Global Health meets Global Goals”: A comparative analysis the alignment between National Action Plans for AMR and Sustainable Development**
+**"When global health meets global goals’: assessing the alignment between antimicrobial resistance and sustainable development policies in 10 African and Asian countries**. *BMJ Global Health*
 
 *Luong Nguyen-Thanh^1,2,4^, Didier Wernli^3^, Mats Målqvist^1^, Peter Søgaard Jørgensen^1,4,5^*
 

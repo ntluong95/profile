@@ -10,6 +10,8 @@ categories:
   - Internship
 ---
 
+<a href="https://www.globelife.se/w/gl/en/student-section/recordings-student-section-seminars" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recording</a>
+
 ### Details
 
 📆 December 05, 2024 // 1:30 pm - 3:00 pm CET  

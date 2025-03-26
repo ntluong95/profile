@@ -10,6 +10,8 @@ categories:
   - Networking
 ---
 
+<a href="https://www.globelife.se/w/gl/en/student-section/recordings-student-section-seminars" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recording</a>
+
 ### Details
 
 📆 February 02, 2024 // 5:00 pm - 8:00 pm CET  

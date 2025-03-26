@@ -10,7 +10,7 @@ categories:
   - Technology
 ---
 
-<a href="https://drive.google.com/file/d/1wdA8ZnNlShH7SlAg7ABdzdFB4m7nibVF/view" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recorded</a>
+<a href="https://drive.google.com/file/d/1wdA8ZnNlShH7SlAg7ABdzdFB4m7nibVF/view" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recording</a>
 
 ### Details
 

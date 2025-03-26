@@ -32,19 +32,19 @@ website:
     pinned: true
     logo: assets/img/JR-logo-circle.webp
     left:
-      - text: About
+      - text: About me
         icon: person-circle
         href: index.qmd
-      - text: CV
+      - text: Curriculum Vitae
         icon: file-earmark-text-fill
         href: cv.qmd
-      - text: Blog
+      - text: Personal Blog
         icon: pen-fill
         href: blog.qmd
       - text: Event organized
         icon: people-fill
         href: talks.qmd
-      - text: Projects
+      - text: Personal Projects
         icon: puzzle-fill
         href: projects.qmd
 

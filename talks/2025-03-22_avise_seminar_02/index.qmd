@@ -1,0 +1,33 @@
+---
+title: "From musical practice to artistic reseaarch"
+description: "In this talk, Dr. Nguyễn Thanh Thủy will share about the journey from her personal questions in music practice to the experiments in her artistic research."
+author: Luong Nguyen Thanh
+date: "2025-03-22"
+image: avise_seminar_02.png
+image-alt: "Poster of the event"
+categories:
+  - Artistic Research
+---
+
+<a href="https://drive.google.com/file/d/1M2TVkptnkJKpVItTsJYIGkjKFomcM-5a/view?usp=drive_link" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recording</a>
+
+### Details
+
+📆 March 22, 2023 // 2:00 pm - 3:00 pm CET  
+🏨 Virtual  
+🌠 [The Association of Vietnamese Science and Technology Experts in Sweden](https://www.linkedin.com/groups/14482383/)
+
+### Abstract
+
+Xin chào các bạn,
+AVISE xin hân hạnh giới thiệu Chương trình Seminar khoa học thường kỳ. Seminar số 2 sẽ được tổ chức vào ngày Thứ bảy 22/3/2025 với chủ đề "Từ thực hành âm nhạc đến nghiên cứu nghệ thuật" (From musical practice to artistic research)
+
+Diễn giả lần này, Tiến sĩ, Nghệ sĩ đàn tranh Nguyễn Thanh Thủy sẽ chia sẻ quá trình từ những câu hỏi cá nhân trong thực hành âm nhạc dẫn đến những thử nghiệm trong nghiên cứu nghệ thuật của chị.
+
+Để không bỏ lỡ, hãy đăng ký ngay tại link https://lnkd.in/d-ZatXaJ hoặc scan mã QR ở poster đính kèm! 
+
+Nếu bạn mong muốn cập nhật các sự kiện tiếp theo của AVISE, hoặc quan tâm trở thành thành viên chính thức của Hội, hãy theo dõi chúng tôi trên group LinkedIn này hoặc Facebook tại đường link https://lnkd.in/dB4hdh4a
+Cảm ơn các bạn đã quan tâm. Hẹn gặp các bạn vào ngày 22/3 tới!
+Trân trọng,
+AVISE
+

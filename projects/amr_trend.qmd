@@ -14,7 +14,7 @@ categories:
 
 The ShinyApp is the supplementary materials for the article:
 
-**Association between national policy and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023**
+**Association between national policy and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023**. *PLOS Global Public Health*
 
 Peter Søgaard Jørgensen^1,2,3^,, Luong Nguyen Thanh^1,3^, Ege Pehlivanoglu^1^, Franziska Klein^1,#a^, Didier Wernli^4^, Dusan Jasovsky^5,#b^, Athena Aktipis^6^, Rob R. Dunn^7^, Yrjo Gröhn^8^, Guillaume Lhermie^8,#c^, H. Morgan Scott^9^, Eili Y. Klein^10,11^
 
