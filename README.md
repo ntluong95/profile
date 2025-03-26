@@ -1,21 +1,3 @@
-::: {#hero-heading}
-:::
-
-<!-- Search in "Go to file" here https://github.com/devicons/devicon -->
-<p align="center" style="margin: 0em 0;">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-plain.svg" alt="R" width="30px"  style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" width="30px" style="padding-right:10px;" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" alt="VSCode" width="30px" style="padding-right:10px;" />
-</p>
-
-
 # Hi there!
 
 Welcome to my website — I'm glad you're here!
@@ -28,8 +10,6 @@ Beyond academia, I am `passionate about programming`, especially in R, with expe
 My guiding principles in life are **kindness**, **discipline**, and **integrity**. I have found genuine fulfillment in working within the health and sustainability data science field, where I have the opportunity to engage with an inspiring community of like-minded professionals. I am also cautiously optimistic about AI. With a keen eye on the interplay between human actions and technological advancements, I aim to understand and leverage this relationship for societal and health betterment, seeking to uncover novel ways in which technology can be harnessed to shape positive health outcomes.
 
 In my spare time, I love exploring history and diving into subjects related to religion and culture.
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=ntluong95&theme=react&hide_border=true&fire=FF8C3E&ring=FF9FE1&stroke=FF9FE1)](https://git.io/streak-stats)
 
 <table>
   <tr>
