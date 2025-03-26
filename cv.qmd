@@ -167,7 +167,7 @@ Supported three research projects on sanitation, food safety, and disease preven
 ```{r}
 #| echo: false
 #| fig-align: center
-#| out-width: 70%
+#| out-width: 100%
 knitr::include_graphics(here::here("assets/img/berlin.jpg"))
 ```
 
