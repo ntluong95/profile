@@ -1,0 +1,70 @@
+---
+title: "Introduction to R and statistical packages in environmental epidemiology"
+description: "A capacity-building seminar on using R-program for assessing climate impact on health outcomes for master students at the School of Public Health and Community Medicine, Institute of Medicine, University of Gothenburg, Sweden"
+author: 
+  - name: Luong Nguyen Thanh
+date: "2025-04-28"
+image: feature_1.png
+image-alt: "Poster for Introduction to R and statistical packages in environmental epidemiology"
+categories:
+  - R
+  - Quarto
+  - Environmental Epidemiology
+---
+
+<span class="listing-btn-group">
+<a href="https://ntluong95.quarto.pub/gothenburg_ws2025/" class="btn" role="button">{{< fa display >}} Slides</a> 
+<a href="https://github.com/ntluong95/gothenburg_ws" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+### Details
+
+📆 April 28-29 2025
+🏨 On-site  
+🏡 [Workshop website](https://ntluong95.quarto.pub/gothenburg_ws2025/)  
+🔖 [Source tag](https://github.com/ntluong95/gothenburg_ws)
+
+# Description
+
+This workshop is designed to build foundational skills in R, covering everything from importing and cleaning data to transforming it for analysis. It also introduces essential statistical techniques used in environmental epidemiology, including `Distributed Lag Non-linear Models (DLNM)`, `Cox regression`, `time series analysis`, and data visualization with `ggplot2`.
+
+# Learning objectives
+
+- Develop proficiency in using R to import, clean, and transform data, ensuring it is analysis-ready.
+- Understand and apply common statistical methods in environmental epidemiology, such as DLNM, Cox regression, and time series analysis.
+- Master the creation of effective visualizations with ggplot2 to communicate data insights.
+- Gain practical experience in preparing and analyzing environmental health data using R.
+
+# Schedule
+
+## Day 1
+
+| Time           | Topic                                                                                   |
+|----------------|-----------------------------------------------------------------------------------------|
+| 9:00 - 9:30    | **Welcome & Overview**<br>Introduction to workshop objectives and the R environment      |
+| 9:30 - 10:30   | **Data Import & Cleaning**<br>Hands-on session for importing and cleaning datasets        |
+| 10:30 - 10:45  | **Break**                                                                               |
+| 10:45 - 12:00  | **Data Transformation**<br>Transforming data for analysis with practical examples         |
+| 12:00 - 1:00   | **Lunch Break**                                                                         |
+| 1:00 - 2:30    | **Statistical Methods in Environmental Epidemiology**<br>Overview of DLNM, Cox regression, and time series analysis |
+| 2:30 - 2:45    | **Break**                                                                               |
+| 2:45 - 4:00    | **Hands-on Analysis**<br>Applying statistical methods and creating visualizations using ggplot2 |
+| 4:00 - 4:30    | **Wrap-up & Q&A**<br>Review of key concepts and open discussion                          |
+
+## Day 2 (Half-Day)
+
+| Time           | Topic                                                                                   |
+|----------------|-----------------------------------------------------------------------------------------|
+| 9:00 - 10:30   | **Advanced Integration**<br>Combining data preparation, analysis, and visualization in R  |
+| 10:30 - 10:45  | **Break**                                                                               |
+| 10:45 - 12:00  | **Project Work & Final Q&A**<br>Interactive session analyzing an environmental health dataset|
+| 12:00          | **Closing**<br>Final thoughts and workshop feedback        
+
+
+# Resources
+
+- [The Epidemiologist R Handbook](https://epirhandbook.com/en/)
+- [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
+- [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+- [CrossCarry: An R package for the analysis of data from a crossover design with GEE](https://arxiv.org/pdf/2304.02440)
+- [Tutorial code for "Distributed Lag Linear and Non-Linear Models in R: The Package dlnm"](https://datacompass.lshtm.ac.uk/id/eprint/973/)

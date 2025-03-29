@@ -83,7 +83,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-description','listing-date','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 5,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -153,19 +154,19 @@ window.Quarto = {
 
 <meta property="og:title" content="Luong Nguyen Thanh | Talks">
 <meta property="og:description" content="R &amp; Python code, global health and sustainability data science.">
-<meta property="og:image" content="https://ntluong95.github.io/profile/talks/2025-03-22_avise_seminar_02/avise_seminar_02.png">
+<meta property="og:image" content="https://ntluong95.github.io/profile/talks/2025-40-28_gu_dr-Ashish/feature_1.png">
 <meta property="og:site_name" content="Luong Nguyen Thanh">
 <meta property="og:locale" content="en_EN">
-<meta property="og:image:alt" content="Poster of the event">
-<meta property="og:image:height" content="2688">
-<meta property="og:image:width" content="1920">
+<meta property="og:image:alt" content="Poster for Introduction to R and statistical packages in environmental epidemiology">
+<meta property="og:image:height" content="788">
+<meta property="og:image:width" content="940">
 <meta name="twitter:title" content="Luong Nguyen Thanh | Talks">
 <meta name="twitter:description" content="R &amp; Python code, global health and sustainability data science.">
-<meta name="twitter:image" content="https://ntluong95.github.io/profile/talks/2025-03-22_avise_seminar_02/avise_seminar_02.png">
+<meta name="twitter:image" content="https://ntluong95.github.io/profile/talks/2025-40-28_gu_dr-Ashish/feature_1.png">
 <meta name="twitter:creator" content="@luongnt95">
-<meta name="twitter:image:alt" content="Poster of the event">
-<meta name="twitter:image-height" content="2688">
-<meta name="twitter:image-width" content="1920">
+<meta name="twitter:image:alt" content="Poster for Introduction to R and statistical packages in environmental epidemiology">
+<meta name="twitter:image-height" content="788">
+<meta name="twitter:image-width" content="940">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -243,7 +244,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==">Artificial Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXJ0aXN0aWMlMjBSZXNlYXJjaA==">Artistic Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tbXVuaWNhdGlvbg==">Communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2xvYmFsJTIwSGVhbHRo">Global Health <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SW50ZXJuc2hpcA==">Internship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV0d29ya2luZw==">Networking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaG5vbG9neQ==">Technology <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==">Artificial Intelligence <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QXJ0aXN0aWMlMjBSZXNlYXJjaA==">Artistic Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tbXVuaWNhdGlvbg==">Communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW52aXJvbm1lbnRhbCUyMEVwaWRlbWlvbG9neQ==">Environmental Epidemiology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2xvYmFsJTIwSGVhbHRo">Global Health <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SW50ZXJuc2hpcA==">Internship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV0d29ya2luZw==">Networking <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1RFQU0=">STEAM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaG5vbG9neQ==">Technology <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -279,7 +280,69 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="QXJ0aXN0aWMlMjBSZXNlYXJjaA==" data-listing-date-sort="1742598000000" data-listing-file-modified-sort="1742950987530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="quarto-post image-left" data-index="0" data-categories="UiUyQ1F1YXJ0byUyQ0Vudmlyb25tZW50YWwlMjBFcGlkZW1pb2xvZ3k=" data-listing-date-sort="1745791200000" data-listing-file-modified-sort="1743280258039" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="925">
+<div class="thumbnail"><a href="./talks/2025-40-28_gu_dr-Ashish/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/2025-40-28_gu_dr-Ashish/feature_1.png" class="thumbnail-image" alt="Poster for Introduction to R and statistical packages in environmental epidemiology">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/2025-40-28_gu_dr-Ashish/index.html" class="no-external">Introduction to R and statistical packages in environmental epidemiology</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW52aXJvbm1lbnRhbCUyMEVwaWRlbWlvbG9neQ=='); return false;">Environmental Epidemiology</div>
+
+</div>
+<div class="delink listing-description"><a href="./talks/2025-40-28_gu_dr-Ashish/index.html" class="no-external">
+<p>A capacity-building seminar on using R-program for assessing climate impact on health outcomes for master students at the School of Public Health and Community Medicine, Institute of Medicine, University of Gothenburg, Sweden</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./talks/2025-40-28_gu_dr-Ashish/index.html" class="no-external">
+<div class="listing-date">
+Apr 28, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="U1RFQU0lMkNBcnRpZmljaWFsJTIwSW50ZWxsaWdlbmNlJTJDTmV0d29ya2luZw==" data-listing-date-sort="1745704800000" data-listing-file-modified-sort="1743275938075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="thumbnail"><a href="./talks/2025-04-27_avise_seminar_03/index.html" class="no-external">
+
+<img loading="lazy" src="./talks/2025-04-27_avise_seminar_03/avise_seminar_03.png" class="thumbnail-image" alt="Poster of the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/2025-04-27_avise_seminar_03/index.html" class="no-external">WOMEN IN STEAM AND SUSTAINABLE DEVELOPMENT</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U1RFQU0='); return false;">STEAM</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TmV0d29ya2luZw=='); return false;">Networking</div>
+
+</div>
+<div class="delink listing-description"><a href="./talks/2025-04-27_avise_seminar_03/index.html" class="no-external">
+<p>A forum empowering women in STEAM fields to drive sustainable development and inspire the next generation.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./talks/2025-04-27_avise_seminar_03/index.html" class="no-external">
+<div class="listing-date">
+Apr 27, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-categories="QXJ0aXN0aWMlMjBSZXNlYXJjaA==" data-listing-date-sort="1742598000000" data-listing-file-modified-sort="1743271955264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <div class="thumbnail"><a href="./talks/2025-03-22_avise_seminar_02/index.html" class="no-external">
 
 <img loading="lazy" src="./talks/2025-03-22_avise_seminar_02/avise_seminar_02.png" class="thumbnail-image" alt="Poster of the event">
@@ -306,7 +369,7 @@ Mar 22, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="R2xvYmFsJTIwSGVhbHRoJTJDQXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==" data-listing-date-sort="1739487600000" data-listing-file-modified-sort="1742950889288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<div class="quarto-post image-left" data-index="3" data-categories="R2xvYmFsJTIwSGVhbHRoJTJDQXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==" data-listing-date-sort="1739487600000" data-listing-file-modified-sort="1742950889288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
 <div class="thumbnail"><a href="./talks/2025-02-14_globelife_05/index.html" class="no-external">
 
 <img loading="lazy" src="./talks/2025-02-14_globelife_05/globelife_05.png" class="thumbnail-image" alt="Poster of the event">
@@ -335,7 +398,7 @@ Feb 14, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-categories="R2xvYmFsJTIwSGVhbHRoJTJDSW50ZXJuc2hpcA==" data-listing-date-sort="1733353200000" data-listing-file-modified-sort="1742950686698" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<div class="quarto-post image-left" data-index="4" data-categories="R2xvYmFsJTIwSGVhbHRoJTJDSW50ZXJuc2hpcA==" data-listing-date-sort="1733353200000" data-listing-file-modified-sort="1742950686698" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
 <div class="thumbnail"><a href="./talks/2024-12-05_globelife_04/index.html" class="no-external">
 
 <img loading="lazy" src="./talks/2024-12-05_globelife_04/globelife_04.png" class="thumbnail-image" alt="Poster of the event">
@@ -364,10 +427,10 @@ Dec 5, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="3" data-categories="Q29tbXVuaWNhdGlvbiUyQ1RlY2hub2xvZ3k=" data-listing-date-sort="1731798000000" data-listing-file-modified-sort="1742950318334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="quarto-post image-left" data-index="5" data-categories="Q29tbXVuaWNhdGlvbiUyQ1RlY2hub2xvZ3k=" data-listing-date-sort="1731798000000" data-listing-file-modified-sort="1742950318334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
 <div class="thumbnail"><a href="./talks/2024-11-17_avise_seminar_01/index.html" class="no-external">
 
-<img loading="lazy" src="./talks/2024-11-17_avise_seminar_01/avise_seminar_01.png" class="thumbnail-image" alt="Poster of the event">
+<img loading="lazy" data-src="./talks/2024-11-17_avise_seminar_01/avise_seminar_01.png" class="thumbnail-image" alt="Poster of the event">
 
 </a></div>
 <div class="body">
@@ -393,10 +456,10 @@ Nov 17, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="4" data-categories="R2xvYmFsJTIwSGVhbHRoJTJDTmV0d29ya2luZw==" data-listing-date-sort="1706828400000" data-listing-file-modified-sort="1742950705293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<div class="quarto-post image-left" data-index="6" data-categories="R2xvYmFsJTIwSGVhbHRoJTJDTmV0d29ya2luZw==" data-listing-date-sort="1706828400000" data-listing-file-modified-sort="1742950705293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
 <div class="thumbnail"><a href="./talks/2024-02-02_globelife_02/index.html" class="no-external">
 
-<img loading="lazy" src="./talks/2024-02-02_globelife_02/globelife_02.jpeg" class="thumbnail-image" alt="Poster of the event">
+<img loading="lazy" data-src="./talks/2024-02-02_globelife_02/globelife_02.jpeg" class="thumbnail-image" alt="Poster of the event">
 
 </a></div>
 <div class="body">
@@ -424,6 +487,9 @@ Feb 2, 2024
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

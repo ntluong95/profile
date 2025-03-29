@@ -1,0 +1,23 @@
+---
+title: "WOMEN IN STEAM AND SUSTAINABLE DEVELOPMENT"
+description: "A forum empowering women in STEAM fields to drive sustainable development and inspire the next generation."
+author: Luong Nguyen Thanh
+date: "2025-04-27"
+image: avise_seminar_03.png
+image-alt: "Poster of the event"
+categories:
+  - STEAM
+  - Artificial Intelligence
+  - Networking
+---
+
+### Details
+
+📆 April 27, 2025 // 2:00 pm - 4:00 pm CET  
+🏨 Odengatan 17, Stockholm, Sweden  
+🌠 [The Association of Vietnamese Science and Technology Experts in Sweden](https://www.linkedin.com/groups/14482383/)
+
+### Abstract
+
+This event serves as a meaningful forum to promote the role and empowerment of women in the fields of STEAM (Science, Technology, Engineering, Arts, and Mathematics) in connection with sustainable development. Here, experts and speakers will engage in discussions and share initiatives and practical experiences in overcoming gender barriers, enhancing access, and creating career development opportunities for women in STEAM. The event also aims to be a powerful source of inspiration for young women, encouraging them to confidently pursue their passions, achieve their dreams, and drive positive change in their communities.
+
