@@ -25,7 +25,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Sahlgrenska Global Health Hackathon\n\n\n\nMobile App\n\nGlobal Health\n\nData Science\n\n\n\nCareBuddy is a mobile app designed to empower individuals managing chronic diseases. Our solution not only enhanced patient care but also secured a Top 3 finish at the…\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n{aetranslations}\n\n\n\nR package\n\n\n\nThis package hosts functions and guidelines for translating Applied Epi courses and resources\n\n\n\nOct 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR Global Trend\n\n\n\nShiny app\n\n\n\nAMR Global Trend: A shiny app for exploring the global trend of AMR indicators from 73 countries\n\n\n\nAug 6, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR-SDGs interactions\n\n\n\nShiny app\n\n\n\nAMR-SDGs Explorer: A shiny app for exploring the interaction between AMR and SDGs agenda in national policies\n\n\n\nJun 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Sahlgrenska Global Health Hackathon\n\n\n\nMobile App\n\nGlobal Health\n\nData Science\n\n\n\nCareBuddy is a mobile app designed to empower individuals managing chronic diseases. Our solution not only enhanced patient care but also secured a Top 3 finish at the…\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n{aetranslations} R package\n\n\n\nR package\n\n\n\nThis package hosts functions and guidelines for translating Applied Epi courses and resources\n\n\n\nOct 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR Global Trend\n\n\n\nShiny app\n\n\n\nAMR Global Trend: A shiny app for exploring the global trend of AMR indicators from 73 countries\n\n\n\nAug 6, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR-SDGs interactions\n\n\n\nShiny app\n\n\n\nAMR-SDGs Explorer: A shiny app for exploring the interaction between AMR and SDGs agenda in national policies\n\n\n\nJun 20, 2024\n\n\n\n\n\n\n\n\n\n\n\nThe Sweden Mentor\n\n\n\nLLM\n\nMobile App\n\n\n\nAn AI chat bot based on large language model to provide information for immigrations about life in Sweden\n\n\n\nDec 24, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/amr_trend.html",
@@ -37,7 +37,7 @@
   {
     "objectID": "projects/aetranslations.html",
     "href": "projects/aetranslations.html",
-    "title": "{aetranslations}",
+    "title": "{aetranslations} R package",
     "section": "",
     "text": "{pkgdown} site  Code  CRAN \nThis package hosts functions and guidelines for translating Applied Epi courses and resources. This includes courses materials (slides, exercises, tutorials), website (i.e. case studies) and books (i.e. the EpiRhandbook and the Applied Epi Manual). By leveraging AI services like DeepL or OpenAI, {aetranslations} package streamlines the process to make the Applied Epi materials available in multiple languages."
   },
@@ -334,5 +334,12 @@
     "title": "Introduction to R and statistical packages in environmental epidemiology",
     "section": "Day 2 (Half-Day)",
     "text": "Day 2 (Half-Day)\n\n\n\n\n\n\n\nTime\nTopic\n\n\n\n\n9:00 - 10:30\nAdvanced IntegrationCombining data preparation, analysis, and visualization in R\n\n\n10:30 - 10:45\nBreak\n\n\n10:45 - 12:00\nProject Work & Final Q&AInteractive session analyzing an environmental health dataset\n\n\n12:00\nClosingFinal thoughts and workshop feedback"
+  },
+  {
+    "objectID": "projects/sweden_mentor .html",
+    "href": "projects/sweden_mentor .html",
+    "title": "The Sweden Mentor",
+    "section": "",
+    "text": "Website  Code \nWeb interface for The Sweden Mentor, a chatbot for international students in Sweden. This is a Retrieval Augmented Generation (RAG) application. It uses the data from migrationverket.se, studyinsweden.se, universityadmissions.se"
   }
 ]

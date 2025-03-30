@@ -1,5 +1,5 @@
 ---
-title: "{aetranslations}"
+title: "{aetranslations} R package"
 description: "This package hosts functions and guidelines for translating Applied Epi courses and resources"
 author: 
   - name: Luong Nguyen Thanh

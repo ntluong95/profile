@@ -1,0 +1,21 @@
+---
+title: "The Sweden Mentor"
+description: "An AI chat bot based on large language model to provide information for immigrations about life in Sweden"
+author: 
+  - name: Luong Nguyen Thanh
+
+date: "2023-12-24"
+categories:
+  - LLM
+  - Mobile App
+---
+
+<span class="listing-btn-group">
+<a href="https://swedenmentor.github.io/" class="btn" role="button">{{< fa box >}} Website</a> 
+<a href="https://github.com/swedenmentor/API" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+Web interface for The Sweden Mentor, a chatbot for international students in Sweden. This is a Retrieval Augmented Generation (RAG) application. It uses the data from **migrationverket.se**, **studyinsweden.se**, **universityadmissions.se**
+
+![](../assets/img/swedenmentor_roadmap.png){.img-center width=150em fig-alt="roadmap"}
+
