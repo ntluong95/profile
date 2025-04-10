@@ -10,7 +10,7 @@ categories:
   - Shiny app
 ---
 
-[ <a href="https://ntluong95.shinyapps.io/sdg-amr-explorer/" class="btn" role="button">{{< fa laptop >}} App</a> <a href="https://github.com/ntluong95/sdg-amr-explorer" class="btn" role="button">{{< fa brands github >}} Code</a> ]{.listing-btn-group}
+[ <a href="https://gedb.shinyapps.io/sdg-amr-explorer/" class="btn" role="button">{{< fa laptop >}} App</a> <a href="https://github.com/ntluong95/sdg-amr-explorer" class="btn" role="button">{{< fa brands github >}} Code</a> ]{.listing-btn-group}
 
 The ShinyApp is the supplementary materials for the article:
 

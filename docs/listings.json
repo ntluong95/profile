@@ -2,7 +2,8 @@
   {
     "listing": "/talks.html",
     "items": [
-      "/talks/2025-40-28_gu_dr-Ashish/index.html",
+      "/talks/2025-06-07_avise_day_2025/index.html",
+      "/talks/2025-04-28_gu_dr-Ashish/index.html",
       "/talks/2025-04-27_avise_seminar_03/index.html",
       "/talks/2025-03-22_avise_seminar_02/index.html",
       "/talks/2025-02-14_globelife_05/index.html",
@@ -12,21 +13,22 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/hackathon.html",
-      "/projects/aetranslations.html",
-      "/projects/amr_trend.html",
-      "/projects/amr_sdg.html",
-      "/projects/sweden_mentor .html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/blog/2024-12-04_positron_review/index.html",
       "/blog/2024-11-28_transition_to_python/index.html",
       "/blog/2024-11-01_dplyr_candidate/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/positron_python.html",
+      "/projects/hackathon.html",
+      "/projects/aetranslations.html",
+      "/projects/amr_trend.html",
+      "/projects/amr_sdg.html",
+      "/projects/sweden_mentor .html"
     ]
   }
 ]

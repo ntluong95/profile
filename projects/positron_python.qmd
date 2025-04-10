@@ -1,0 +1,57 @@
+---
+title: "Positron Python Package Manager"
+description: "Manage your Python extensions from within Positron — the RStudio-style package manager for the modern data science IDE"
+author: 
+  - name: Luong Nguyen Thanh
+    affiliation: Github
+
+date: "2025-04-10"
+categories:
+  - VSCode extension
+---
+
+<span class="listing-btn-group">
+<a href="https://open-vsx.org/extension/ntluong95/positron-python-package-manager" class="btn" role="button">{{< fa box >}} Open VSX site</a> 
+<a href="https://github.com/ntluong95/positron-python-package-manager" class="btn" role="button">{{< fa brands github >}} Code</a>
+
+</span>
+
+# 📦 Positron Python Package Manager
+
+![](../assets/img/positron-icon.png){.img-center width=15em fig-alt="extension logo"}
+
+Manage your Python extensions from within [Positron](https://positron.posit.co/) — the RStudio-style package manager for the modern data science IDE.
+
+![](https://raw.githubusercontent.com/ntluong95/positron-python-package-manager/refs/heads/main/resources/screenshot.png)
+
+---
+
+## 🚀 Features
+
+- ✅ View all **installed Python packages** in a tidy sidebar
+- ✅ **Install** packages directly from pane
+- ✅ **Uninstall** packages with a single click
+- ✅ 🔍 **Search** by name or title (fuzzy search supported)
+
+---
+
+## 🛠 Requirements
+
+- Positron version `2025.04.0-250` or later
+- `pip` must be installed in the Python runtime (used for data exchange).
+- Python installed and working inside Positron
+- This extension must run in the **workspace** (remote/WSL/container supported ✅)
+- [`Python Environments`](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs) extension from Microsoft (recommended)
+
+---
+
+
+## 🙏 Attribution
+
+Created by [ntluong95](https://github.com/ntluong95)  
+Licensed under the [MIT License](./LICENSE)
+
+---
+
+
+
