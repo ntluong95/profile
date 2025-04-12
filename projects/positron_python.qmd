@@ -53,5 +53,14 @@ Licensed under the [MIT License](./LICENSE)
 
 ---
 
+## 📦 Supporting package
 
+In addition to Positron Python Package Manager, I had created two anothers extensions to improve its functionalities
 
+Manage your Python packages with [module-inspector](https://pypi.org/project/module-inspector/).
+
+![](../assets/img/positron-inspector.png){.img-center fig-alt="inspector logo"}
+
+[Positron Data Science Pack](https://open-vsx.org/extension/ntluong95/positron-data-science-pack) is a collection of helpful Positron extensions for data scientists.
+
+![](../assets/img/positron-ds.png){.img-center fig-alt="inspector logo"}
