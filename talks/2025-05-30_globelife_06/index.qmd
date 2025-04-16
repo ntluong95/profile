@@ -1,0 +1,49 @@
+---
+title: "Career Event for Global Health Master"
+description: "GlobeLife is hosting a Career Event for Global Health Master’s students at Uppsala University and Karolinska Institutet. The event aims to connect current students with potential recruiters for internships and postgraduate jobs and give students an opportunity to network!"
+author: Luong Nguyen Thanh
+date: "2025-05-30"
+image: globelife_06.png
+image-alt: "Poster of the event"
+categories:
+  - Global Health
+  - Networking
+---
+
+<a href="https://www.globelife.se/w/gl/en/student-section/recordings-student-section-seminars" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Recording</a>
+
+### Details
+
+📆 May 30, 2025 // 4:00 pm - 8:00 pm CET  
+🏨 On-site  
+🌠 [GlobeLife](https://www.linkedin.com/company/77266299/)
+
+### Event description
+
+GlobeLife is hosting a Career Event for Global Health Master’s students at Uppsala University and Karolinska Institutet. The event aims to connect current students with potential recruiters for internships and postgraduate jobs and give students an opportunity to network! In the run-up to the event, we will be hosting a Careers Workshop hosted by UU Careers to improve your CV and learn how to do strategic networking. This will give you a chance to be as prepared as possible for the actual day! 
+
+On the afternoon of Friday the 30th of May, we would like to invite you to join us at Uppsala Universitet at 16:00. We will start the event with speeches from professionals currently working in the field of Global Health, followed by a form of Careers Fair. You will get the opportunity to walk around, meet and chat with the recruiters. Have your CV on hand to exchange with any recruiters that you think would be interesting to work for. Of course, in true Swedish style, Fika will be provided! 
+
+The event will be a great opportunity to listen to inspiring speakers, grow your network, and potentially land a future internship or job! 
+
+**CV Building Workshop**
+Ability to join UU Careers CV Building workshop on 06.05.25 at 18:00 
+
+**Strategic Networking Workshop: **
+Date: 07.05.25
+Time: 18:00
+Location: online via ZOOM
+
+**Key Information for the Careers Evening: **
+Date: Friday 30th May 
+Time: 16:00
+Location: Uppsala University 
+
+**Target audience**: students from both UU and KI in a Global Health Master’s looking to connect with recruiters for internships and postgraduate jobs. 
+
+Please note that only 60 spots (25 students from KI and 35 from UU) are available and will be allocated on a first-come-first-served basis. To make the most of the opportunity, we ask that you commit to both the workshop and the Careers Evening. Furthermore, if you can no longer attend, please inform us as soon as possible so that we can allocate the spot to someone else. 
+Transport will be provided for students travelling from KI. 
+
+We are also looking for 5 volunteers who are willing to help on the day of the event. This would include setting up, helping guide participants to the right location, and tidying up after the event. You will, of course, get to actively participate during the event and will receive a certificate following the event to thank you for your support. 
+
+
