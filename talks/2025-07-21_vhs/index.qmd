@@ -1,0 +1,28 @@
+---
+title: "Vietnam Health Summit 2025"
+description: "Diễn đàn Y tế Việt Nam 2025 (Vietnam Health Summit – VHS 2025) dự kiến được tổ chức hai năm một lần, là một nền tảng uy tín, quy tụ các y bác sĩ, chuyên gia y tế, nhà khoa học, nhà lãnh đạo,hoạch định chính sách, doanh nghiệp, doanh nhân và các tổ chức phi chính phủ để trao đổi và thảo luận về các sáng kiến đột phá, các xu hướng y tế tương lai nhằm giải quyết những thách thức cấp bách của ngành y tế Việt Nam"
+author: Luong Nguyen Thanh
+date: "2025-07-21"
+image: vietnamhealthsummit.png
+image-alt: "Poster of the event"
+categories:
+  - Artificial Intelligence
+  - Global Health
+
+---
+
+### Details
+
+📆 July 21-22, 2025 || https://vietnamhealthsummit.com/
+🏨 Bệnh viện Trung ương Quân đội 108, số 1 Trần Hưng Đạo, phường Hai Bà Trưng, Hà Nội  
+🌠 [MedNet - AVSE Global](https://avseglobal.org/)
+
+### Abstract
+
+Diễn đàn Y tế Việt Nam 2025 (Vietnam Health Summit – VHS 2025) dự kiến được tổ chức hai năm một lần, là một nền tảng uy tín, quy tụ các y bác sĩ, chuyên gia y tế, nhà khoa học, nhà lãnh đạo,hoạch định chính sách, doanh nghiệp, doanh nhân và các tổ chức phi chính phủ để trao đổi và thảo luận về các sáng kiến đột phá, các xu hướng y tế tương lai nhằm giải quyết những thách thức cấp bách của ngành y tế Việt Nam
+
+Diễn đàn sẽ tập trung thảo luận các chủ đề trọng điểm như: Những thách thức và giải pháp cho sức khỏe toàn cầu; Chính sách quản lý dữ liệu y tế; Kết nối dữ liệu lớn; AI trong chăm sóc sức khỏe; Ứng dụng dữ liệu lớn và AI trong chẩn đoán lâm sàng cũng như vai trò của AI và khoa học dữ liệu trong điều trị và chăm sóc y tế. Trong bối cảnh Đại dịch COVID-19 đã làm thay đổi hoàn toàn lĩnh vực chăm sóc sức khoẻ, đặc biệt là với sự tiến bộ của công nghệ, diễn đàn được thiết kế nhằm thúc đẩy đối thoại, hợp tác và chia sẻ sáng kiến trong việc tiếp cận và thích ứng với những chuyển đổi mang tính hệ thống này.
+
+
+
+

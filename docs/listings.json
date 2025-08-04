@@ -2,6 +2,7 @@
   {
     "listing": "/talks.html",
     "items": [
+      "/talks/2025-07-21_vhs/index.html",
       "/talks/2025-06-07_avise_day_2025/index.html",
       "/talks/2025-05-30_globelife_06/index.html",
       "/talks/2025-04-28_gu_dr-Ashish/index.html",
@@ -14,6 +15,14 @@
     ]
   },
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/2024-12-04_positron_review/index.html",
+      "/blog/2024-11-28_transition_to_python/index.html",
+      "/blog/2024-11-01_dplyr_candidate/index.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
       "/projects/quarto_wingman.html",
@@ -23,14 +32,6 @@
       "/projects/amr_trend.html",
       "/projects/amr_sdg.html",
       "/projects/sweden_mentor .html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/2024-12-04_positron_review/index.html",
-      "/blog/2024-11-28_transition_to_python/index.html",
-      "/blog/2024-11-01_dplyr_candidate/index.html"
     ]
   }
 ]
