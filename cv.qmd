@@ -83,7 +83,7 @@ knitr::include_graphics(here::here("assets/img/uu-finding.svg"))
 
 -   **SUSTAIN project**: Conducted statistical analysis to evaluate the effectiveness of bundled healthcare interventions targeting health workers in Nepal, aimed at enhancing neonatal care quality
 -   **Teaching**: Delivered a lecture on the “Planetary Health” course for the Master's Program in Implementation, Transformative Learning and Sustainability at Uppsala University and presented a guest lecture on R programming for assessing climate impact on health outcomes at the University of Gothenburg. 
--   **Supervision**: Co-supervised an MSc student at Karolinska Institutet on the project: National Indicators of Temporal Trends in the Complex Network of Antibiotic Resistance Drivers: Assessing Priorities for Action
+-   **Supervision**: Co-supervised an MSc student at Karolinska Institutet on the project: Observational Ecological Study on Global Data Availability of Antibiotic Resistance Drivers: Identifying Gaps in Data Collection
 
 
 
@@ -184,7 +184,7 @@ knitr::include_graphics(here::here("assets/img/berlin.jpg"))
 
 ## {{< fa book >}} Publication
 
-[Link to my Google Scholar profile](https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en&authuser=1) *(14 peer-reviewed, h-index: 7, i10-index: 4, total number of citations: 110)*
+[Link to my Google Scholar profile](https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en&authuser=1) *(14 peer-reviewed, h-index: 8, i10-index: 5, total number of citations: 135)*
 
 **Selected 5 articles:** 
 
@@ -220,7 +220,12 @@ knitr::include_graphics(here::here("assets/img/berlin.jpg"))
 -   **Statistical & Machine Learning frameworks**: Extensive experience with generalized regression models, time series analysis, spatial statistics and data visualization, clustering techniques, network analysis, natural language processing and large language models applications. Familiar with advanced statistical models (GAMs, SEMs, Bayesian statistics, High-performance computing).
 -   **Laboratory techniques & Field Data Management**: Familiar with laboratory microbiological and molecular techniques including Salmonella isolation, Total Bacteria Count, ELISA and PCR. Proficiency in field/clinical data management using Open Data Kit (ODK) and RedCap
 -   **Programming & Data Engineering**: Advanced proficiency in using programming language for statistical analysis (R, Python, STATA), product communication (R Markdown, Quarto, Shiny  and Power BI), database management & query (SQL), version control (Git, Github Action, Docker), package development, web framework (HTML, CSS, JS, WordPress).
+```{=html}
+<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+```
 -   **Project Management**: Budget planning, M&E skills, proposal writing, and interdisciplinary project coordination.
+
+
 
 
 [Personal skills]{.h5}

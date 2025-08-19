@@ -9,8 +9,8 @@
 <link>https://ntluong95.github.io/profile/blog.html</link>
 <atom:link href="https://ntluong95.github.io/profile/blog.xml" rel="self" type="application/rss+xml"/>
 <description>R &amp; Python code, global health and sustainability data science.</description>
-<generator>quarto-1.8.13</generator>
-<lastBuildDate>Tue, 03 Dec 2024 17:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.19</generator>
+<lastBuildDate>Tue, 03 Dec 2024 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Positron - a VSCode fork for Data Science</title>
   <dc:creator>Luong Nguyen Thanh</dc:creator>
@@ -237,7 +237,7 @@ Science.”</span> December 4, 2024. <a href="https://ntluong95.github.io/profil
   <category>IDE</category>
   <category>Tool reviews</category>
   <guid>https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/</guid>
-  <pubDate>Tue, 03 Dec 2024 17:00:00 GMT</pubDate>
+  <pubDate>Tue, 03 Dec 2024 23:00:00 GMT</pubDate>
   <media:content url="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/positron-UI.png" medium="image" type="image/png" height="78" width="144"/>
 </item>
 <item>
@@ -339,7 +339,7 @@ Beginner’s Guide to Equivalent Tools.”</span> November 28, 2024. <a href="ht
   <category>R</category>
   <category>Data Science</category>
   <guid>https://ntluong95.github.io/profile/blog/2024-11-28_transition_to_python/</guid>
-  <pubDate>Wed, 27 Nov 2024 17:00:00 GMT</pubDate>
+  <pubDate>Wed, 27 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://ntluong95.github.io/profile/blog/2024-11-28_transition_to_python/r2py.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -400,7 +400,7 @@ Note
 <h2 class="anchored" data-anchor-id="github-stars-as-a-proxy-for-popularity">Github stars as a proxy for popularity</h2>
 <p>The benchmark provides a comparison of performance, but another important factor is popularity and maturity. A more mature library has a more stable API, better test coverage and there is more help available online, such as on StackOverflow. One way to measure popularity is the number of stars that the package repository has on Github.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(ggplot2)</span>
 <span id="cb1-2">libs <span class="ot" style="color: #003B4F;
@@ -535,7 +535,7 @@ background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Github stars"</span></span>
-<span id="cb1-16">    )</span></code></pre></div>
+<span id="cb1-16">    )</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -552,7 +552,7 @@ font-style: inherit;">"Github stars"</span></span>
 <h2 class="anchored" data-anchor-id="dplyr-reference-in-r">dplyr: Reference in R</h2>
 <p>Let’s start with a reference implementation in dplyr. The dataset is available as a package, so I skip the CSV import.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(dplyr, <span class="at" style="color: #657422;
 background-color: null;
@@ -575,18 +575,18 @@ font-style: inherit;">reactable</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">head</span>(flights, <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">10</span>))</span></code></pre></div>
+font-style: inherit;">10</span>))</span></code></pre></div></div>
 <div class="cell-output-display">
 <div class="reactable html-widget html-fill-item" id="htmlwidget-2fdacf64ccf62c66b42f" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-2fdacf64ccf62c66b42f">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"year":[2013,2013,2013,2013,2013,2013,2013,2013,2013,2013],"month":[1,1,1,1,1,1,1,1,1,1],"day":[1,1,1,1,1,1,1,1,1,1],"dep_time":[517,533,542,544,554,554,555,557,557,558],"sched_dep_time":[515,529,540,545,600,558,600,600,600,600],"dep_delay":[2,4,2,-1,-6,-4,-5,-3,-3,-2],"arr_time":[830,850,923,1004,812,740,913,709,838,753],"sched_arr_time":[819,830,850,1022,837,728,854,723,846,745],"arr_delay":[11,20,33,-18,-25,12,19,-14,-8,8],"carrier":["UA","UA","AA","B6","DL","UA","B6","EV","B6","AA"],"flight":[1545,1714,1141,725,461,1696,507,5708,79,301],"tailnum":["N14228","N24211","N619AA","N804JB","N668DN","N39463","N516JB","N829AS","N593JB","N3ALAA"],"origin":["EWR","LGA","JFK","JFK","LGA","EWR","EWR","LGA","JFK","LGA"],"dest":["IAH","IAH","MIA","BQN","ATL","ORD","FLL","IAD","MCO","ORD"],"air_time":[227,227,160,183,116,150,158,53,140,138],"distance":[1400,1416,1089,1576,762,719,1065,229,944,733],"hour":[5,5,5,5,6,5,6,6,6,6],"minute":[15,29,40,45,0,58,0,0,0,0],"time_hour":["2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z"]},"columns":[{"id":"year","name":"year","type":"numeric"},{"id":"month","name":"month","type":"numeric"},{"id":"day","name":"day","type":"numeric"},{"id":"dep_time","name":"dep_time","type":"numeric"},{"id":"sched_dep_time","name":"sched_dep_time","type":"numeric"},{"id":"dep_delay","name":"dep_delay","type":"numeric"},{"id":"arr_time","name":"arr_time","type":"numeric"},{"id":"sched_arr_time","name":"sched_arr_time","type":"numeric"},{"id":"arr_delay","name":"arr_delay","type":"numeric"},{"id":"carrier","name":"carrier","type":"character"},{"id":"flight","name":"flight","type":"numeric"},{"id":"tailnum","name":"tailnum","type":"character"},{"id":"origin","name":"origin","type":"character"},{"id":"dest","name":"dest","type":"character"},{"id":"air_time","name":"air_time","type":"numeric"},{"id":"distance","name":"distance","type":"numeric"},{"id":"hour","name":"hour","type":"numeric"},{"id":"minute","name":"minute","type":"numeric"},{"id":"time_hour","name":"time_hour","type":"Date"}],"dataKey":"efb7087d9e2b5bd5b3155062bf174300"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">reactable</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">head</span>(airlines, <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">10</span>))</span></code></pre></div>
+font-style: inherit;">10</span>))</span></code></pre></div></div>
 <div class="cell-output-display">
 <div class="reactable html-widget html-fill-item" id="htmlwidget-82af8b2c371e6d380ec6" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-82af8b2c371e6d380ec6">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"carrier":["9E","AA","AS","B6","DL","EV","F9","FL","HA","MQ"],"name":["Endeavor Air Inc.","American Airlines Inc.","Alaska Airlines Inc.","JetBlue Airways","Delta Air Lines Inc.","ExpressJet Airlines Inc.","Frontier Airlines Inc.","AirTran Airways Corporation","Hawaiian Airlines Inc.","Envoy Air"]},"columns":[{"id":"carrier","name":"carrier","type":"character"},{"id":"name","name":"name","type":"character"}],"dataKey":"f306daa08a2136046ead72a665ae9011"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
@@ -595,7 +595,7 @@ font-style: inherit;">10</span>))</span></code></pre></div>
 <p>The <code>flights</code> tables has 336776 rows, one for each flight of an airplane. The <code>airlines</code> table has 16 rows, one for each airline mapping the full name of the company to a code.</p>
 <p>Let’s find the airline with the highest arrival delays in January 2013.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">flights <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">flights <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
 <span id="cb4-2">    <span class="fu" style="color: #4758AB;
@@ -663,7 +663,7 @@ font-style: inherit;">|&gt;</span></span>
 background-color: null;
 font-style: inherit;">arrange</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">desc</span>(mean_delay))</span></code></pre></div>
+font-style: inherit;">desc</span>(mean_delay))</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 16 × 3
    airline                     flights mean_delay
@@ -689,7 +689,7 @@ font-style: inherit;">desc</span>(mean_delay))</span></code></pre></div>
 <p>Some values in <code>arr_delay</code> are negative, indicating that the flight was faster than expected. I replaced these values with 0 because I don’t want them to cancel out delays of other flights. I joined to the airlines table to get the full names of the airlines.</p>
 <p>I export the flights and airlines tables to CSV to hand them over to Python.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Write to temporary files</span></span>
 <span id="cb6-2">flights_path <span class="ot" style="color: #003B4F;
@@ -728,11 +728,11 @@ font-style: inherit;">fwrite</span>(airlines, airlines_path, <span class="at" st
 background-color: null;
 font-style: inherit;">row.names =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">FALSE</span>)</span></code></pre></div>
+font-style: inherit;">FALSE</span>)</span></code></pre></div></div>
 </div>
 <p>To access the file from Python, the path is handed over:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"></span>
 <span id="cb7-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| eval: false</span></span>
@@ -748,7 +748,7 @@ font-style: inherit;">"flights_path"</span>]</span>
 background-color: null;
 font-style: inherit;">=</span> r[<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"airlines_path"</span>]</span></code></pre></div>
+font-style: inherit;">"airlines_path"</span>]</span></code></pre></div></div>
 </div>
 <p>For more details on how this works with the reticulate package, check this documentation.</p>
 </section>
@@ -756,7 +756,7 @@ font-style: inherit;">"airlines_path"</span>]</span></code></pre></div>
 <h2 class="anchored" data-anchor-id="pandas-most-popular">Pandas: Most popular</h2>
 <p>The following sections follow a pattern: read in from CSV, then build a query.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
 background-color: null;
@@ -770,11 +770,11 @@ background-color: null;
 font-style: inherit;">=</span> pd.read_csv(flights_path)</span>
 <span id="cb8-5">airlines_pd <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">=</span> pd.read_csv(airlines_path)</span></code></pre></div>
+font-style: inherit;">=</span> pd.read_csv(airlines_path)</span></code></pre></div></div>
 </div>
 <p><code>pandas.read_csv</code> reads the header and conveniently infers the column types.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">(</span>
 <span id="cb9-2">    flights_pd.query(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"year == 2013 &amp; month == 1 &amp; arr_delay.notnull()"</span>)</span>
@@ -826,7 +826,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">False</span>)</span>
-<span id="cb9-9">)</span></code></pre></div>
+<span id="cb9-9">)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>                             flights  mean_delay
 airline                                         
@@ -861,7 +861,7 @@ Virgin America                   314    3.165605</code></pre>
 <section id="siuba-dplyr-in-python" class="level2">
 <h2 class="anchored" data-anchor-id="siuba-dplyr-in-python">siuba: dplyr in Python</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> siuba <span class="im" style="color: #00769E;
 background-color: null;
@@ -879,11 +879,11 @@ font-style: inherit;">"flights_path"</span>])</span>
 background-color: null;
 font-style: inherit;">=</span> pd.read_csv(r[<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"airlines_path"</span>])</span></code></pre></div>
+font-style: inherit;">"airlines_path"</span>])</span></code></pre></div></div>
 </div>
 <p>As siuba is just an alternative way of writing some pandas commands, we read the data just like in the pandas implementation.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1">(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1">(</span>
 <span id="cb12-2">    flights_si</span>
 <span id="cb12-3">    <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -934,7 +934,7 @@ background-color: null;
 font-style: inherit;">&gt;&gt;</span> si.arrange(<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span>si._.mean_delay)</span>
-<span id="cb12-10">)</span></code></pre></div>
+<span id="cb12-10">)</span></code></pre></div></div>
 </div>
 <p>I found siuba the easiest to work with. Once I understood the <code>_</code> placeholder for a table of data, I could write it almost as fast as dplyr. Out of all the ways to refer to a column in a data frame, I found it to be the most convenient, because it doesn’t require me to spell out the name of the data frame over and over. While not as elegant as dplyr’s <a href="https://www.tidyverse.org/blog/2019/06/rlang-0-4-0/#a-simpler-interpolation-pattern-with">tidy evaluation</a> (discussed at the end of the article), it avoids the ambivalence in dplyr where it can be unclear whether a name refers to a column or an outside object.</p>
 <p>It’s always possible to drop into pandas, such as for the aggregation functions which use the <code>mean()</code> and <code>count()</code> methods of the pandas series. The <code>&gt;&gt;</code> is an easy replacement for the <code>%&gt;%</code> magrittr pipe or <code>|&gt;</code> base pipe in R.</p>
@@ -948,7 +948,7 @@ font-style: inherit;">-</span>si._.mean_delay)</span>
 <h2 class="anchored" data-anchor-id="polars-fastest">Polars: Fastest</h2>
 <p>Polars is written in Rust and also offers a Python API. It comes in two flavors: eager and lazy. Lazy evaluation is similar to how dbplyr and dtplyr work: until asked, nothing is evaluated. This enables performance gains by reordering the commands being executed. But it’s a little less convenient for interactive analysis. I’ll use the eager API here.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> polars <span class="im" style="color: #00769E;
 background-color: null;
@@ -962,10 +962,10 @@ background-color: null;
 font-style: inherit;">=</span> pl.read_csv(flights_path)</span>
 <span id="cb13-5">airlines_pl <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">=</span> pl.read_csv(airlines_path)</span></code></pre></div>
+font-style: inherit;">=</span> pl.read_csv(airlines_path)</span></code></pre></div></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">(</span>
 <span id="cb14-2">    flights_pl.<span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">filter</span>((pl.col(<span class="st" style="color: #20794D;
@@ -1041,7 +1041,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">True</span>)</span>
-<span id="cb14-19">)</span></code></pre></div>
+<span id="cb14-19">)</span></code></pre></div></div>
 </div>
 <p>The API is leaner than pandas, requiring to memorize fewer functions and patterns. Though this can also be seen as less feature-complete. Pandas, for example has a dedicated <code>clip</code> function.</p>
 <p>There isn’t nearly as much help available for problems with polars as for with pandas. While the documentation is good, it can’t answer every question and lots of trial and error is needed.</p>
@@ -1050,7 +1050,7 @@ font-style: inherit;">True</span>)</span>
 <section id="duckdb-highly-compatible-and-easy-for-sql-users" class="level2">
 <h2 class="anchored" data-anchor-id="duckdb-highly-compatible-and-easy-for-sql-users">DuckDB: Highly compatible and easy for SQL users</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> duckdb</span>
 <span id="cb15-2"></span>
@@ -1092,14 +1092,14 @@ background-color: null;
 font-style: inherit;">}</span><span class="ss" style="color: #20794D;
 background-color: null;
 font-style: inherit;">', header = True);"</span></span>
-<span id="cb15-11">)</span></code></pre></div>
+<span id="cb15-11">)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;duckdb.duckdb.DuckDBPyConnection object at 0x0000014F23081730&gt;</code></pre>
 </div>
 </div>
 <p>DuckDB’s <code>read_csv_auto()</code> works just like the csv readers in Python.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">con_duckdb.execute(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">con_duckdb.execute(</span>
 <span id="cb17-2">    <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"WITH flights_clipped AS ( "</span></span>
@@ -1130,7 +1130,7 @@ font-style: inherit;">"GROUP BY name "</span></span>
 <span id="cb17-11">    <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"ORDER BY mean_delay DESC "</span></span>
-<span id="cb17-12">).fetchdf()</span></code></pre></div>
+<span id="cb17-12">).fetchdf()</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>                        airline  flights  mean_delay
 0         SkyWest Airlines Inc.        1  107.000000
@@ -1191,7 +1191,7 @@ Note
 </div>
 <p>For the test drive, I’ll use the <a href="https://ibis-project.org/docs/backends/duckdb.html">duckdb backend</a>, meaning that the ibis code is translated to duckdb operations, similar to how siuba is translated to pandas. This gives ibis the blazing speed of duckdb.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> ibis</span>
 <span id="cb19-2"><span class="im" style="color: #00769E;
@@ -1219,7 +1219,7 @@ font-style: inherit;">=</span> ibis.read_csv(flights_path)</span>
 <span id="cb19-10">airlines_ib <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> ibis.read_csv(airlines_path)</span>
-<span id="cb19-11">flights_ib</span></code></pre></div>
+<span id="cb19-11">flights_ib</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>┌───────┬───────┬───────┬──────────┬────────────────┬───────────┬──────────┬──┐
 │ year  │ month │ day   │ dep_time │ sched_dep_time │ dep_delay │ arr_time │  │
@@ -1242,7 +1242,7 @@ font-style: inherit;">=</span> ibis.read_csv(airlines_path)</span>
 </div>
 <p>Non-interactive ibis means that queries are evaluated lazily.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1">(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1">(</span>
 <span id="cb21-2">    flights_ib.<span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">filter</span>(</span>
@@ -1285,7 +1285,7 @@ font-style: inherit;">=</span>_.count(), mean_delay<span class="op" style="color
 background-color: null;
 font-style: inherit;">=</span>_.arr_delay.mean())</span>
 <span id="cb21-13">    .order_by(_.mean_delay.desc())</span>
-<span id="cb21-14">)</span></code></pre></div>
+<span id="cb21-14">)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>┌──────────────────────────┬─────────┬────────────┐
 │ airline                  │ flights │ mean_delay │
@@ -1343,7 +1343,7 @@ a dplyR useR.”</span> January 25, 2023. <a href="https://ntluong95.github.io/p
   <category>R</category>
   <category>Python</category>
   <guid>https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</guid>
-  <pubDate>Tue, 24 Jan 2023 17:00:00 GMT</pubDate>
+  <pubDate>Tue, 24 Jan 2023 23:00:00 GMT</pubDate>
   <media:content url="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
