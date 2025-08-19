@@ -219,14 +219,16 @@ knitr::include_graphics(here::here("assets/img/berlin.jpg"))
 -   **Global Health & Sustainability research methodologies**: Solid expertise in evidence synthesis and system scoping, with experience applying LLMs to systematic reviews and meta-analyses, health policy analysis, qualitative content analysis, comparative case study analysis, participatory modelling, knowledge co-production, household surveys, data collection (including in-depth interviews, focus group discussions), and risk communication.
 -   **Statistical & Machine Learning frameworks**: Extensive experience with generalized regression models, time series analysis, spatial statistics and data visualization, clustering techniques, network analysis, natural language processing and large language models applications. Familiar with advanced statistical models (GAMs, SEMs, Bayesian statistics, High-performance computing).
 -   **Laboratory techniques & Field Data Management**: Familiar with laboratory microbiological and molecular techniques including Salmonella isolation, Total Bacteria Count, ELISA and PCR. Proficiency in field/clinical data management using Open Data Kit (ODK) and RedCap
--   **Programming & Data Engineering**: Advanced proficiency in using programming language for statistical analysis (R, Python, STATA), product communication (R Markdown, Quarto, Shiny  and Power BI), database management & query (SQL), version control (Git, Github Action, Docker), package development, web framework (HTML, CSS, JS, WordPress).
+- **Programming & Data Engineering**: Advanced proficiency in using programming language for statistical analysis (R, Python, STATA), product communication (R Markdown, Quarto, Shiny and Power BI), database management & query (SQL), version control (Git, Github Action, Docker), package development, web framework (HTML, CSS, JS, WordPress). 
+-   **Project Management**: Budget planning, M&E skills, proposal writing, and interdisciplinary project coordination.
+
+::: {.column-margin}
+::: {data-iframe-width="250" data-iframe-height="270" data-share-badge-id="fe87f90a-7103-44e5-a933-36930f81216c" data-share-badge-host="https://www.credly.com"}
 ```{=html}
 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 ```
--   **Project Management**: Budget planning, M&E skills, proposal writing, and interdisciplinary project coordination.
-
-
-
+:::
+:::
 
 [Personal skills]{.h5}
 
