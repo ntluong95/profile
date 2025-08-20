@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Luong Nguyen Thanh">
+<meta name="dcterms.date" content="2025-08-20">
+<meta name="description" content="A shinyApp to calculate the nutritional demand and design a meal plan for patients at the National Hospital of Odonto-Stomatology, Hanoi.">
 
-<title>Luong Nguyen Thanh | Projects – Luong Nguyen Thanh</title>
+<title>Luong Nguyen Thanh | Nutritional App – Luong Nguyen Thanh</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +26,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0a4dd518b6ae99a01cc81c8723fea16.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a0a4dd518b6ae99a01cc81c8723fea16.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-date','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 <script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
@@ -120,42 +94,23 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Luong Nguyen Thanh | Projects">
+<meta property="og:title" content="Luong Nguyen Thanh | Nutritional App">
+<meta property="og:description" content="A shinyApp to calculate the nutritional demand and design a meal plan for patients at the National Hospital of Odonto-Stomatology, Hanoi.">
+<meta property="og:image" content="https://ntluong95.github.io/profile/assets/img/nutrition.png">
 <meta property="og:site_name" content="Luong Nguyen Thanh">
 <meta property="og:locale" content="en_EN">
-<meta name="twitter:title" content="Luong Nguyen Thanh | Projects">
+<meta property="og:image:alt" content="nutrition logo">
+<meta property="og:image:height" content="1090">
+<meta property="og:image:width" content="2449">
+<meta name="twitter:title" content="Luong Nguyen Thanh | Nutritional App">
+<meta name="twitter:description" content="A shinyApp to calculate the nutritional demand and design a meal plan for patients at the National Hospital of Odonto-Stomatology, Hanoi.">
+<meta name="twitter:image" content="https://ntluong95.github.io/profile/assets/img/nutrition.png">
 <meta name="twitter:creator" content="@luongnt95">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image:alt" content="nutrition logo">
+<meta name="twitter:image-height" content="1090">
+<meta name="twitter:image-width" content="2449">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -165,11 +120,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/img/JR-logo-circle.webp" alt="" class="navbar-logo light-content">
-    <img src="./assets/img/JR-logo-circle.webp" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/img/JR-logo-circle.webp" alt="" class="navbar-logo light-content">
+    <img src="../assets/img/JR-logo-circle.webp" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Luong Nguyen Thanh</span>
     </a>
   </div>
@@ -180,34 +135,34 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-person-circle" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-person-circle" role="img">
 </i> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> <i class="bi bi-file-earmark-text-fill" role="img">
+    <a class="nav-link" href="../cv.html"> <i class="bi bi-file-earmark-text-fill" role="img">
 </i> 
 <span class="menu-text">Curriculum Vitae</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> <i class="bi bi-pen-fill" role="img">
+    <a class="nav-link" href="../blog.html"> <i class="bi bi-pen-fill" role="img">
 </i> 
 <span class="menu-text">Personal Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> <i class="bi bi-people-fill" role="img">
+    <a class="nav-link" href="../talks.html"> <i class="bi bi-people-fill" role="img">
 </i> 
 <span class="menu-text">Event organized</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> <i class="bi bi-puzzle-fill" role="img">
+    <a class="nav-link" href="../projects.html"> <i class="bi bi-puzzle-fill" role="img">
 </i> 
 <span class="menu-text">Personal Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img" aria-label="rss">
+    <a class="nav-link" href="../blog.xml"> <i class="bi bi-rss" role="img" aria-label="rss">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -233,21 +188,62 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="RGF0YSUyMFNjaWVuY2U=">Data Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2xvYmFsJTIwSGVhbHRo">Global Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExN">LLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9iaWxlJTIwQXBw">Mobile App <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UiUyMHBhY2thZ2U=">R package <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2hpbnklMjBhcHA=">Shiny app <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VlNDb2RlJTIwZXh0ZW5zaW9u">VSCode extension <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#nutrition-app-functional-description" id="toc-nutrition-app-functional-description" class="nav-link active" data-scroll-target="#nutrition-app-functional-description">Nutrition App — Functional Description</a>
+  <ul>
+  <li><a href="#what-the-app-does" id="toc-what-the-app-does" class="nav-link" data-scroll-target="#what-the-app-does">What the app does</a></li>
+  <li><a href="#core-calculations" id="toc-core-calculations" class="nav-link" data-scroll-target="#core-calculations">Core calculations</a></li>
+  <li><a href="#csv-food-list-requirements" id="toc-csv-food-list-requirements" class="nav-link" data-scroll-target="#csv-food-list-requirements">CSV food list requirements</a></li>
+  <li><a href="#how-to-use" id="toc-how-to-use" class="nav-link" data-scroll-target="#how-to-use">How to use</a></li>
+  <li><a href="#word-report-contents" id="toc-word-report-contents" class="nav-link" data-scroll-target="#word-report-contents">Word report contents</a></li>
+  <li><a href="#implementation-highlights" id="toc-implementation-highlights" class="nav-link" data-scroll-target="#implementation-highlights">Implementation highlights</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ntluong95/profile/blob/main/projects/nutrition.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ntluong95/profile/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Nutritional App</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Shiny app</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A shinyApp to calculate the nutritional demand and design a meal plan for patients at the National Hospital of Odonto-Stomatology, Hanoi.
+  </div>
 </div>
 
-
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Luong Nguyen Thanh </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Uppsala University
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 20, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -257,213 +253,97 @@ window.Quarto = {
 </header>
 
 
+<p><a href="https://ranghammat.shinyapps.io/phanmemdinhduong/" class="btn" role="button"><i class="fa-solid fa-laptop" aria-label="laptop"></i> App</a></p>
+<section id="nutrition-app-functional-description" class="level1">
+<h1>Nutrition App — Functional Description</h1>
+<section id="what-the-app-does" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-app-does">What the app does</h2>
+<ul>
+<li><strong>Collect patient information:</strong> name, age, sex, dates (form &amp; surgery), weight, height, diagnosis, phone.</li>
+<li><strong>Capture nutrition plan:</strong> nutrition diagnosis, feeding route (multi-select), diet goal, preparation type (multi-select), activity level.</li>
+<li><strong>Compute energy &amp; macro needs:</strong> calculates daily energy target (kcal/day) and recommended carbs/protein/fat (grams/day).</li>
+<li><strong>Build a 24-hour meal plan from a CSV food list:</strong> select foods, enter servings, and (optionally) a time label.</li>
+<li><strong>Summarize totals:</strong> per-item kcal/protein/volume and totals across the day.</li>
+<li><strong>Compare with recommendations:</strong> shows UNDER / OVER / ON-TARGET for <strong>energy</strong> and <strong>protein</strong>.</li>
+<li><strong>Export a Word report (.docx):</strong> includes patient inputs, recommendations, the 24-h plan, totals, and comparison; can include a logo from <code>www/</code>.</li>
+</ul>
+</section>
+<section id="core-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="core-calculations">Core calculations</h2>
+<ul>
+<li><strong>Basal Metabolic Rate (BMR)</strong> — <em>Mifflin–St Jeor</em>
+<ul>
+<li>Male: <code>10*weight_kg + 6.25*height_cm - 5*age + 5</code><br>
+</li>
+<li>Female: <code>10*weight_kg + 6.25*height_cm - 5*age - 161</code></li>
+</ul></li>
+<li><strong>Total energy target:</strong> <code>BMR × activity_factor</code>, where activity factor is one of<br>
+<code>1.2</code> (sedentary), <code>1.375</code> (light), <code>1.55</code> (moderate), <code>1.725</code> (high).</li>
+<li><strong>Macro distribution (defaults):</strong> 60% carbs, 20% protein, 20% fat, converted to grams using 4–4–9 kcal/g.</li>
+<li><strong>Meal item math:</strong><br>
+<code>Item kcal = servings × (kcal per CSV row)</code><br>
+<code>Item protein (g) = servings × (protein per CSV row)</code><br>
+<code>Item volume (ml) = servings × parsed_ml("Số lượng")</code> <em>(if “Số lượng” includes ml)</em></li>
+</ul>
+</section>
+<section id="csv-food-list-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="csv-food-list-requirements">CSV food list requirements</h2>
+<p><strong>Required columns:</strong><br>
+- <code>Tên sp</code> (food name)<br>
+- <code>Số lượng</code> (portion label, e.g., “300 ml”)<br>
+- <code>Năng lượng</code> (kcal per portion)<br>
+- <code>Protein</code> (grams per portion)</p>
+<p><strong>Optional columns:</strong> <code>Lipid</code>, <code>Glucid</code>, <code>Ghi chú</code></p>
+<p><strong>Notes:</strong> - Each row is a specific portion (e.g., “CHÁO — 300 ml” and “CHÁO — 500 ml” are two distinct rows). - Numbers may use <code>,</code> or <code>.</code> as decimal separators; the app normalizes them. - Section headers like <code>SOUP</code>, <code>SỮA</code>, <code>DỊCH TRUYỀN</code> are ignored in the picker.</p>
+</section>
+<section id="how-to-use" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use">How to use</h2>
+<ol type="1">
+<li><strong>Enter patient details</strong> and choose activity level → click <strong>Calculate</strong> to see the daily kcal and macro recommendations.</li>
+<li><strong>Load the food CSV</strong> (or rely on <code>www/foods.csv</code> if provided).</li>
+<li><strong>Pick foods</strong> from the dropdown, set <strong>servings</strong>, optionally add a <strong>time label</strong> (e.g., Breakfast/Lunch/Dinner), then <strong>Add</strong>.</li>
+<li>Review the <strong>table</strong> (per-item kcal/protein/ml), <strong>totals</strong>, and the <strong>comparison</strong> vs.&nbsp;targets:
+<ul>
+<li>“<strong>Goal:</strong> X kcal/day — <strong>Current plan:</strong> Y kcal — <strong>UNDER/OVER</strong> …”</li>
+<li>“<strong>Protein goal:</strong> X g/day — <strong>Current plan:</strong> Y g — <strong>UNDER/OVER</strong> …”</li>
+</ul></li>
+<li>Click <strong>Export Word</strong> to download a <code>.docx</code> report.</li>
+</ol>
+</section>
+<section id="word-report-contents" class="level2">
+<h2 class="anchored" data-anchor-id="word-report-contents">Word report contents</h2>
+<ol type="1">
+<li><strong>Patient information</strong> (all inputs)<br>
+</li>
+<li><strong>Recommended needs</strong> (kcal target + carbs/protein/fat in g/day)<br>
+</li>
+<li><strong>24-hour meal plan table</strong> (items you added)<br>
+</li>
+<li><strong>Totals &amp; assessment</strong> (energy, protein, fluid totals + UNDER/OVER/ON-TARGET messages)<br>
+</li>
+<li><strong>Logo</strong> (if <code>www/logo-rhm.png</code> exists)</li>
+</ol>
+</section>
+<section id="implementation-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-highlights">Implementation highlights</h2>
+<ul>
+<li>Robust CSV handling: trims whitespace, normalizes decimals, and parses ml from <code>Số lượng</code>.</li>
+<li>Distinguishes duplicate names by showing <strong>“Tên sp — Số lượng”</strong> in the picker.</li>
+<li>Comparison badges indicate <strong>UNDER / OVER / ON-TARGET</strong> for both <strong>kcal</strong> and <strong>protein</strong>.</li>
+<li>Export uses <strong>officer</strong> + <strong>flextable</strong> for a clean Word layout. ““”</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/img/nutrition.png" class="img-center img-fluid figure-img" alt="nutrition logo"></p>
+<figcaption>Screenshot from the App</figcaption>
+</figure>
+</div>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="U2hpbnklMjBhcHA=" data-listing-date-sort="1755640800000" data-listing-file-modified-sort="1755682763200" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="511">
-<a href="./projects/nutrition.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\nutrition.png" alt="nutrition logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nutritional App
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnklMjBhcHA='); return false;">Shiny app</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>A shinyApp to calculate the nutritional demand and design a meal plan for patients at the National Hospital of Odonto-Stomatology, Hanoi.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 20, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="VlNDb2RlJTIwZXh0ZW5zaW9u" data-listing-date-sort="1744754400000" data-listing-file-modified-sort="1744804620684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="376">
-<a href="./projects/quarto_wingman.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\quarto-wingman.png" alt="extension logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quarto Wingman
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VlNDb2RlJTIwZXh0ZW5zaW9u'); return false;">VSCode extension</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Quarto Wingman is a Positron extension designed to enhance the editing experience for Quarto documents and scripts</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Apr 16, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="VlNDb2RlJTIwZXh0ZW5zaW9u" data-listing-date-sort="1744236000000" data-listing-file-modified-sort="1744446935411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
-<a href="./projects/positron_python.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\positron-icon.png" alt="extension logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Positron Python Package Manager
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VlNDb2RlJTIwZXh0ZW5zaW9u'); return false;">VSCode extension</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Manage your Python extensions from within Positron — the RStudio-style package manager for the modern data science IDE</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Apr 10, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="TW9iaWxlJTIwQXBwJTJDR2xvYmFsJTIwSGVhbHRoJTJDRGF0YSUyMFNjaWVuY2U=" data-listing-date-sort="1738364400000" data-listing-file-modified-sort="1742949746415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="858">
-<a href="./projects/hackathon.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\SGHH-hackathon.png" alt="hackathon" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sahlgrenska Global Health Hackathon
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9iaWxlJTIwQXBw'); return false;">Mobile App</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2xvYmFsJTIwSGVhbHRo'); return false;">Global Health</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFNjaWVuY2U='); return false;">Data Science</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>CareBuddy is a mobile app designed to empower individuals managing chronic diseases. Our solution not only enhanced patient care but also secured a Top 3 finish at the…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="UiUyMHBhY2thZ2U=" data-listing-date-sort="1728511200000" data-listing-file-modified-sort="1743372655247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
-<a href="./projects/aetranslations.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\AE_logo.png" alt="ae logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-{aetranslations} R package
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UiUyMHBhY2thZ2U='); return false;">R package</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>This package hosts functions and guidelines for translating Applied Epi courses and resources</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 10, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="U2hpbnklMjBhcHA=" data-listing-date-sort="1722895200000" data-listing-file-modified-sort="1742949817355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
-<a href="./projects/amr_trend.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\amr_trend.png" alt="amr sdg logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AMR Global Trend
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnklMjBhcHA='); return false;">Shiny app</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>AMR Global Trend: A shiny app for exploring the global trend of AMR indicators from 73 countries</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 6, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="U2hpbnklMjBhcHA=" data-listing-date-sort="1718834400000" data-listing-file-modified-sort="1743839119309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<a href="./projects/amr_sdg.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\amr-sdg.png" alt="amr sdg logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AMR-SDGs interactions
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnklMjBhcHA='); return false;">Shiny app</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>AMR-SDGs Explorer: A shiny app for exploring the interaction between AMR and SDGs agenda in national policies</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 20, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="TExNJTJDTW9iaWxlJTIwQXBw" data-listing-date-sort="1703372400000" data-listing-file-modified-sort="1743373192221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
-<a href="./projects/sweden_mentor .html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="assets\img\swedenmentor_roadmap.png" alt="roadmap" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Sweden Mentor
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9iaWxlJTIwQXBw'); return false;">Mobile App</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>An AI chat bot based on large language model to provide information for immigrations about life in Sweden</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 24, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -876,7 +756,7 @@ Dec 24, 2023
 </div>   
     <div class="nav-footer-center">
 
-<div class="toc-actions"><ul><li><a href="https://github.com/ntluong95/profile/blob/main/projects.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ntluong95/profile/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change cookies 🍪</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ntluong95/profile/blob/main/projects/nutrition.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ntluong95/profile/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change cookies 🍪</a></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org">Quarto Website</a></p>
 </div>
@@ -886,5 +766,5 @@ Dec 24, 2023
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

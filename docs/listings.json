@@ -25,6 +25,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/nutrition.html",
       "/projects/quarto_wingman.html",
       "/projects/positron_python.html",
       "/projects/hackathon.html",
