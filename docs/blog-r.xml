@@ -9,18 +9,13 @@
 <link>https://ntluong95.github.io/profile/blog.html#category=R</link>
 <atom:link href="https://ntluong95.github.io/profile/blog-r.xml" rel="self" type="application/rss+xml"/>
 <description>R &amp; Python code, global health and sustainability data science.</description>
-<generator>quarto-1.8.19</generator>
+<generator>quarto-1.9.0</generator>
 <lastBuildDate>Tue, 03 Dec 2024 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Positron - a VSCode fork for Data Science</title>
   <dc:creator>Luong Nguyen Thanh</dc:creator>
   <link>https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="callout callout-style-default callout-important callout-titled">
+  <description><![CDATA[ <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -39,26 +34,22 @@
 </ul>
 </div>
 </div>
-<section id="hello-positron-ide-key-features-you-must-know" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="hello-positron-ide-key-features-you-must-know"><span class="header-section-number">1</span> Hello Positron IDE – Key Features You Must Know</h2>
+<section id="hello-positron-ide-key-features-you-must-know" class="level2" data-number="1"><h2 data-number="1" class="anchored" data-anchor-id="hello-positron-ide-key-features-you-must-know">
+<span class="header-section-number">1</span> Hello Positron IDE – Key Features You Must Know</h2>
 <p>Positron is a next-generation data science IDE delivered by Posit. It’s still in active development, so it’s expected to see some features not working properly (more on this later). But, as mentioned in the introduction, it’s in public beta, which means you’re free to take it for a spin!</p>
 <p>You can download the latest Positron release from the official GitHub releases page.</p>
 <p>In essence, Positron is a fork of a famous IDE – Visual Studio Code. If you’re familiar with it, Positron should feel right at home. It has some neat features delivered out of the box, but you could configure most of these through plugins on a fresh VSCode installation.</p>
-</section>
-<section id="rstudio-meets-visual-studio-code" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="rstudio-meets-visual-studio-code"><span class="header-section-number">2</span> RStudio Meets Visual Studio Code</h2>
+</section><section id="rstudio-meets-visual-studio-code" class="level2" data-number="2"><h2 data-number="2" class="anchored" data-anchor-id="rstudio-meets-visual-studio-code">
+<span class="header-section-number">2</span> RStudio Meets Visual Studio Code</h2>
 <p>Here’s what you’ll see when you first launch Positron:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables."></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables."></a></p>
 </figure>
 </div>
-<figcaption>Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.</figcaption>
-</figure>
+<figcaption>Image 1 – Positron IDE welcome screen It certainly looks like a combination of RStudio and Visual Studio Code! You’ve got your familiar sidebar for navigation and extensions, but also your four-panel view for code, console, plots, and variables.</figcaption></figure>
 </div>
 </div>
 </div>
@@ -66,47 +57,37 @@
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image2.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image2.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail."></a></p>
 </figure>
 </div>
-<figcaption>Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail.</figcaption>
-</figure>
+<figcaption>Image 2 – File/project creation in Positron IDE Up next, let’s explore this multi-language and multi-format support in more detail.</figcaption></figure>
 </div>
 </div>
 </div>
-</section>
-<section id="multi-language-support" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="multi-language-support"><span class="header-section-number">3</span> Multi-Language Support</h2>
+</section><section id="multi-language-support" class="level2" data-number="3"><h2 data-number="3" class="anchored" data-anchor-id="multi-language-support">
+<span class="header-section-number">3</span> Multi-Language Support</h2>
 <p>The big selling point of Positron IDE is that it comes configured for R and Python out of the box – Jupyter Notebooks included. This means you don’t have to set everything up from scratch, which in the case of R and Jupyter is not as easy as it sounds.</p>
 <p>To create a new R script, click on the New File button on the welcome screen and select R File. Writing and running code works just like in RStudio – Command/Control + Enter will run the cell on which your cursor is located:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it"></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it"></a></p>
 </figure>
 </div>
-<figcaption>Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it</figcaption>
-</figure>
+<figcaption>Image 3 – Working with R files in Positron The same approach to writing and running code works in Python scripts – write any code block you want and hit Command/Control + Enter to run it</figcaption></figure>
 </div>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell."></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell."></a></p>
 </figure>
 </div>
-<figcaption>Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.</figcaption>
-</figure>
+<figcaption>Image 4 – Working with Python files in Positron Still, we think Jupyter notebooks allow maximum flexibility. You can create a notebook with a default programming language profile (R or Python), but you can then change the language for each cell.</figcaption></figure>
 </div>
 </div>
 </div>
@@ -114,35 +95,28 @@
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features."></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features."></a></p>
 </figure>
 </div>
-<figcaption>Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.</figcaption>
-</figure>
+<figcaption>Image 5 – Working with Jupyter Notebooks in Positron And that’s the basics of programming language and format support in Positron. Up next, let’s discuss some more advanced features.</figcaption></figure>
 </div>
 </div>
 </div>
 <p>‍</p>
-</section>
-<section id="dataframe-viewer" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="dataframe-viewer"><span class="header-section-number">4</span> DataFrame Viewer</h2>
+</section><section id="dataframe-viewer" class="level2" data-number="4"><h2 data-number="4" class="anchored" data-anchor-id="dataframe-viewer">
+<span class="header-section-number">4</span> DataFrame Viewer</h2>
 <p>Dataframes are the core of all data science workflows, so having an IDE that can display all relevant information about them is a must-have feature.</p>
-<p>Positron allows you to print the dataframe content to the R console by calling R-specific functions, such as <code>head()</code>:</p>
+<p>Positron allows you to print the dataframe content to the R console by calling R-specific functions, such as <code><a href="https://rdrr.io/r/utils/head.html">head()</a></code>:</p>
 <p>‍</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer."></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer."></a></p>
 </figure>
 </div>
-<figcaption>Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer.</figcaption>
-</figure>
+<figcaption>Image 6 – Printing the top 6 rows of a dataframe But the more interesting feature is the dataframe viewer.</figcaption></figure>
 </div>
 </div>
 </div>
@@ -150,14 +124,11 @@
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image7.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image7.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI."></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image7.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image7.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI."></a></p>
 </figure>
 </div>
-<figcaption>Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.</figcaption>
-</figure>
+<figcaption>Image 7 – Dataframe inspection As you can see, you can sort the values, apply filters, inspect missing values, and much more – straight from the GUI.</figcaption></figure>
 </div>
 </div>
 </div>
@@ -170,58 +141,45 @@
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image8.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Image 8 – Data Explorer three main components."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image8.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 8 – Data Explorer three main components."></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image8.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Image 8 – Data Explorer three main components."><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image8.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 8 – Data Explorer three main components."></a></p>
 </figure>
 </div>
-<figcaption>Image 8 – Data Explorer three main components.</figcaption>
-</figure>
+<figcaption>Image 8 – Data Explorer three main components.</figcaption></figure>
 </div>
 </div>
 </div>
-</section>
-<section id="plot-viewer" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="plot-viewer"><span class="header-section-number">5</span> Plot Viewer</h2>
+</section><section id="plot-viewer" class="level2" data-number="5"><h2 data-number="5" class="anchored" data-anchor-id="plot-viewer">
+<span class="header-section-number">5</span> Plot Viewer</h2>
 <p>An amazing feature of RStudio is the plot viewer. You have a dedicated panel for visualizations, and you can easily cycle through multiple charts. Positron has the same feature, arguably with a somewhat updated interface. Creating a new chart won’t delete the old one, as you can easily navigate between them using the right-side panel ‍</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Image 9 – Plot inspection"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 9 – Plot inspection"></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Image 9 – Plot inspection"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 9 – Plot inspection"></a></p>
 </figure>
 </div>
-<figcaption>Image 9 – Plot inspection</figcaption>
-</figure>
+<figcaption>Image 9 – Plot inspection</figcaption></figure>
 </div>
 </div>
 </div>
-</section>
-<section id="variable-inspector" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="variable-inspector"><span class="header-section-number">6</span> Variable Inspector</h2>
+</section><section id="variable-inspector" class="level2" data-number="6"><h2 data-number="6" class="anchored" data-anchor-id="variable-inspector">
+<span class="header-section-number">6</span> Variable Inspector</h2>
 <p>Being able to inspect complex objects, such as plots, is an essential feature for debugging code and making sure everything works as expected. RStudio also has this feature, but Positron allows you to dig deeper and has a sleeker-looking user interface. As you can see, you can drill down into all the small pieces that are combined to make complex objects.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image10.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Image 10 – Variable inspection"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image10.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 10 – Variable inspection"></a></p>
+<figure class="figure"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="image10.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Image 10 – Variable inspection"><img src="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/image10.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Image 10 – Variable inspection"></a></p>
 </figure>
 </div>
-<figcaption>Image 10 – Variable inspection</figcaption>
-</figure>
+<figcaption>Image 10 – Variable inspection</figcaption></figure>
 </div>
 </div>
 </div>
 
 
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2024,
+</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2024,
   author = {Nguyen Thanh, Luong},
   title = {Positron - a {VSCode} Fork for {Data} {Science}},
   date = {2024-12-04},
@@ -346,12 +304,7 @@ Beginner’s Guide to Equivalent Tools.”</span> November 28, 2024. <a href="ht
   <title>Data frame wars: Choosing a Python dataframe library as a dplyr user</title>
   <dc:creator>Luong Nguyen Thanh</dc:creator>
   <link>https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I’m a long time R user and lately I’ve seen more and more <a href="https://www.tiobe.com/tiobe-index/python/">signals</a> that it’s worth investing into Python. I use it for NLP with <a href="https://spacy.io">spaCy</a> and to build functions on <a href="https://aws.amazon.com/lambda/features/">AWS Lambda</a>. Further, there are many more data API libraries and machine learning libraries for Python than for R.</p>
+  <description><![CDATA[ <p>I’m a long time R user and lately I’ve seen more and more <a href="https://www.tiobe.com/tiobe-index/python/">signals</a> that it’s worth investing into Python. I use it for NLP with <a href="https://spacy.io">spaCy</a> and to build functions on <a href="https://aws.amazon.com/lambda/features/">AWS Lambda</a>. Further, there are many more data API libraries and machine learning libraries for Python than for R.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -376,16 +329,20 @@ Note
 <p>In my world, anything that isn’t “identical to R’s dplyr API but faster” just isn’t quite worth switching for. There’s absolutely no contest: dplyr has the most productive API and that matters to me more than anything else.</p>
 </blockquote>
 <p>I’m more willing to compromise though, so here’s a comparison of the strongest contenders.</p>
-<section id="the-contenders" class="level2">
-<h2 class="anchored" data-anchor-id="the-contenders">The contenders</h2>
+<section id="the-contenders" class="level2"><h2 class="anchored" data-anchor-id="the-contenders">The contenders</h2>
 <p>The <a href="https://h2oai.github.io/db-benchmark/">database-like ops benchmark on H2Oai</a> is a helpful performance comparison.</p>
 <p>I’m considering these libraries:</p>
 <ol type="1">
-<li><a href="https://pandas.pydata.org">Pandas</a>: The most commonly used library and the one with the most tutorials and Stack Overflow answers available.</li>
-<li><a href="https://github.com/machow/siuba">siuba</a>: A port of dplyr to Python, built on top of pandas. Not in the benchmark. Performance probably similar to pandas or worse due to translation.</li>
-<li><a href="https://www.pola.rs">Polars</a>: The fastest library available. According to the benchmark, it runs 3-10x faster than Pandas.</li>
-<li><a href="https://www.pola.rs">Duckdb</a>: Use an in-memory OLAP database instead of a dataframe and write SQL. In R, this can also be queried via dbplyr.</li>
-<li><a href="https://ibis-project.org/docs/index.html">ibis</a>. Backend-agnostic wrapper for pandas and SQL engines.</li>
+<li>
+<a href="https://pandas.pydata.org">Pandas</a>: The most commonly used library and the one with the most tutorials and Stack Overflow answers available.</li>
+<li>
+<a href="https://github.com/machow/siuba">siuba</a>: A port of dplyr to Python, built on top of pandas. Not in the benchmark. Performance probably similar to pandas or worse due to translation.</li>
+<li>
+<a href="https://www.pola.rs">Polars</a>: The fastest library available. According to the benchmark, it runs 3-10x faster than Pandas.</li>
+<li>
+<a href="https://www.pola.rs">Duckdb</a>: Use an in-memory OLAP database instead of a dataframe and write SQL. In R, this can also be queried via dbplyr.</li>
+<li>
+<a href="https://ibis-project.org/docs/index.html">ibis</a>. Backend-agnostic wrapper for pandas and SQL engines.</li>
 </ol>
 <p>There are more options. I excluded the others for these reasons:</p>
 <ul>
@@ -394,25 +351,35 @@ Note
 <li>Not meant for OLAP (sqlite)</li>
 <li>Not in Python (DataFrames.jl)</li>
 <li>Meant for GPU (cuDF)</li>
-</ul>
-</section>
-<section id="github-stars-as-a-proxy-for-popularity" class="level2">
-<h2 class="anchored" data-anchor-id="github-stars-as-a-proxy-for-popularity">Github stars as a proxy for popularity</h2>
+</ul></section><section id="github-stars-as-a-proxy-for-popularity" class="level2"><h2 class="anchored" data-anchor-id="github-stars-as-a-proxy-for-popularity">Github stars as a proxy for popularity</h2>
 <p>The benchmark provides a comparison of performance, but another important factor is popularity and maturity. A more mature library has a more stable API, better test coverage and there is more help available online, such as on StackOverflow. One way to measure popularity is the number of stars that the package repository has on Github.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">library</span>(ggplot2)</span>
-<span id="cb1-2">libs <span class="ot" style="color: #003B4F;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">libs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">data.frame</span>(</span>
-<span id="cb1-3">    <span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">library =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">(</span></span>
+<span>    library <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"pandas"</span>, <span class="st" style="color: #20794D;
 background-color: null;
@@ -432,12 +399,16 @@ font-style: inherit;">"dtplyr"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"tidytable"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"ibis"</span>),</span>
-<span id="cb1-4">    <span class="at" style="color: #657422;
+font-style: inherit;">"ibis"</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">language =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">)</span>,</span>
+<span>    language <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Python"</span>, <span class="st" style="color: #20794D;
 background-color: null;
@@ -457,89 +428,126 @@ font-style: inherit;">"R"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"R"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Python"</span>),</span>
-<span id="cb1-5">    <span class="at" style="color: #657422;
+font-style: inherit;">"Python"</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">stars =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">)</span>,</span>
+<span>    stars <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">32100</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">732</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">3900</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">32100</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">4100</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">732</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">3900</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">3900</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">2900</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">4100</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">1400</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">3900</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">542</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">2900</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">285</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">1400</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">1600</span>)</span>
-<span id="cb1-6">)</span>
-<span id="cb1-7"></span>
-<span id="cb1-8"><span class="fu" style="color: #4758AB;
+font-style: inherit;">542</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">ggplot</span>(libs, <span class="fu" style="color: #4758AB;
+font-style: inherit;">285</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+font-style: inherit;">1600</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">x =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">)</span></span>
+<span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">reorder</span>(library, <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">)</span></span>
+<span></span>
+<span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">-</span>stars), <span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">y =</span> stars, <span class="at" style="color: #657422;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">fill =</span> language)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">libs</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/stats/reorder.factor.html">reorder</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">library</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">stars</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span>, y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">stars</span>, fill <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">language</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-9">    <span class="fu" style="color: #4758AB;
+<span>    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">geom_col</span>() <span class="sc" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_bar.html">geom_col</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-10">    <span class="fu" style="color: #4758AB;
+<span>    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">labs</span>(</span>
-<span id="cb1-11">        <span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">(</span></span>
+<span>        title <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Pandas is by far the most popular choice"</span>,</span>
-<span id="cb1-12">        <span class="at" style="color: #657422;
+<span>        subtitle <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Comparison of Github stars"</span>,</span>
-<span id="cb1-13">        <span class="at" style="color: #657422;
+<span>        fill <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Language"</span>,</span>
-<span id="cb1-14">        <span class="at" style="color: #657422;
+<span>        x <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Library"</span>,</span>
-<span id="cb1-15">        <span class="at" style="color: #657422;
+<span>        y <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Github stars"</span></span>
-<span id="cb1-16">    )</span></code></pre></div></div>
+<span>    <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure">
-<p><a href="index_files/figure-html/github_stars-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/index_files/figure-html/github_stars-1.png" class="img-fluid figure-img" width="672"></a></p>
+<figure class="figure"><p><a href="index_files/figure-html/github_stars-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/index_files/figure-html/github_stars-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -547,46 +555,85 @@ font-style: inherit;">"Github stars"</span></span>
 <p>Github stars are not a perfect proxy. For instance, dplyr is more mature than its star count suggests. Comparing the completeness of the documentation and tutorials for dplyr and polars reveals that it’s a day and night difference.</p>
 <p>With the quantitative comparison out of the way, here’s a qualitative comparison of the Python packages. I’m speaking of my personal opinion of these packages - not a general comparison. My reference is my current use of <a href="https://dplyr.tidyverse.org">dplyr</a> in R. When I need more performance, I use <a href="https://github.com/markfairbanks/tidytable">tidytable</a> to get most of the speed of data.table with the grammar of dplyr and eager evaluation. Another alternative is <a href="https://github.com/tidyverse/dtplyr">dtplyr</a>, which translates dplyr to data.table with lazy evaluation. I also use <a href="https://dbplyr.tidyverse.org">dbplyr</a>, which translates dplyr to SQL.</p>
 <p>I’ll compare the libraries by running a data transformation pipeline involving import from CSV, mutate, filter, sort, join, group by and summarize. I’ll use the nycflights13 dataset, which is featured in Hadley Wickham’s <a href="https://r4ds.had.co.nz/transform.html">R for Data Science</a>.</p>
-</section>
-<section id="dplyr-reference-in-r" class="level2">
-<h2 class="anchored" data-anchor-id="dplyr-reference-in-r">dplyr: Reference in R</h2>
+</section><section id="dplyr-reference-in-r" class="level2"><h2 class="anchored" data-anchor-id="dplyr-reference-in-r">dplyr: Reference in R</h2>
 <p>Let’s start with a reference implementation in dplyr. The dataset is available as a package, so I skip the CSV import.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">library</span>(dplyr, <span class="at" style="color: #657422;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">warn.conflicts =</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">FALSE</span>)</span>
-<span id="cb2-2"><span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org">dplyr</a></span>, warn.conflicts <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">library</span>(nycflights13)</span>
-<span id="cb2-3"><span class="fu" style="color: #4758AB;
+font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">library</span>(reactable)</span>
-<span id="cb2-4"></span>
-<span id="cb2-5"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">FALSE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://github.com/hadley/nycflights13">nycflights13</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://glin.github.io/reactable/">reactable</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Take a look at the tables</span></span>
-<span id="cb2-6"><span class="fu" style="color: #4758AB;
+<span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">reactable</span>(<span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://glin.github.io/reactable/reference/reactable.html">reactable</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">head</span>(flights, <span class="dv" style="color: #AD0000;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">10</span>))</span></code></pre></div></div>
+font-style: inherit;"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">flights</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div class="reactable html-widget html-fill-item" id="htmlwidget-2fdacf64ccf62c66b42f" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-2fdacf64ccf62c66b42f">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"year":[2013,2013,2013,2013,2013,2013,2013,2013,2013,2013],"month":[1,1,1,1,1,1,1,1,1,1],"day":[1,1,1,1,1,1,1,1,1,1],"dep_time":[517,533,542,544,554,554,555,557,557,558],"sched_dep_time":[515,529,540,545,600,558,600,600,600,600],"dep_delay":[2,4,2,-1,-6,-4,-5,-3,-3,-2],"arr_time":[830,850,923,1004,812,740,913,709,838,753],"sched_arr_time":[819,830,850,1022,837,728,854,723,846,745],"arr_delay":[11,20,33,-18,-25,12,19,-14,-8,8],"carrier":["UA","UA","AA","B6","DL","UA","B6","EV","B6","AA"],"flight":[1545,1714,1141,725,461,1696,507,5708,79,301],"tailnum":["N14228","N24211","N619AA","N804JB","N668DN","N39463","N516JB","N829AS","N593JB","N3ALAA"],"origin":["EWR","LGA","JFK","JFK","LGA","EWR","EWR","LGA","JFK","LGA"],"dest":["IAH","IAH","MIA","BQN","ATL","ORD","FLL","IAD","MCO","ORD"],"air_time":[227,227,160,183,116,150,158,53,140,138],"distance":[1400,1416,1089,1576,762,719,1065,229,944,733],"hour":[5,5,5,5,6,5,6,6,6,6],"minute":[15,29,40,45,0,58,0,0,0,0],"time_hour":["2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T10:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z","2013-01-01T11:00:00Z"]},"columns":[{"id":"year","name":"year","type":"numeric"},{"id":"month","name":"month","type":"numeric"},{"id":"day","name":"day","type":"numeric"},{"id":"dep_time","name":"dep_time","type":"numeric"},{"id":"sched_dep_time","name":"sched_dep_time","type":"numeric"},{"id":"dep_delay","name":"dep_delay","type":"numeric"},{"id":"arr_time","name":"arr_time","type":"numeric"},{"id":"sched_arr_time","name":"sched_arr_time","type":"numeric"},{"id":"arr_delay","name":"arr_delay","type":"numeric"},{"id":"carrier","name":"carrier","type":"character"},{"id":"flight","name":"flight","type":"numeric"},{"id":"tailnum","name":"tailnum","type":"character"},{"id":"origin","name":"origin","type":"character"},{"id":"dest","name":"dest","type":"character"},{"id":"air_time","name":"air_time","type":"numeric"},{"id":"distance","name":"distance","type":"numeric"},{"id":"hour","name":"hour","type":"numeric"},{"id":"minute","name":"minute","type":"numeric"},{"id":"time_hour","name":"time_hour","type":"Date"}],"dataKey":"efb7087d9e2b5bd5b3155062bf174300"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">reactable</span>(<span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://glin.github.io/reactable/reference/reactable.html">reactable</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">head</span>(airlines, <span class="dv" style="color: #AD0000;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">10</span>))</span></code></pre></div></div>
+font-style: inherit;"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">airlines</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div class="reactable html-widget html-fill-item" id="htmlwidget-82af8b2c371e6d380ec6" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-82af8b2c371e6d380ec6">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"carrier":["9E","AA","AS","B6","DL","EV","F9","FL","HA","MQ"],"name":["Endeavor Air Inc.","American Airlines Inc.","Alaska Airlines Inc.","JetBlue Airways","Delta Air Lines Inc.","ExpressJet Airlines Inc.","Frontier Airlines Inc.","AirTran Airways Corporation","Hawaiian Airlines Inc.","Envoy Air"]},"columns":[{"id":"carrier","name":"carrier","type":"character"},{"id":"name","name":"name","type":"character"}],"dataKey":"f306daa08a2136046ead72a665ae9011"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
@@ -595,75 +642,139 @@ font-style: inherit;">10</span>))</span></code></pre></div></div>
 <p>The <code>flights</code> tables has 336776 rows, one for each flight of an airplane. The <code>airlines</code> table has 16 rows, one for each airline mapping the full name of the company to a code.</p>
 <p>Let’s find the airline with the highest arrival delays in January 2013.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">flights <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">flights</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span id="cb4-2">    <span class="fu" style="color: #4758AB;
+<span>    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">filter</span>(year <span class="sc" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">2013</span>, month <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">year</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+font-style: inherit;">==</span> <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">1</span>, <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">2013</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">month</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">is.na</span>(arr_delay)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">arr_delay</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span id="cb4-3">    <span class="fu" style="color: #4758AB;
+<span>    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">arr_delay =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">(</span>arr_delay <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">replace</span>(arr_delay, arr_delay <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">&lt;</span> <span class="dv" style="color: #AD0000;
+font-style: inherit;"><a href="https://rdrr.io/r/base/replace.html">replace</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">0</span>)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">arr_delay</span>, <span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb4-4">    <span class="fu" style="color: #4758AB;
+font-style: inherit;">arr_delay</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">left_join</span>(airlines, <span class="at" style="color: #657422;
+font-style: inherit;">&lt;</span> <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">by =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">0</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">"carrier"</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">0</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb4-5">    <span class="fu" style="color: #4758AB;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">group_by</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">airline =</span> name) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span id="cb4-6">    <span class="fu" style="color: #4758AB;
+<span>    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">summarise</span>(<span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">left_join</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">flights =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">n</span>(), <span class="at" style="color: #657422;
+font-style: inherit;">airlines</span>, by <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">mean_delay =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">mean</span>(arr_delay)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"carrier"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span id="cb4-7">    <span class="fu" style="color: #4758AB;
+<span>    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">arrange</span>(<span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">desc</span>(mean_delay))</span></code></pre></div></div>
+font-style: inherit;">(</span>airline <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">name</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span>    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarise</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>flights <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/context.html">n</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span>, mean_delay <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">arr_delay</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span>    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/arrange.html">arrange</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/desc.html">desc</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">mean_delay</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 16 × 3
    airline                     flights mean_delay
@@ -689,46 +800,78 @@ font-style: inherit;">desc</span>(mean_delay))</span></code></pre></div></div>
 <p>Some values in <code>arr_delay</code> are negative, indicating that the flight was faster than expected. I replaced these values with 0 because I don’t want them to cancel out delays of other flights. I joined to the airlines table to get the full names of the airlines.</p>
 <p>I export the flights and airlines tables to CSV to hand them over to Python.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Write to temporary files</span></span>
-<span id="cb6-2">flights_path <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">flights_path</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tempfile</span>(<span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://rdrr.io/r/base/tempfile.html">tempfile</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">fileext =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">(</span>fileext <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">".csv"</span>)</span>
-<span id="cb6-3">airlines_path <span class="ot" style="color: #003B4F;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".csv"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">airlines_path</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tempfile</span>(<span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://rdrr.io/r/base/tempfile.html">tempfile</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">fileext =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">(</span>fileext <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">".csv"</span>)</span>
-<span id="cb6-4"></span>
-<span id="cb6-5">data.table<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+font-style: inherit;">".csv"</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">fwrite</span>(flights, flights_path, <span class="at" style="color: #657422;
+font-style: inherit;">)</span></span>
+<span></span>
+<span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">row.names =</span> <span class="cn" style="color: #8f5902;
-background-color: null;
-font-style: inherit;">FALSE</span>)</span>
-<span id="cb6-6">data.table<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">data.table</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">fwrite</span>(airlines, airlines_path, <span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://rdatatable.gitlab.io/data.table/reference/fwrite.html">fwrite</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">row.names =</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">FALSE</span>)</span></code></pre></div></div>
+font-style: inherit;">flights</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">flights_path</span>, row.names <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">data.table</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdatatable.gitlab.io/data.table/reference/fwrite.html">fwrite</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">airlines</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">airlines_path</span>, row.names <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <p>To access the file from Python, the path is handed over:</p>
 <div class="cell">
@@ -751,9 +894,7 @@ background-color: null;
 font-style: inherit;">"airlines_path"</span>]</span></code></pre></div></div>
 </div>
 <p>For more details on how this works with the reticulate package, check this documentation.</p>
-</section>
-<section id="pandas-most-popular" class="level2">
-<h2 class="anchored" data-anchor-id="pandas-most-popular">Pandas: Most popular</h2>
+</section><section id="pandas-most-popular" class="level2"><h2 class="anchored" data-anchor-id="pandas-most-popular">Pandas: Most popular</h2>
 <p>The following sections follow a pattern: read in from CSV, then build a query.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="im" style="color: #00769E;
@@ -850,16 +991,14 @@ Virgin America                   314    3.165605</code></pre>
 </div>
 <p>I chose to use the pipeline syntax from pandas - another option is to modify the dataset in place. That has a lower memory footprint, but can’t be run repeatedly for the same result, such as in interactive use in a notebook.</p>
 <p>Here, the <code>query()</code> function is slightly awkward with the long string argument. The <code>groupby</code> doesn’t allow renaming on the fly like dplyr, though I don’t consider that a real drawback. Perhaps it’s clearer to rename explicitly anyway.</p>
-<p>Pandas has the widest API, offering hundreds of functions for every conceivable manipulation. The <code>clip</code> function used here is one such example. One difference to dplyr is that pandas uses its own methods <code>.mean()</code>, rather than using external ones such as <code>base::mean()</code>. That means using custom functions instead carries a <a href="https://stackoverflow.com/a/26812998">performance penalty</a>.</p>
+<p>Pandas has the widest API, offering hundreds of functions for every conceivable manipulation. The <code>clip</code> function used here is one such example. One difference to dplyr is that pandas uses its own methods <code>.mean()</code>, rather than using external ones such as <code><a href="https://rdrr.io/r/base/mean.html">base::mean()</a></code>. That means using custom functions instead carries a <a href="https://stackoverflow.com/a/26812998">performance penalty</a>.</p>
 <p>As we’ll see later, pandas is the backend for siuba and ibis, which boil down to pandas code.</p>
 <p>One difference to all other discussed solutions is that pandas uses a <a href="https://www.sharpsightlabs.com/blog/pandas-index/">row index</a>. Base R also has this with row names, but the tidyverse and tibbles have largely removed them from common use. I never missed row names. At the times I had to work with them in pandas they were more confusing than helpful. The documentation of polars puts it more bluntly:</p>
 <blockquote class="blockquote">
 <p>No index. They are not needed. Not having them makes things easier. Convince me otherwise</p>
 </blockquote>
 <p>That’s quite passive aggressive, but I do agree and wish pandas didn’t have it.</p>
-</section>
-<section id="siuba-dplyr-in-python" class="level2">
-<h2 class="anchored" data-anchor-id="siuba-dplyr-in-python">siuba: dplyr in Python</h2>
+</section><section id="siuba-dplyr-in-python" class="level2"><h2 class="anchored" data-anchor-id="siuba-dplyr-in-python">siuba: dplyr in Python</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="im" style="color: #00769E;
 background-color: null;
@@ -937,15 +1076,13 @@ font-style: inherit;">-</span>si._.mean_delay)</span>
 <span id="cb12-10">)</span></code></pre></div></div>
 </div>
 <p>I found siuba the easiest to work with. Once I understood the <code>_</code> placeholder for a table of data, I could write it almost as fast as dplyr. Out of all the ways to refer to a column in a data frame, I found it to be the most convenient, because it doesn’t require me to spell out the name of the data frame over and over. While not as elegant as dplyr’s <a href="https://www.tidyverse.org/blog/2019/06/rlang-0-4-0/#a-simpler-interpolation-pattern-with">tidy evaluation</a> (discussed at the end of the article), it avoids the ambivalence in dplyr where it can be unclear whether a name refers to a column or an outside object.</p>
-<p>It’s always possible to drop into pandas, such as for the aggregation functions which use the <code>mean()</code> and <code>count()</code> methods of the pandas series. The <code>&gt;&gt;</code> is an easy replacement for the <code>%&gt;%</code> magrittr pipe or <code>|&gt;</code> base pipe in R.</p>
+<p>It’s always possible to drop into pandas, such as for the aggregation functions which use the <code><a href="https://rdrr.io/r/base/mean.html">mean()</a></code> and <code><a href="https://dplyr.tidyverse.org/reference/count.html">count()</a></code> methods of the pandas series. The <code>&gt;&gt;</code> is an easy replacement for the <code>%&gt;%</code> magrittr pipe or <code>|&gt;</code> base pipe in R.</p>
 <p>The author advertises siuba like this (from the <a href="https://siuba.readthedocs.io/en/latest/">docs</a>):</p>
 <blockquote class="blockquote">
 <p>Siuba is a library for quick, scrappy data analysis in Python. It is a port of dplyr, tidyr, and other R Tidyverse libraries.</p>
 </blockquote>
 <p>A way for dplyr users to quickly hack away at data analysis in Python, but not meant for unsupervised production use.</p>
-</section>
-<section id="polars-fastest" class="level2">
-<h2 class="anchored" data-anchor-id="polars-fastest">Polars: Fastest</h2>
+</section><section id="polars-fastest" class="level2"><h2 class="anchored" data-anchor-id="polars-fastest">Polars: Fastest</h2>
 <p>Polars is written in Rust and also offers a Python API. It comes in two flavors: eager and lazy. Lazy evaluation is similar to how dbplyr and dtplyr work: until asked, nothing is evaluated. This enables performance gains by reordering the commands being executed. But it’s a little less convenient for interactive analysis. I’ll use the eager API here.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="im" style="color: #00769E;
@@ -1046,9 +1183,7 @@ font-style: inherit;">True</span>)</span>
 <p>The API is leaner than pandas, requiring to memorize fewer functions and patterns. Though this can also be seen as less feature-complete. Pandas, for example has a dedicated <code>clip</code> function.</p>
 <p>There isn’t nearly as much help available for problems with polars as for with pandas. While the documentation is good, it can’t answer every question and lots of trial and error is needed.</p>
 <p>A comparison of polars and pandas is available in the <a href="https://pola-rs.github.io/polars-book/user-guide/coming_from_pandas.html?highlight=assign#column-assignment">polars documentation</a>.</p>
-</section>
-<section id="duckdb-highly-compatible-and-easy-for-sql-users" class="level2">
-<h2 class="anchored" data-anchor-id="duckdb-highly-compatible-and-easy-for-sql-users">DuckDB: Highly compatible and easy for SQL users</h2>
+</section><section id="duckdb-highly-compatible-and-easy-for-sql-users" class="level2"><h2 class="anchored" data-anchor-id="duckdb-highly-compatible-and-easy-for-sql-users">DuckDB: Highly compatible and easy for SQL users</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="im" style="color: #00769E;
 background-color: null;
@@ -1163,9 +1298,7 @@ font-style: inherit;">"ORDER BY mean_delay DESC "</span></span>
 <p>SQL is inherently lazily executed, because the query planner needs to take the whole query into account before starting computation. This enables performance gains. For interactive use, lazy evaluation is less convenient, because one can’t see the intermediate results at each step. Speed of iteration is critical: the faster one can iterate, the more hypotheses about the data can be tested.</p>
 <p>There is a <a href="https://github.com/duckdb/duckdb/blob/master/examples/python/duckdb-python.py">programmatic way to construct queries</a> for duckdb, designed to provide a <a href="https://github.com/duckdb/duckdb/issues/302">dbplyr alternative</a> in Python. Unfortunately its documentation is sparse.</p>
 <p>Using duckdb without pandas doesn’t seem feasible for exploratory data analysis, because graphing packages like seaborn and plotly expect a pandas data frame or similar as an input.</p>
-</section>
-<section id="ibis-lingua-franca-in-python" class="level2">
-<h2 class="anchored" data-anchor-id="ibis-lingua-franca-in-python">ibis: Lingua franca in Python</h2>
+</section><section id="ibis-lingua-franca-in-python" class="level2"><h2 class="anchored" data-anchor-id="ibis-lingua-franca-in-python">ibis: Lingua franca in Python</h2>
 <p>The goal of ibis is to provide a universal language for working with data frames in Python, regardless of the backend that is used. It’s tagline is: <em>Write your analytics code once, run in everywhere</em>. This is similar to how dplyr can use SQL as a backend with dbplyr and data.table with dtplyr.</p>
 <p>Among others, Ibis supports pandas, PostgreSQL and SQLite as backends. Unfortunately duckdb is not an available backend, because the authors of duckdb have <a href="https://github.com/duckdb/duckdb/issues/302">decided against</a> building on ibis.</p>
 <p>The ibis project aims to bridge the gap between the needs of interactive data analysis and the capabilities of SQL, which I have detailed in the previous section on duckdb.</p>
@@ -1183,7 +1316,8 @@ Note
 <ul>
 <li>Duckdb is now a supported backend (along with many more). So performance is going to be very similar to duckdb.</li>
 <li>Directly load/save data</li>
-<li><code>join()</code>, <code>clip()</code>, and <code>case()</code> are well-supported</li>
+<li>
+<code>join()</code>, <code><a href="https://rdrr.io/r/graphics/clip.html">clip()</a></code>, and <code>case()</code> are well-supported</li>
 <li>Ibis is much more popular and now very actively maintained. There are more examples, better documentation, and community. Still definitely less than pandas, but perhaps comparable to polars.</li>
 </ul>
 <p>Thanks to <a href="https://github.com/psimm/website/issues/10#issuecomment-1767099439">NickCrews</a> for providing this update, including the following code example.</p>
@@ -1307,10 +1441,8 @@ font-style: inherit;">=</span>_.arr_delay.mean())</span>
 </div>
 </div>
 <p>The syntax looks quite similar to dplyr and the versatility of interchangeable backends is remarkable. In the first version of this article, ibis was lacking in documentation and had some rough edges in the API, but these were improved in the meantime.</p>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>It’s not a clear-cut choice. None of the options offer a syntax that is as convenient for interactive analysis as dplyr. siuba is the closest to it, but dplyr still has an edge with <a href="https://www.tidyverse.org/blog/2019/06/rlang-0-4-0/#a-simpler-interpolation-pattern-with">tidy evaluation</a>, letting users refer to columns in a data frame by their names (<code>colname</code>) directly, without any wrappers. But I’ve also seen it be confusing for newbies to R that mix it up with base R’s syntax. It’s also harder to program with, where it’s necessary to use operators like <code>{ }</code> and <code>:=</code>.</p>
+</section><section id="conclusion" class="level2"><h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>It’s not a clear-cut choice. None of the options offer a syntax that is as convenient for interactive analysis as dplyr. siuba is the closest to it, but dplyr still has an edge with <a href="https://www.tidyverse.org/blog/2019/06/rlang-0-4-0/#a-simpler-interpolation-pattern-with">tidy evaluation</a>, letting users refer to columns in a data frame by their names (<code>colname</code>) directly, without any wrappers. But I’ve also seen it be confusing for newbies to R that mix it up with base R’s syntax. It’s also harder to program with, where it’s necessary to use operators like <code><a href="https://rdrr.io/r/base/Paren.html">{ }</a></code> and <code>:=</code>.</p>
 <p>My appreciation for dplyr (and the closely associated tidyr) grew during this research. Not only is it a widely accepted standard like pandas, it can also be used as a translation layer for backends like SQL databases (including duckdb), data.table, and Spark. All while having the most elegant and flexible syntax available.</p>
 <p>Personally, I’ll primarily leverage SQL and a OLAP database (such as Clickhouse or Snowflake) running on a server to do the heavy lifting. For steps that are better done locally, I’ll use pandas for maximum compatibility. I find the use of an index inconvenient, but there’s so much online help available on StackOverflow. Github Copilot also deserves a mention for making it easier to pick up. Other use cases can be very different, so I don’t mean to say that my way is the best. For instance, if the data is not already on a server, fast local processing with polars may be best.</p>
 <p>Most data science work happens in a team. Choosing a library that all team members are familiar with is critical for collaboration. That is typically SQL, pandas or dplyr. The performance gains from using a less common library like polars have to be weighed against the effort spent learning the syntax as well as the increased likelihood of bugs, when beginners write in a new syntax.</p>
@@ -1319,7 +1451,7 @@ font-style: inherit;">=</span>_.arr_delay.mean())</span>
 <li><a href="https://www.analyticsvidhya.com/blog/2021/06/polars-the-fastest-dataframe-library-youve-never-heard-of/">Polars: the fastest DataFrame library you’ve never heard of</a></li>
 <li><a href="https://mchow.com/posts/2020-02-11-dplyr-in-python/">What would it take to recreate dplyr in python?</a></li>
 <li><a href="https://mchow.com/posts/pandas-has-a-hard-job/">Pandas has a hard job (and does it well)</a></li>
-<li><a href="https://bensstats.wordpress.com/2021/09/14/pythonmusings-6-dplyr-in-python-first-impressions-of-the-siuba-小巴-module/">dplyr in Python? First impressions of the siuba module</a></li>
+<li><a href="https://bensstats.wordpress.com/2021/09/14/pythonmusings-6-dplyr-in-python-first-impressions-of-the-siuba-%E5%B0%8F%E5%B7%B4-module/">dplyr in Python? First impressions of the siuba module</a></li>
 <li><a href="https://towardsdatascience.com/an-overview-of-pythons-datatable-package-5d3a97394ee9">An Overview of Python’s Datatable package</a></li>
 <li><a href="https://news.ycombinator.com/item?id=24531085">Discussion of DuckDB on Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=29584698">Discussion of Polars on Hacker News</a></li>
@@ -1327,9 +1459,7 @@ font-style: inherit;">=</span>_.arr_delay.mean())</span>
 </ul>
 
 
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2023,
+</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nguyen_thanh2023,
   author = {Nguyen Thanh, Luong},
   title = {Choosing a {Python} Dataframe Library as a {dplyR} {useR}},
   date = {2023-01-25},

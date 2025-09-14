@@ -11,3 +11,5 @@
 .quarto
 *.psd
 .qodo
+
+**/*.quarto_ipynb
