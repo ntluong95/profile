@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: ../docs/handbook
+
+published-title: "Last updated"
+
+babelquarto:
+  languagecodes:
+  - name: vn
+    text: "Tiếng Việt"
+  - name: en
+    text: "English"
+  mainlanguage: 'en'
+  languages: ['vn']    
+
+title-vn: "Cẩm nang nghiên cứu sức khỏe: Hướng dẫn từ A-Z để thành công trong sự nghiệp"
+lang: en
+
+book:
+  title: "The Health Researcher's Roadmap: An A-Z Handbook for Career Success"
+  author: "Luong Nguyen Thanh"
+  date: "2025-09-19"
+  repo-url: https://github.com/ntluong95/profile/tree/main/handbook
+  site-url: https://example.com
+  open-graph: true
+  repo-actions: [edit, issue, source]
+  sidebar:
+    style: "docked"
+    search: true
+  chapters:
+    - index.qmd # draft
+    - introduction.qmd # draft
+    - part: "Numeric Features"
+      part-vn: "Tính năng số"
+      chapters:
+        - pages/numeric.qmd # draft
+    - pages/summary.qmd
+    - pages/references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: [cosmo.scss, theme.scss]
+    include-after-body: [posthog.html, misc.html]
+
+
+editor:
+  markdown:
+    wrap: sentence
+    canonical: true

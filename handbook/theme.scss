@@ -1,0 +1,73 @@
+/*-- scss:defaults --*/
+
+// colors
+$teal:        #0b7366;
+$teal-light:  #f6fafa;
+$teal-dark:   #07483f;
+
+body {
+  font-family: Atkinson Hyperlegible, Nunito, sans-serif;
+  background-color: $teal-light;
+  font-size: 17px;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.sidebar-navigation a {
+    color: inherit;
+    font-size: 17px;
+}
+
+// @font-face {
+//   font-family: 'Raleway';
+//   font-weight: 600;
+//   src: url('assets/fonts/Raleway-SemiBold.woff2') format('woff2'),
+//        url('assets/fonts/Raleway-SemiBold.woff') format('woff');
+// }
+
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  src: url('assets/fonts/SourceCodePro-Medium.woff2') format('woff2'),
+       url('assets/fonts/SourceCodePro-Medium.woff') format('woff');
+}
+
+// $font-family-sans-serif: 'Raleway', sans-serif;
+$font-family-monospace: 'Source Code Pro', monospace;
+
+$theme-orange: #a98069;
+$theme-green: #0b7366;
+$theme-darkgreen: #07483f;
+
+$font-size-root: 17px;
+$link-color: $theme-orange;
+
+/*-- scss:rules --*/
+
+h1,
+h2 {
+  color: $theme-darkgreen;
+}
+
+.sidebar-title>a {
+  font-size: 17px;
+}
+
+.sidebar-header {
+  align-self: center;
+}
+
+.sidebar-navigation li a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.bi-arrows-collapse::before,
+.bi-arrows-expand::before,
+.bi-dice-6::before {
+  color: rgb(52, 58, 64);
+}
