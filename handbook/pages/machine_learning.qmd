@@ -1,0 +1,14 @@
+
+	- [ ] [bcfgothenburg/Hands-on: Here you will find short exercises that are covered at our 1-hour hands-on sessions](https://github.com/bcfgothenburg/Hands-on) 
+
+
+Data Science
+A First Introduction with Python:    https://python.datasciencebook.ca/index.html
+
+
+https://www.promptingguide.ai/
+https://aeturrell.github.io/python4DS/welcome.html
+
+https://www.pythonhealthdatascience.com/content/front_page.html
+
+https://wesmckinney.com/book/

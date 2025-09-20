@@ -30,12 +30,34 @@ book:
   chapters:
     - index.qmd # draft
     - introduction.qmd # draft
-    - part: "Numeric Features"
-      part-vn: "Tính năng số"
+    - part: "Public Health: Theory and Application"
+      part-vn: "Y tế công cộng: Lý thuyết và Ứng dụng"
       chapters:
-        - pages/numeric.qmd # draft
-    - pages/summary.qmd
-    - pages/references.qmd
+        - pages/epi_basic.qmd # draft
+        - pages/big_concept.qmd # draft
+        - pages/study_design.qmd # draft
+    - part: "Biostatistics: Methods and Practice"
+      part-vn: "Sinh học thống kê: Phương pháp và Thực hành"
+      chapters:
+        - pages/biostats_basic.qmd # draft
+        - pages/regression.qmd # draft
+        - pages/survival.qmd # draft
+        - pages/meta_analysis.qmd # draft
+        - pages/longitudinal.qmd # draft
+        - pages/machine_learning.qmd # draft
+        - pages/mathematical_modelling.qmd # draft
+
+    - part: "Data Science: Tools and Techniques"
+      part-vn: "Khoa học dữ liệu: Công cụ và Kỹ thuật"
+      chapters:
+        - pages/programming.qmd # draft
+        - pages/data_management.qmd # draft
+        - pages/statistical_software.qmd # draft
+        - pages/data_visualization.qmd # draft
+        - pages/cloud_database.qmd # draft
+
+    - pages/summary.qmd # draft
+    - pages/references.qmd # draft
 
 bibliography: references.bib
 

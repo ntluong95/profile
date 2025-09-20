@@ -2,6 +2,9 @@
 pagetitle: "Feature Engineering A-Z | Numeric Overview"
 ---
 
+- [ ] Học thêm về EPI tại [[Seminars in Epidemiology]], [Nhặt nhạnh kiến thức - Hoàng Bảo Long - Google Trang tính](https://docs.google.com/spreadsheets/d/1bs6qROsORAftpugoV0hgGqjeFwYSJIPRFHYADclRerc/edit#gid=0), [Research tweets - Hoang Bao Long - Google Trang tính](https://docs.google.com/spreadsheets/d/1ZP98I5IoWwo5vEvhwQvEyjMPuVaTLOj7teYmYvN-pok/edit#gid=0)  
+
+
 # Numeric Overview {#sec-numeric}
 
 ::: {style="visibility: hidden; height: 0px;"}
