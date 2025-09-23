@@ -1,0 +1,31 @@
+---
+title: "Stepping outside the world: A Guide for Vietnamese Students Studying Abroad and Securing Scholarships" 
+description: "3000+ copies sold in 3 months, covered widely in Vietnam national media"
+author: 
+  - name: Luong Nguyen Thanh
+date: "2022-09-02"
+categories:
+  - scholarships
+---
+
+[<a href="scholarships_source.html" class="btn" role="button">{{< fa book >}} Book description</a> <a href="https://shop.spiderum.com/products/sach-buoc-ra-the-gioi-cam-nang-du-hoc-va-san-hoc-bong" class="btn" role="button">{{< fa cart-shopping >}} Buy</a>]{.listing-btn-group}
+
+The book was published in September 2022 and quickly became a bestseller, with over 3000 copies sold in the first three months. It has been widely covered in Vietnamese national media.
+
+![Book Cover](../assets/img/scholarships1.png){fig-alt="Stepping outside the world book cover" fig-align="center"}
+
+![List of Authors](../assets/img/scholarships2.png){fig-alt="Stepping outside the world authors" fig-align="center"}
+
+![Book Info](../assets/img/scholarships3.png){fig-alt="Stepping outside the world book info" fig-align="center"}
+
+![Belgian scholarships](../assets/img/scholarships5.png){fig-alt="Stepping outside the world book Belgian scholarships" fig-align="center"}
+
+![Curriculum Vitae](../assets/img/scholarships6.png){fig-alt="Stepping outside the world Curriculum Vitae" fig-align="center"}
+
+![Interview](../assets/img/scholarships7.png){fig-alt="Stepping outside the world Interview" fig-align="center"}
+
+
+
+
+
+

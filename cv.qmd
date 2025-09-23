@@ -190,7 +190,7 @@ knitr::include_graphics(here::here("assets/img/berlin.jpg"))
 
 1. `Luong NT`, Didier W, Mats M, Peter SJ (2025). ‘When global health meets global goals’: assessing the alignment between antimicrobial resistance and sustainable development policies in 10 African and Asian countries. *BMJ Global Health*
 
-2. Peter SJ, `Luong NT` and 10 co-authors (2024). Association between national action and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023. *PLOS Global Public Health*
+2. Peter SJ, `Luong NT` and 10 co-authors (2025). Association between national action and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023. *PLOS Global Public Health*
 
 3. `Luong NT`, Didier W, Mats M, Tiscar G, Peter SJ (2024) Characterizing proximal and distal drivers of antimicrobial resistance: An umbrella review. *Journal of Global Antimicrobial Resistance*
 

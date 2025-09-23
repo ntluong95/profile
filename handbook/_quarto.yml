@@ -42,18 +42,20 @@ book:
         - pages/biostats_basic.qmd # draft
         - pages/regression.qmd # draft
         - pages/survival.qmd # draft
-        - pages/meta_analysis.qmd # draft
         - pages/longitudinal.qmd # draft
         - pages/machine_learning.qmd # draft
         - pages/mathematical_modelling.qmd # draft
+        - pages/meta_analysis.qmd # draft
 
     - part: "Data Science: Tools and Techniques"
       part-vn: "Khoa học dữ liệu: Công cụ và Kỹ thuật"
       chapters:
         - pages/programming.qmd # draft
+        - pages/free_database.qmd # draft
         - pages/data_management.qmd # draft
         - pages/statistical_software.qmd # draft
         - pages/data_visualization.qmd # draft
+        - pages/dashboard.qmd # draft
         - pages/cloud_database.qmd # draft
 
     - pages/summary.qmd # draft

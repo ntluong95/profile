@@ -326,7 +326,7 @@
     "href": "cv.html#publication",
     "title": "Curriculum Vitae",
     "section": "\n Publication",
-    "text": "Publication\nLink to my Google Scholar profile (14 peer-reviewed, h-index: 8, i10-index: 5, total number of citations: 135)\nSelected 5 articles:\n\nLuong NT, Didier W, Mats M, Peter SJ (2025). ‘When global health meets global goals’: assessing the alignment between antimicrobial resistance and sustainable development policies in 10 African and Asian countries. BMJ Global Health\nPeter SJ, Luong NT and 10 co-authors (2024). Association between national action and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023. PLOS Global Public Health\nLuong NT, Didier W, Mats M, Tiscar G, Peter SJ (2024) Characterizing proximal and distal drivers of antimicrobial resistance: An umbrella review. Journal of Global Antimicrobial Resistance\nNgo HTH, Nguyen TL, and 6 co-authors (2021). Microbial contamination and associated risk factors in retailed pork from key value chains in Northern Vietnam. Food Microbiology \nLam S, Huyen NTT, Ngo HTH, Nguyen TL, and 6 co-authors (2021). Unpacking the Theory Behind One Health Food Safety Programs: A Vietnam Case Study. Frontiers in Veterinary Science"
+    "text": "Publication\nLink to my Google Scholar profile (14 peer-reviewed, h-index: 8, i10-index: 5, total number of citations: 135)\nSelected 5 articles:\n\nLuong NT, Didier W, Mats M, Peter SJ (2025). ‘When global health meets global goals’: assessing the alignment between antimicrobial resistance and sustainable development policies in 10 African and Asian countries. BMJ Global Health\nPeter SJ, Luong NT and 10 co-authors (2025). Association between national action and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023. PLOS Global Public Health\nLuong NT, Didier W, Mats M, Tiscar G, Peter SJ (2024) Characterizing proximal and distal drivers of antimicrobial resistance: An umbrella review. Journal of Global Antimicrobial Resistance\nNgo HTH, Nguyen TL, and 6 co-authors (2021). Microbial contamination and associated risk factors in retailed pork from key value chains in Northern Vietnam. Food Microbiology \nLam S, Huyen NTT, Ngo HTH, Nguyen TL, and 6 co-authors (2021). Unpacking the Theory Behind One Health Food Safety Programs: A Vietnam Case Study. Frontiers in Veterinary Science"
   },
   {
     "objectID": "cv.html#academic-events-attendance",
@@ -445,7 +445,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Nutritional App\n\n\n\nShiny app\n\n\n\nA shinyApp to calculate the nutritional demand and design a meal plan for patients at the National Hospital of Odonto-Stomatology, Hanoi.\n\n\n\nAug 20, 2025\n\n\n\n\n\n\n\n\n\n\n\nQuarto Wingman\n\n\n\nVSCode extension\n\n\n\nQuarto Wingman is a Positron extension designed to enhance the editing experience for Quarto documents and scripts\n\n\n\nApr 16, 2025\n\n\n\n\n\n\n\n\n\n\n\nPositron Python Package Manager\n\n\n\nVSCode extension\n\n\n\nManage your Python extensions from within Positron — the RStudio-style package manager for the modern data science IDE\n\n\n\nApr 10, 2025\n\n\n\n\n\n\n\n\n\n\n\nSahlgrenska Global Health Hackathon\n\n\n\nMobile App\n\nGlobal Health\n\nData Science\n\n\n\nCareBuddy is a mobile app designed to empower individuals managing chronic diseases. Our solution not only enhanced patient care but also secured a Top 3 finish at the…\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n{aetranslations} R package\n\n\n\nR package\n\n\n\nThis package hosts functions and guidelines for translating Applied Epi courses and resources\n\n\n\nOct 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR Global Trend\n\n\n\nShiny app\n\n\n\nAMR Global Trend: A shiny app for exploring the global trend of AMR indicators from 73 countries\n\n\n\nAug 6, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR-SDGs interactions\n\n\n\nShiny app\n\n\n\nAMR-SDGs Explorer: A shiny app for exploring the interaction between AMR and SDGs agenda in national policies\n\n\n\nJun 20, 2024\n\n\n\n\n\n\n\n\n\n\n\nThe Sweden Mentor\n\n\n\nLLM\n\nMobile App\n\n\n\nAn AI chat bot based on large language model to provide information for immigrations about life in Sweden\n\n\n\nDec 24, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Nutritional App\n\n\n\nShiny app\n\n\n\nA shinyApp to calculate the nutritional demand and design a meal plan for patients at the National Hospital of Odonto-Stomatology, Hanoi.\n\n\n\nAug 20, 2025\n\n\n\n\n\n\n\n\n\n\n\nQuarto Wingman\n\n\n\nVSCode extension\n\n\n\nQuarto Wingman is a Positron extension designed to enhance the editing experience for Quarto documents and scripts\n\n\n\nApr 16, 2025\n\n\n\n\n\n\n\n\n\n\n\nPositron Python Package Manager\n\n\n\nVSCode extension\n\n\n\nManage your Python extensions from within Positron — the RStudio-style package manager for the modern data science IDE\n\n\n\nApr 10, 2025\n\n\n\n\n\n\n\n\n\n\n\nSahlgrenska Global Health Hackathon\n\n\n\nMobile App\n\nGlobal Health\n\nData Science\n\n\n\nCareBuddy is a mobile app designed to empower individuals managing chronic diseases. Our solution not only enhanced patient care but also secured a Top 3 finish at the…\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n{aetranslations} R package\n\n\n\nR package\n\n\n\nThis package hosts functions and guidelines for translating Applied Epi courses and resources\n\n\n\nOct 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR Global Trend\n\n\n\nShiny app\n\n\n\nAMR Global Trend: A shiny app for exploring the global trend of AMR indicators from 73 countries\n\n\n\nAug 6, 2024\n\n\n\n\n\n\n\n\n\n\n\nAMR-SDGs interactions\n\n\n\nShiny app\n\n\n\nAMR-SDGs Explorer: A shiny app for exploring the interaction between AMR and SDGs agenda in national policies\n\n\n\nJun 20, 2024\n\n\n\n\n\n\n\n\n\n\n\nThe Sweden Mentor\n\n\n\nLLM\n\nMobile App\n\n\n\nAn AI chat bot based on large language model to provide information for immigrations about life in Sweden\n\n\n\nDec 24, 2023\n\n\n\n\n\n\n\n\n\n\n\nStepping outside the world: A Guide for Vietnamese Students Studying Abroad and Securing Scholarships\n\n\n\nscholarships\n\n\n\n3000+ copies sold in 3 months, covered widely in Vietnam national media\n\n\n\nSep 2, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/2024-11-17_avise_seminar_01/index.html",
@@ -481,5 +481,187 @@
     "title": "Vietnam Health Summit 2025",
     "section": "",
     "text": "Details\n📆 July 21-22, 2025 || https://vietnamhealthsummit.com/ 🏨 Bệnh viện Trung ương Quân đội 108, số 1 Trần Hưng Đạo, phường Hai Bà Trưng, Hà Nội\n🌠 MedNet - AVSE Global\n\n\nAbstract\nDiễn đàn Y tế Việt Nam 2025 (Vietnam Health Summit – VHS 2025) dự kiến được tổ chức hai năm một lần, là một nền tảng uy tín, quy tụ các y bác sĩ, chuyên gia y tế, nhà khoa học, nhà lãnh đạo,hoạch định chính sách, doanh nghiệp, doanh nhân và các tổ chức phi chính phủ để trao đổi và thảo luận về các sáng kiến đột phá, các xu hướng y tế tương lai nhằm giải quyết những thách thức cấp bách của ngành y tế Việt Nam\nDiễn đàn sẽ tập trung thảo luận các chủ đề trọng điểm như: Những thách thức và giải pháp cho sức khỏe toàn cầu; Chính sách quản lý dữ liệu y tế; Kết nối dữ liệu lớn; AI trong chăm sóc sức khỏe; Ứng dụng dữ liệu lớn và AI trong chẩn đoán lâm sàng cũng như vai trò của AI và khoa học dữ liệu trong điều trị và chăm sóc y tế. Trong bối cảnh Đại dịch COVID-19 đã làm thay đổi hoàn toàn lĩnh vực chăm sóc sức khoẻ, đặc biệt là với sự tiến bộ của công nghệ, diễn đàn được thiết kế nhằm thúc đẩy đối thoại, hợp tác và chia sẻ sáng kiến trong việc tiếp cận và thích ứng với những chuyển đổi mang tính hệ thống này.\n\n\n\n\nCitationBibTeX citation:@online{nguyen_thanh2025,\n  author = {Nguyen Thanh, Luong},\n  title = {Vietnam {Health} {Summit} 2025},\n  date = {2025-07-21},\n  url = {https://ntluong95.github.io/profile/talks/2025-07-21_vhs/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nNguyen Thanh, Luong. 2025. “Vietnam Health Summit 2025.”\nJuly 21, 2025. https://ntluong95.github.io/profile/talks/2025-07-21_vhs/."
+  },
+  {
+    "objectID": "handbook/pages/regression.html",
+    "href": "handbook/pages/regression.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "Models Demystified: A Practical Guide from Linear Regression to Deep Learning: https://m-clark.github.io/book-of-models/\nhttps://www.linkedin.com/pulse/logistic-regression-has-been-since-its-birth-adrian-olszewski-haygf/"
+  },
+  {
+    "objectID": "handbook/pages/meta_analysis.html",
+    "href": "handbook/pages/meta_analysis.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/"
+  },
+  {
+    "objectID": "handbook/pages/machine_learning.html",
+    "href": "handbook/pages/machine_learning.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "- [ ] [bcfgothenburg/Hands-on: Here you will find short exercises that are covered at our 1-hour hands-on sessions](https://github.com/bcfgothenburg/Hands-on) \nData Science A First Introduction with Python: https://python.datasciencebook.ca/index.html\nhttps://www.promptingguide.ai/ https://aeturrell.github.io/python4DS/welcome.html\nhttps://www.pythonhealthdatascience.com/content/front_page.html\nhttps://wesmckinney.com/book/"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.vn.html",
+    "href": "handbook/pages/epi_basic.vn.html",
+    "title": "Numeric Overview",
+    "section": "",
+    "text": "Data can come in all shapes and sizes, but the most common one is the numeric variable. These are values such as age, height, deficit, price, and quantity and we call these quantitative variables. They are plentiful in most data sets and immediately usable in all statistical and machine learning models. That being said, this does not imply that certain transformations wouldn’t improve model performance.\nThe following chapters will focus on different methods that follow 1-to-1 or 1-to-more transformations. These methods will mostly be applied one at a time to each variable. Methods that take many variables and return fewer variables such as dimensionality reduction methods will be covered in the Too Many variables section.\nWhen working with a single variable at a time, there are several problems we can encounter. Understanding the problem and how each method addresses it is key to getting the most out of numeric variables.\nThe four main types of problems we deal with when working with individual numeric variables are:\n\nDistributional problems\nScaling issues\nNon-linear effect\nOutliers\n\n\n\nTODO: add more explanation to this section\n\nlogarithm\nsqrt\nBoxCox\nYeo-Johnson\nPercentile\n\n\n\n\nThe topic of feature scaling is important and used widely in all of machine learning. This chapter will go over what feature scaling is and why we want to use it. The following chapters will each go over a different method of feature scaling.\n\n\n\n\n\n\nNote\n\n\n\nThere is some disagreement about the naming of these topics. These types of methods are called feature scaling and scaling in different fields. This book will call this general class of methods feature scaling and will make notes for each specific method and what other names they go by.\n\n\nIn this book, we will define feature scaling as an operation that modifies variables using multiplication and addition. While broadly defined, the methods typically reduce to the following form:\n\\[\nX_{scaled} = \\dfrac{X - a}{b}\n\\tag{1}\\]\nThe main difference between the methods is how \\(a\\) and \\(b\\) are calculated. These are learned transformation methods. We use the training data to derive the right values of \\(a\\) and \\(b\\), and then these values are used to perform the transformations when applied to new data. The different methods might differ on what property is desired for the transformed variables, same range or same spread, but they never change the distribution itself. The power transformations we saw in the Box-Cox and Yeo-Johnson chapters, distort the transformations, where these feature scalings essentially perform a “zooming” effect.\n\n\n\nTable 1: All feature scaling methods\n\n\n\n\n\n\n\n\n\nMethod\nDefinition\n\n\n\n\nCentering\n\\(X_{scaled} = X - \\text{mean}(X)\\)\n\n\nScaling\n\\(X_{scaled} = \\dfrac{X}{\\text{sd}(X)}\\)\n\n\nMax-Abs\n\\(X_{scaled} = \\dfrac{X}{\\text{max}(\\text{abs}(X))}\\)\n\n\nNormalization\n\\(X_{scaled} = \\dfrac{X - \\text{mean}(X)}{\\text{sd}(X)}\\)\n\n\nMin-Max\n\\(X_{scaled} = \\dfrac{X - \\text{min}(X)}{\\text{max}(X) - \\text{min}(X)}\\)\n\n\nRobust\n\\(X_{scaled} = \\dfrac{X - \\text{median}(X)}{\\text{Q3}(X) - \\text{Q1}(X)}\\)\n\n\n\n\n\n\nWe see here that all the methods in Table 1 follow Equation 1. Sometimes \\(a\\) and \\(b\\) take a value of 0, which is perfectly fine. Centering and scaling when used together is equal to normalization. They are kept separate in the table since they are sometimes used independently. Centering, scaling, and normalization will all be discussed in the Normalization chapter.\nThere are two main reasons why we want to perform feature scaling. Firstly, many different types of models take the magnitude of the variables into account when fitting the models, so having variables on different scales can be disadvantageous because some variables have high priorities. In turn, we get that the other variables have low priority. Models that work using Euclidean distances like KNN models are affected by this change. Regularized models such as lasso and ridge regression also need to be scaled since the regularization depends on the magnitude of the estimates. Secondly, some algorithms converge much faster when all the variables are on the same scale. These types of models produce the same fit, just at a slower pace than if you don’t scale the variables. Any algorithms using Gradient Descent fit into this category.\n\n\n\n\n\n\nCautionTODO\n\n\n\nHave a KNN diagram show why this is important List which types of models need feature scaling. Should be a 2 column list. Left=name, right=comment %in% c(no effect, different fit, slow down)\n\n\n\n\n\n\nbinning\nsplines\npolynomial\n\n\n\n\n\n\n\nCautionTODO\n\n\n\nShow different distributions, and how well the different methods do at dealing with them\n\n\n\n\n\n\n\n\n\n\n\nCautionTODO\n\n\n\nFill in some text here, and list issues\nadd chapters that can handle outliers\n\n\n\n\n\nThere are any number of transformations we can apply to numeric data, other functions include:\n\nhyperbolic\nRelu\ninverse\ninverse logit\nlogit"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.vn.html#distributional-problems",
+    "href": "handbook/pages/epi_basic.vn.html#distributional-problems",
+    "title": "Numeric Overview",
+    "section": "",
+    "text": "TODO: add more explanation to this section\n\nlogarithm\nsqrt\nBoxCox\nYeo-Johnson\nPercentile"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.vn.html#sec-numeric-scaling-issues",
+    "href": "handbook/pages/epi_basic.vn.html#sec-numeric-scaling-issues",
+    "title": "Numeric Overview",
+    "section": "",
+    "text": "The topic of feature scaling is important and used widely in all of machine learning. This chapter will go over what feature scaling is and why we want to use it. The following chapters will each go over a different method of feature scaling.\n\n\n\n\n\n\nNote\n\n\n\nThere is some disagreement about the naming of these topics. These types of methods are called feature scaling and scaling in different fields. This book will call this general class of methods feature scaling and will make notes for each specific method and what other names they go by.\n\n\nIn this book, we will define feature scaling as an operation that modifies variables using multiplication and addition. While broadly defined, the methods typically reduce to the following form:\n\\[\nX_{scaled} = \\dfrac{X - a}{b}\n\\tag{1}\\]\nThe main difference between the methods is how \\(a\\) and \\(b\\) are calculated. These are learned transformation methods. We use the training data to derive the right values of \\(a\\) and \\(b\\), and then these values are used to perform the transformations when applied to new data. The different methods might differ on what property is desired for the transformed variables, same range or same spread, but they never change the distribution itself. The power transformations we saw in the Box-Cox and Yeo-Johnson chapters, distort the transformations, where these feature scalings essentially perform a “zooming” effect.\n\n\n\nTable 1: All feature scaling methods\n\n\n\n\n\n\n\n\n\nMethod\nDefinition\n\n\n\n\nCentering\n\\(X_{scaled} = X - \\text{mean}(X)\\)\n\n\nScaling\n\\(X_{scaled} = \\dfrac{X}{\\text{sd}(X)}\\)\n\n\nMax-Abs\n\\(X_{scaled} = \\dfrac{X}{\\text{max}(\\text{abs}(X))}\\)\n\n\nNormalization\n\\(X_{scaled} = \\dfrac{X - \\text{mean}(X)}{\\text{sd}(X)}\\)\n\n\nMin-Max\n\\(X_{scaled} = \\dfrac{X - \\text{min}(X)}{\\text{max}(X) - \\text{min}(X)}\\)\n\n\nRobust\n\\(X_{scaled} = \\dfrac{X - \\text{median}(X)}{\\text{Q3}(X) - \\text{Q1}(X)}\\)\n\n\n\n\n\n\nWe see here that all the methods in Table 1 follow Equation 1. Sometimes \\(a\\) and \\(b\\) take a value of 0, which is perfectly fine. Centering and scaling when used together is equal to normalization. They are kept separate in the table since they are sometimes used independently. Centering, scaling, and normalization will all be discussed in the Normalization chapter.\nThere are two main reasons why we want to perform feature scaling. Firstly, many different types of models take the magnitude of the variables into account when fitting the models, so having variables on different scales can be disadvantageous because some variables have high priorities. In turn, we get that the other variables have low priority. Models that work using Euclidean distances like KNN models are affected by this change. Regularized models such as lasso and ridge regression also need to be scaled since the regularization depends on the magnitude of the estimates. Secondly, some algorithms converge much faster when all the variables are on the same scale. These types of models produce the same fit, just at a slower pace than if you don’t scale the variables. Any algorithms using Gradient Descent fit into this category.\n\n\n\n\n\n\nCautionTODO\n\n\n\nHave a KNN diagram show why this is important List which types of models need feature scaling. Should be a 2 column list. Left=name, right=comment %in% c(no effect, different fit, slow down)"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.vn.html#non-linear-effect",
+    "href": "handbook/pages/epi_basic.vn.html#non-linear-effect",
+    "title": "Numeric Overview",
+    "section": "",
+    "text": "binning\nsplines\npolynomial\n\n\n\n\n\n\n\nCautionTODO\n\n\n\nShow different distributions, and how well the different methods do at dealing with them"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.vn.html#sec-numeric-outliers-issues",
+    "href": "handbook/pages/epi_basic.vn.html#sec-numeric-outliers-issues",
+    "title": "Numeric Overview",
+    "section": "",
+    "text": "CautionTODO\n\n\n\nFill in some text here, and list issues\nadd chapters that can handle outliers"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.vn.html#other",
+    "href": "handbook/pages/epi_basic.vn.html#other",
+    "title": "Numeric Overview",
+    "section": "",
+    "text": "There are any number of transformations we can apply to numeric data, other functions include:\n\nhyperbolic\nRelu\ninverse\ninverse logit\nlogit"
+  },
+  {
+    "objectID": "handbook/pages/data_management.html",
+    "href": "handbook/pages/data_management.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "Minimalist Data Wrangling with Python: https://datawranglingpy.gagolewski.com/chapter/000-preface.html\nFeature Engineering A-Z: https://feaz-book.com/"
+  },
+  {
+    "objectID": "handbook/pages/cloud_database.html",
+    "href": "handbook/pages/cloud_database.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "Vỡ lòng về AWS"
+  },
+  {
+    "objectID": "handbook/pages/big_concept.html",
+    "href": "handbook/pages/big_concept.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "Global Health One Health Sustainable Development Goals Health Equity"
+  },
+  {
+    "objectID": "handbook/pages/biostats_basic.html",
+    "href": "handbook/pages/biostats_basic.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "https://www.modernstatisticswithr.com/\nhttps://aeturrell.github.io/coding-for-economists/intro.html\nhttps://probability4datascience.com/index.html"
+  },
+  {
+    "objectID": "handbook/pages/dashboard.html",
+    "href": "handbook/pages/dashboard.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "https://shiny.posit.co/blog/posts/shiny-side-of-llms-part-2/p"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.html",
+    "href": "handbook/pages/epi_basic.html",
+    "title": "Numeric Overview",
+    "section": "",
+    "text": "Học thêm về EPI tại [[Seminars in Epidemiology]], Nhặt nhạnh kiến thức - Hoàng Bảo Long - Google Trang tính, Research tweets - Hoang Bao Long - Google Trang tính"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.html#numeric-overview",
+    "href": "handbook/pages/epi_basic.html#numeric-overview",
+    "title": "Numeric Overview",
+    "section": "Numeric Overview",
+    "text": "Numeric Overview"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.html#distributional-problems",
+    "href": "handbook/pages/epi_basic.html#distributional-problems",
+    "title": "Numeric Overview",
+    "section": "Distributional problems",
+    "text": "Distributional problems\nTODO: add more explanation to this section\n\nlogarithm\nsqrt\nBoxCox\nYeo-Johnson\nPercentile"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.html#sec-numeric-scaling-issues",
+    "href": "handbook/pages/epi_basic.html#sec-numeric-scaling-issues",
+    "title": "Numeric Overview",
+    "section": "Scaling issues",
+    "text": "Scaling issues\nThe topic of feature scaling is important and used widely in all of machine learning. This chapter will go over what feature scaling is and why we want to use it. The following chapters will each go over a different method of feature scaling.\n\n\n\n\n\n\nNote\n\n\n\nThere is some disagreement about the naming of these topics. These types of methods are called feature scaling and scaling in different fields. This book will call this general class of methods feature scaling and will make notes for each specific method and what other names they go by.\n\n\nIn this book, we will define feature scaling as an operation that modifies variables using multiplication and addition. While broadly defined, the methods typically reduce to the following form:\n\\[\nX_{scaled} = \\dfrac{X - a}{b}\n\\tag{1}\\]\nThe main difference between the methods is how \\(a\\) and \\(b\\) are calculated. These are learned transformation methods. We use the training data to derive the right values of \\(a\\) and \\(b\\), and then these values are used to perform the transformations when applied to new data. The different methods might differ on what property is desired for the transformed variables, same range or same spread, but they never change the distribution itself. The power transformations we saw in the Box-Cox and Yeo-Johnson chapters, distort the transformations, where these feature scalings essentially perform a “zooming” effect.\n\n\n\nTable 1: All feature scaling methods\n\n\n\n\n\n\n\n\n\nMethod\nDefinition\n\n\n\n\nCentering\n\\(X_{scaled} = X - \\text{mean}(X)\\)\n\n\nScaling\n\\(X_{scaled} = \\dfrac{X}{\\text{sd}(X)}\\)\n\n\nMax-Abs\n\\(X_{scaled} = \\dfrac{X}{\\text{max}(\\text{abs}(X))}\\)\n\n\nNormalization\n\\(X_{scaled} = \\dfrac{X - \\text{mean}(X)}{\\text{sd}(X)}\\)\n\n\nMin-Max\n\\(X_{scaled} = \\dfrac{X - \\text{min}(X)}{\\text{max}(X) - \\text{min}(X)}\\)\n\n\nRobust\n\\(X_{scaled} = \\dfrac{X - \\text{median}(X)}{\\text{Q3}(X) - \\text{Q1}(X)}\\)\n\n\n\n\n\n\nWe see here that all the methods in Table 1 follow Equation 1. Sometimes \\(a\\) and \\(b\\) take a value of 0, which is perfectly fine. Centering and scaling when used together is equal to normalization. They are kept separate in the table since they are sometimes used independently. Centering, scaling, and normalization will all be discussed in the Normalization chapter.\nThere are two main reasons why we want to perform feature scaling. Firstly, many different types of models take the magnitude of the variables into account when fitting the models, so having variables on different scales can be disadvantageous because some variables have high priorities. In turn, we get that the other variables have low priority. Models that work using Euclidean distances like KNN models are affected by this change. Regularized models such as lasso and ridge regression also need to be scaled since the regularization depends on the magnitude of the estimates. Secondly, some algorithms converge much faster when all the variables are on the same scale. These types of models produce the same fit, just at a slower pace than if you don’t scale the variables. Any algorithms using Gradient Descent fit into this category.\n\n\n\n\n\n\nCautionTODO\n\n\n\nHave a KNN diagram show why this is important List which types of models need feature scaling. Should be a 2 column list. Left=name, right=comment %in% c(no effect, different fit, slow down)"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.html#non-linear-effect",
+    "href": "handbook/pages/epi_basic.html#non-linear-effect",
+    "title": "Numeric Overview",
+    "section": "Non-linear effect",
+    "text": "Non-linear effect\n\nbinning\nsplines\npolynomial\n\n\n\n\n\n\n\nCautionTODO\n\n\n\nShow different distributions, and how well the different methods do at dealing with them"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.html#sec-numeric-outliers-issues",
+    "href": "handbook/pages/epi_basic.html#sec-numeric-outliers-issues",
+    "title": "Numeric Overview",
+    "section": "Outliers",
+    "text": "Outliers\n\n\n\n\n\n\nCautionTODO\n\n\n\nFill in some text here, and list issues\nadd chapters that can handle outliers"
+  },
+  {
+    "objectID": "handbook/pages/epi_basic.html#other",
+    "href": "handbook/pages/epi_basic.html#other",
+    "title": "Numeric Overview",
+    "section": "Other",
+    "text": "Other\nThere are any number of transformations we can apply to numeric data, other functions include:\n\nhyperbolic\nRelu\ninverse\ninverse logit\nlogit"
+  },
+  {
+    "objectID": "handbook/pages/free_database.html",
+    "href": "handbook/pages/free_database.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "https://www.nyas.org/shaping-science/nutrition-science/calcium-dashboard/?utm_source=linkedin_paid&utm_medium=Aca_EU&utm_campaign=calcium&li_fat_id=709ec839-3d96-44f4-b747-599628aa209b\nhttps://www.cdc.gov/nchs/nhanes/index.html https://dhsprogram.com/data/ https://www.lshtm.ac.uk/research/centres/centre-data-and-statistical-science-health https://www.commonwealthfund.org/international-health-policy-center/system-stats"
+  },
+  {
+    "objectID": "handbook/pages/mathematical_modelling.html",
+    "href": "handbook/pages/mathematical_modelling.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "- [ ] [Onehealth Lab](http://onehealth.or.kr/)"
+  },
+  {
+    "objectID": "handbook/pages/programming.html",
+    "href": "handbook/pages/programming.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "https://calmcode.io/tracks https://epirhandbook.com/en/ https://docs.python-guide.org/"
+  },
+  {
+    "objectID": "handbook/pages/study_design.html",
+    "href": "handbook/pages/study_design.html",
+    "title": "Luong Nguyen Thanh",
+    "section": "",
+    "text": "https://www.stockholmresilience.org/research/research-news/2021-07-03-groundbreaking-book-on-methods-to-study-social-ecological-systems.html\nThe Routledge Handbook of Research Methods for Social-Ecological Systems is out: https://www.routledge.com/The-Routledge-Handbook-of-Research-Methods-for-Social-Ecological-Systems/Biggs-Vos-Preiser-Clements-Maciejewski-Schluter/p/book/9780367898403"
+  },
+  {
+    "objectID": "projects/scholarships_book.html",
+    "href": "projects/scholarships_book.html",
+    "title": "Stepping outside the world: A Guide for Vietnamese Students Studying Abroad and Securing Scholarships",
+    "section": "",
+    "text": "Book description  Buy\nThe book was published in September 2022 and quickly became a bestseller, with over 3000 copies sold in the first three months. It has been widely covered in Vietnamese national media.\n\n\n\nBook Cover\n\n\n\n\n\nList of Authors\n\n\n\n\n\nBook Info\n\n\n\n\n\nBelgian scholarships\n\n\n\n\n\nCurriculum Vitae\n\n\n\n\n\nInterview"
   }
 ]
