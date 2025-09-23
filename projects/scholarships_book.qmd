@@ -12,17 +12,29 @@ categories:
 
 The book was published in September 2022 and quickly became a bestseller, with over 3000 copies sold in the first three months. It has been widely covered in Vietnamese national media.
 
-![Book Cover](../assets/img/scholarships1.png){fig-alt="Stepping outside the world book cover" fig-align="center"}
+![](../assets/img/scholarships1.png){fig-alt="Official book cover of Stepping outside the world" fig-align="center"}
 
-![List of Authors](../assets/img/scholarships2.png){fig-alt="Stepping outside the world authors" fig-align="center"}
+![](../assets/img/scholarships4.png){fig-alt="Book back cover with testimonials and description" fig-align="center"}
 
-![Book Info](../assets/img/scholarships3.png){fig-alt="Stepping outside the world book info" fig-align="center"}
+![](../assets/img/scholarships2.png){fig-alt="List of all contributing authors" fig-align="center"}
 
-![Belgian scholarships](../assets/img/scholarships5.png){fig-alt="Stepping outside the world book Belgian scholarships" fig-align="center"}
+![](../assets/img/scholarships8.png){fig-alt="Author profiles and scholarship achievements" fig-align="center"}
 
-![Curriculum Vitae](../assets/img/scholarships6.png){fig-alt="Stepping outside the world Curriculum Vitae" fig-align="center"}
+![Complete list of contributing authors and their academic backgrounds](../assets/img/scholarships9.png){fig-alt="Extended author biographies and credentials" fig-align="center"}
 
-![Interview](../assets/img/scholarships7.png){fig-alt="Stepping outside the world Interview" fig-align="center"}
+![Who is this book for?](../assets/img/scholarships3.png){fig-alt="Book publication information and ISBN details" fig-align="center"}
+
+![Comprehensive table of contents outlining all book chapters](../assets/img/scholarships10.png){fig-alt="Detailed table of contents and chapter overview" fig-align="center"}
+
+![Chapter content covering Belgian scholarship opportunities](../assets/img/scholarships5.png){fig-alt="Belgian scholarships chapter with application details" fig-align="center"}
+
+![CV writing guidelines and templates for scholarship applications](../assets/img/scholarships6.png){fig-alt="CV writing guide and templates for scholarships" fig-align="center"}
+
+![Interview preparation strategies and common scholarship questions](../assets/img/scholarships7.png){fig-alt="Scholarship interview preparation and question examples" fig-align="center"}
+
+![Strategic planning timeline for scholarship application process](../assets/img/scholarships11.png){fig-alt="Application strategy and timeline planning guide" fig-align="center"}
+
+![Strategic planning timeline for scholarship application process](../assets/img/scholarships12.png){fig-alt="Advanced scholarship application strategies and tips" fig-align="center"}
 
 
 
