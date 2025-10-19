@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ntluong95.github.io/profile/talks/2025-11-08_avise_seminar_05/index.html</loc>
+    <lastmod>2025-10-19T18:22:01.963Z</lastmod>
+  </url>
+  <url>
     <loc>https://ntluong95.github.io/profile/talks/2025-07-21_vhs/index.html</loc>
     <lastmod>2025-08-04T15:56:09.521Z</lastmod>
   </url>
@@ -46,7 +50,7 @@
   </url>
   <url>
     <loc>https://ntluong95.github.io/profile/cv.html</loc>
-    <lastmod>2025-09-23T12:47:57.485Z</lastmod>
+    <lastmod>2025-09-24T06:55:50.401Z</lastmod>
   </url>
   <url>
     <loc>https://ntluong95.github.io/profile/blog/2024-11-28_transition_to_python/index.html</loc>
@@ -107,5 +111,9 @@
   <url>
     <loc>https://ntluong95.github.io/profile/talks/2025-06-07_avise_day_2025/index.html</loc>
     <lastmod>2025-04-10T15:34:53.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ntluong95.github.io/profile/talks/2025-09-06_avise_seminar_04/index.html</loc>
+    <lastmod>2025-10-19T18:23:13.038Z</lastmod>
   </url>
 </urlset>

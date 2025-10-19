@@ -1,0 +1,53 @@
+---
+title: "ỨNG DỤNG AI TỪ NGHIÊN CỨU KHOA HỌC ĐẾN THỰC TIỄN CÔNG NGHIỆP"
+description: "AVISE Seminar #4 — Hành trình ứng dụng trí tuệ nhân tạo và khoa học dữ liệu từ nghiên cứu học thuật đến phát triển sản phẩm công nghiệp."
+author: AVISE Group
+date: "2025-09-06"
+image: avise_seminar_04.png
+image-alt: "Poster của AVISE Seminar #4: Ứng dụng AI từ nghiên cứu khoa học đến thực tiễn công nghiệp"
+categories:
+  - Artificial Intelligence
+  - Data Science
+  - Industry
+  - Online Seminar
+---
+
+### 🤖 Seminar #4: AVISE Series  
+**Chủ đề:** *Ứng dụng AI từ nghiên cứu khoa học đến thực tiễn công nghiệp*  
+
+---
+
+### 🎙️ Diễn giả & Điều phối
+
+**👨‍🔬 Diễn giả:**  
+**Tiến sĩ Phùng Việt Anh**  
+Tiến sĩ Công nghệ, **Viện Công nghệ Hoàng gia Thụy Điển (KTH)**  
+Chuyên gia Khoa học Dữ liệu, từng làm việc tại **Ericsson** và **Trapets**
+
+**👨‍💼 Điều phối:**  
+**Tiến sĩ Võ Đình Vinh**
+
+---
+
+### 🔍 Tóm tắt nội dung
+
+Với hơn 10 năm kinh nghiệm trong việc ứng dụng **trí tuệ nhân tạo (AI)** và **khoa học dữ liệu** vào nghiên cứu học thuật cũng như phát triển sản phẩm công nghiệp,  
+**TS. Phùng Việt Anh** sẽ chia sẻ hành trình cá nhân từ bước đầu tiếp cận đến phát triển công nghệ AI và khoa học dữ liệu, cùng những trải nghiệm thực tế và góc nhìn so sánh giữa nghiên cứu khoa học và ứng dụng trong sản xuất sản phẩm.
+
+Buổi chia sẻ cũng giới thiệu một số ví dụ thực tế trong lĩnh vực **tài chính, ngân hàng**, và mở rộng trao đổi với người tham dự về **xu hướng phát triển công nghiệp AI hiện nay**.
+
+---
+
+### 📅 Thông tin sự kiện
+
+- **Ngày:** Thứ Bảy, 06/09/2025  
+- **Thời gian:** 02:00 PM (Thụy Điển) – 07:00 PM (Việt Nam)  
+- **Hình thức:** Trực tuyến  
+
+📧 **Email:** [avise-group@googlegroups.com](mailto:avise-group@googlegroups.com)  
+🌐 **Website:** [linkedin.com/groups/14482383](https://www.linkedin.com/groups/14482383)  
+📱 **Đăng ký:** Quét mã QR trên poster để tham gia  
+
+---
+
+> Một sự kiện thuộc chuỗi **AVISE Seminar Series**, nơi các chuyên gia Việt Nam tại Thụy Điển cùng chia sẻ tri thức, kết nối và thúc đẩy hợp tác nghiên cứu ứng dụng công nghệ tiên tiến.

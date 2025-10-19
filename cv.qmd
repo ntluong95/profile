@@ -16,7 +16,7 @@ Uppsala University
 :::
 :::::
 
-[Doctoral degree in Global Health]{.h5} [Oct 2021 -- Oct 2025]{.cv-date}
+[Doctoral degree in Global Health]{.h5} [Oct 2021 -- Nov 2025]{.cv-date}
 
 -   Doctoral degree in Global Health
 -   Thesis: Bridging the gap: Leveraging the sustainability agenda to inform policies and actions on drivers of antimicrobial resistance
@@ -99,7 +99,8 @@ Epistat AB
 
 [Intern]{.h5} [Apr 2025 -- Present]{.cv-date}
 
--   **Cardio project**: Contributing to the development of the Statistical Analysis Plan (SAP), designing mock shells, and supporting data analysis
+-   **Cardio project**: A Retrospective, Non-Interventional Cohort Study to Evaluate the Clinical Burden, Treatment Outcomes, and Healthcare Utilization in Patients with Amyloidosis Cardiomyopathy (ATTR-CM) Using Swedish National Registries
+-   Contributing to the development of the Statistical Analysis Plan (SAP), designing mock shells, and supporting data analysis
 
 ::::: {.d-inline-flex style="align-items:baseline"}
 ::: p-2
