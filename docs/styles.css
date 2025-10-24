@@ -1,0 +1,239 @@
+/* =============================================
+================== CSS Styles ==================
+================================================ */
+footer.footer .nav-footer,
+#quarto-header>nav {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+}
+
+#quarto-content {
+  padding: 0;
+  padding-top: 2em;
+  grid-column: screen-start / screen-end;
+  grid-row: contents-top / contents-bottom;
+}
+
+/* ==============================================================
+=== BIODAS NAVBAR – DESKTOP CÓ HIỆU ỨNG / MOBILE TĨNH ===
+================================================================= */
+
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.navbar {
+  background-size: 300% 300%;
+  animation: navbarGradient 18s ease infinite;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+}
+
+@keyframes navbarGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  padding-top: 50px !important;
+}
+
+/* --- Logo --- */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-brand img {
+  max-height: 36px !important;
+  width: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.15);
+}
+
+/* --- Menu chính ở giữa (DESKTOP) --- */
+@media (min-width: 992px) {
+  .navbar .navbar-nav:first-of-type {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    flex-wrap: nowrap;
+    z-index: 1;
+  }
+}
+
+.navbar .navbar-nav:first-of-type>li>a {
+  color: #ffffff !important;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
+}
+
+.navbar .navbar-nav:first-of-type>li>a:hover {
+  background: linear-gradient(120deg, rgba(0, 194, 224, 0.25), rgba(255, 255, 255, 0.1));
+  color: #eaffff !important;
+  box-shadow: 0 2px 8px rgba(0, 194, 224, 0.35);
+  text-shadow: 0 0 10px rgba(0, 194, 224, 0.5);
+}
+
+.navbar .navbar-nav:first-of-type>li>a::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #00eaff 0%, #00c2e0 50%, #00eaff 100%);
+  border-radius: 1px;
+  transition: width 0.3s ease;
+}
+
+.navbar .navbar-nav:first-of-type>li>a:hover::after {
+  width: 60%;
+}
+
+
+
+/* --- ICON + SEARCH --- */
+.navbar .navbar-nav:last-of-type,
+.navbar .quarto-navbar-tools {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  gap: 1.5px;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar .navbar-nav:last-of-type a {
+  color: #ffffff !important;
+  font-size: 1.15rem;
+  transition: transform 0.25s ease, color 0.25s ease, opacity 0.25s ease;
+}
+
+.navbar .navbar-nav:last-of-type a:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+
+
+/* =====================================================
+   ✅ MOBILE: KHÔNG HIỆU ỨNG, GIAO DIỆN TĨNH
+   ===================================================== */
+@media (max-width: 991.98px) {
+
+  /* Bố cục */
+  .navbar .container-fluid {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+  }
+
+  .navbar .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar .navbar-nav:first-of-type,
+  .navbar .navbar-nav:last-of-type {
+    position: relative;
+    left: 0;
+    transform: none;
+    display: block;
+    margin: 0;
+  }
+
+  /* Tắt animation & shadow & hover */
+  .navbar {
+    background: #313d5d !important;
+    animation: none !important;
+    box-shadow: none !important;
+  }
+
+  .navbar .navbar-nav a,
+  .navbar .dropdown-item {
+    transition: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    text-shadow: none !important;
+  }
+
+  .navbar .navbar-nav:first-of-type>li>a::after {
+    display: none !important;
+  }
+
+  .navbar .dropdown-menu {
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    box-shadow: none !important;
+    transition: none !important;
+    background: #313d5d !important;
+  }
+
+  .navbar .dropdown-item:hover,
+  .navbar .navbar-nav a:hover {
+    background: none !important;
+    color: #ffffff !important;
+    transform: none !important;
+  }
+
+  /* Icon: xếp ngang, không hiệu ứng */
+  .navbar .navbar-nav:last-of-type {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .navbar .navbar-nav:last-of-type a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
