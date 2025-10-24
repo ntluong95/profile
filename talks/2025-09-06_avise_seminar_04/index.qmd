@@ -7,9 +7,7 @@ image: avise_seminar_04.png
 image-alt: "Poster của AVISE Seminar #4: Ứng dụng AI từ nghiên cứu khoa học đến thực tiễn công nghiệp"
 categories:
   - Artificial Intelligence
-  - Data Science
-  - Industry
-  - Online Seminar
+  - STEAM
 ---
 
 ### 🤖 Seminar #4: AVISE Series  

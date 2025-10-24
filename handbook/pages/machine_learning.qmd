@@ -1,5 +1,5 @@
 
-	- [ ] [bcfgothenburg/Hands-on: Here you will find short exercises that are covered at our 1-hour hands-on sessions](https://github.com/bcfgothenburg/Hands-on) 
+	- [bcfgothenburg/Hands-on: Here you will find short exercises that are covered at our 1-hour hands-on sessions](https://github.com/bcfgothenburg/Hands-on) 
 
 
 Data Science

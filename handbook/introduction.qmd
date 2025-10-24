@@ -39,7 +39,7 @@ We want to make sure that the feature engineering methods we are applying are do
 Things we especially want to avoid are **data leakage**, **overfitting**, and high computational cost.
 
 ::: callout-caution
-# TODO
+
 
 Add diagram of modeling workflow from data source to model
 :::
@@ -57,7 +57,7 @@ Trained methods have to be performed after the data-splitting to ensure you don'
 The wrinkle to this is that untrained methods applied to variables that have already been transformed by a trained method will have to also be done after the data-splitting.
 
 ::: callout-caution
-# TODO
+
 
 add a diagram for untrained/trained rule
 :::
