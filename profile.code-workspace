@@ -6,5 +6,8 @@
     {
       "path": "./handbook"
     }
-  ]
+  ],
+  "settings": {
+    "positron.r.useNativePipe": false
+  }
 }

@@ -2,7 +2,9 @@
 pagetitle: "Luong Nguyen Thanh | About"
 title: "Luong Nguyen Thanh"
 image: "assets/img/JR-logo-circle.webp"
-subtitle: "💻 Tech-savvy enthusiast and aspiring health data scientist 🩺"
+subtitle: |
+  | 💻 Tech-savvy enthusiast and aspiring health data scientist 🩺
+  | Founder & Chief Data Scientist @Signitify
 
 about:
   id: hero-heading
@@ -20,8 +22,8 @@ about:
       text: Research Profile
       href: https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en
     - icon: globe
-      text: BIODAS.net
-      href: https://biodas.net
+      text: Signitify
+      href: https://www.signitify.com/
 
 toc: false
 anchor-sections: false
@@ -36,7 +38,20 @@ execute:
 
 <!-- Search in "Go to file" here https://github.com/devicons/devicon -->
 
-<p align="center" style="margin: 0em 0;"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-plain.svg" alt="R" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python" width="30px" style="padding-right:10px;"/> <img src="https://raw.githubusercontent.com/posit-dev/positron-website/c38de11c12f6eea13b16601e12b93d207650ce6d/_extensions/posit-dev/posit-docs/assets/images/positron-icon.svg" alt="Positron" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" alt="VSCode" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="30px" style="padding-right:10px;"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="TS" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="30px" style="padding-right:10px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="30px" style="padding-right:10px;"/> </p>
+<p align="center" class="tech-icons" style="margin: 0em 0;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-plain.svg" alt="R" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python" width="28px" style="padding-right:10px;"/>
+  <img src="https://raw.githubusercontent.com/posit-dev/positron-website/c38de11c12f6eea13b16601e12b93d207650ce6d/_extensions/posit-dev/posit-docs/assets/images/positron-icon.svg" alt="Positron" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" alt="RStudio" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" alt="SQL" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="TS" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="28px" style="padding-right:10px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="28px" style="padding-right:10px;"/>
+</p>
 
 
 # Hi there!
@@ -46,12 +61,22 @@ Welcome to my website — I'm glad you're here!
 I hold a doctoral degree in Global Health from [Uppsala University](https://www.uu.se/en/contact-and-organisation/staff?query=N21-1055), building upon an academic foundation in health and sustainability science with a focus on One Health/Global Health (MSc). My research interests span epidemiology, health, and sustainability, with a primary emphasis on methodology, applied and implementation research.
 
 ::: {.column-margin}
-::: {data-iframe-width="250" data-iframe-height="270" data-share-badge-id="fe87f90a-7103-44e5-a933-36930f81216c" data-share-badge-host="https://www.credly.com"}
+::: {data-iframe-width="300" data-iframe-height="270" data-share-badge-id="4adacd93-99ef-4744-b21a-84b9bbe740a1" data-share-badge-host="https://www.credly.com"}
 ```{=html}
 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 ```
 :::
 :::
+
+
+::: {.column-margin}
+::: {data-iframe-width="300" data-iframe-height="270" data-share-badge-id="fe87f90a-7103-44e5-a933-36930f81216c" data-share-badge-host="https://www.credly.com"}
+```{=html}
+<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+```
+:::
+:::
+
 
 Beyond academia, I am `passionate about programming`, especially in R and Python, with experience building packages, dashboards, Shiny apps, and working with Large Language Models. My technical skills also extend to foundational knowledge of SQL, HTML, CSS, and JavaScript. I am a strong advocater of `open science and reproducible research`, always looking for ways to streamline workflow. Recently, I’ve been diving deeper into environmental epidemiology, clinical trials and data engineering.
 

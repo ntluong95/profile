@@ -6,7 +6,7 @@
 // Colors
 
 // Most colors adopted from https://palx.jxnblk.com/
-// with base color #0b7366
+// with base color #0b7366 #7dc9a4
 
 $white:  #fff;
 $gray-0: #f9f9f9;
@@ -22,12 +22,12 @@ $gray-9: #334240;
 $black:  #000;
 
 // colors
-$teal:        #0b7366;
-$teal-light:  #f6fafa;
-$teal-dark:   #07483f;
-$orange:      #a98069;
-$orange-light:#e9dfd9;
-$orange-dark: #6a2d0a;
+$teal:        #811628;
+$teal-light:  #fef9fa;
+$teal-dark:   #8b1429;
+$orange:      #d4a574;
+$orange-light:#f0eadf;
+$orange-dark: #0b7366;
 
 $primary:       $teal;
 $secondary:     $orange-dark;
@@ -69,7 +69,7 @@ h2 {
 h3, h4 {
   font-weight: 700;
   font-family: Domine, serif;
-  color: $teal;
+  color: $teal-dark;
 }
 
 h3 {
