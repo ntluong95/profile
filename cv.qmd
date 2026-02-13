@@ -58,6 +58,24 @@ Hanoi Medical University
 
 ::::: {.d-inline-flex style="align-items:baseline"}
 ::: p-2
+
+![](assets/img/SRC_SU_logo.svg){fig-alt="Stockholm University logo" width="180"}
+:::
+
+::: h3
+Stockholm University
+:::
+:::::
+
+[Postdoctoral Researcher, ERC project]{.h5} [Jan 2026 -- Jan 2028]{.cv-date}
+
+-   Studies the dynamics and cascading impacts of Emerging Pests and Pathogens (EPPs), including infectious diseases affecting humans, livestock, wildlife, and agricultural systems
+-   Investigates when and how EPP outbreaks emerge, how their impacts propagate across social, ecological, and economic systems, and their interactions with broader sustainability challenges and the Sustainable Development Goals
+-   Develops data-driven approaches to capture EPP dynamics beyond traditional surveillance systems by combining automated text mining methods (natural language processing and large language models) with expert curation and comparative analysis
+-   Extracts information from unstructured textual sources (news media, scientific literature, policy documents) to improve understanding of outbreak drivers, public and policy responses, and downstream societal impacts of EPPs
+
+::::: {.d-inline-flex style="align-items:baseline"}
+::: p-2
 ![](assets/img/uu-logo.png){width="60px" fig-alt="Uppsala University logo"}
 :::
 
@@ -185,7 +203,7 @@ knitr::include_graphics(here::here("assets/img/berlin.jpg"))
 
 ## {{< fa book >}} Publication
 
-[Link to my Google Scholar profile](https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en&authuser=1) *(14 peer-reviewed, h-index: 8, i10-index: 5, total number of citations: 135)*
+[Link to my Google Scholar profile](https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en&authuser=1) *(14 peer-reviewed, h-index: 8, i10-index: 8, total number of citations: 188)*
 
 **Selected 5 articles:** 
 
