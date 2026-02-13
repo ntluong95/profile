@@ -56,12 +56,6 @@ Created by [ntluong95](https://github.com/ntluong95)
 Licensed under the [MIT License](./LICENSE)
   
 
-## 💡 Future Ideas
-
-- [ ] Snippets for different type of Quarto project
-- [ ] Add support for Run Inline Code for VSCode users
-
-
 ## 🧠 Why Positron?
 
 Because it’s time for a modern, polyglot, VS Code-based Data Science IDE — and this extension brings one of RStudio's most beloved panels to the future.
