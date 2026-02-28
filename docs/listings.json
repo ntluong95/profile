@@ -17,8 +17,17 @@
     ]
   },
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/2024-12-04_positron_review/index.html",
+      "/blog/2024-11-28_transition_to_python/index.html",
+      "/blog/2024-11-01_dplyr_candidate/index.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
+      "/projects/julia_positron.html",
       "/projects/nutrition.html",
       "/projects/quarto_wingman.html",
       "/projects/positron_python.html",
@@ -28,14 +37,6 @@
       "/projects/amr_sdg.html",
       "/projects/sweden_mentor .html",
       "/projects/scholarships_book.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/2024-12-04_positron_review/index.html",
-      "/blog/2024-11-28_transition_to_python/index.html",
-      "/blog/2024-11-01_dplyr_candidate/index.html"
     ]
   }
 ]
