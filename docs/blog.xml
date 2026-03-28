@@ -9,7 +9,7 @@
 <link>https://ntluong95.github.io/profile/blog.html</link>
 <atom:link href="https://ntluong95.github.io/profile/blog.xml" rel="self" type="application/rss+xml"/>
 <description>R &amp; Python code, global health and sustainability data science.</description>
-<generator>quarto-1.8.27</generator>
+<generator>quarto-1.9.36</generator>
 <lastBuildDate>Tue, 03 Dec 2024 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Positron - a VSCode fork for Data Science</title>
@@ -188,7 +188,7 @@
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-nguyen_thanh2024" class="csl-entry quarto-appendix-citeas">
 Nguyen Thanh, Luong. 2024. <span>“Positron - a VSCode Fork for Data
-Science.”</span> December 4, 2024. <a href="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/">https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/</a>.
+Science.”</span> December 4. <a href="https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/">https://ntluong95.github.io/profile/blog/2024-12-04_positron_review/</a>.
 </div></div></section></div> ]]></description>
   <category>Python</category>
   <category>R</category>
@@ -291,7 +291,7 @@ Science.”</span> December 4, 2024. <a href="https://ntluong95.github.io/profil
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-nguyen_thanh2024" class="csl-entry quarto-appendix-citeas">
 Nguyen Thanh, Luong. 2024. <span>“Switching from R to Python: A
-Beginner’s Guide to Equivalent Tools.”</span> November 28, 2024. <a href="https://ntluong95.github.io/profile/blog/2024-11-28_transition_to_python/">https://ntluong95.github.io/profile/blog/2024-11-28_transition_to_python/</a>.
+Beginner’s Guide to Equivalent Tools.”</span> November 28. <a href="https://ntluong95.github.io/profile/blog/2024-11-28_transition_to_python/">https://ntluong95.github.io/profile/blog/2024-11-28_transition_to_python/</a>.
 </div></div></section></div> ]]></description>
   <category>Python</category>
   <category>R</category>
@@ -1468,7 +1468,7 @@ font-style: inherit;">=</span>_.arr_delay.mean())</span>
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-nguyen_thanh2023" class="csl-entry quarto-appendix-citeas">
 Nguyen Thanh, Luong. 2023. <span>“Choosing a Python Dataframe Library as
-a dplyR useR.”</span> January 25, 2023. <a href="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/">https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</a>.
+a dplyR useR.”</span> January 25. <a href="https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/">https://ntluong95.github.io/profile/blog/2024-11-01_dplyr_candidate/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Python</category>

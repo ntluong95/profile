@@ -203,19 +203,19 @@ knitr::include_graphics(here::here("assets/img/berlin.jpg"))
 
 ## {{< fa book >}} Publication
 
-[Link to my Google Scholar profile](https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en&authuser=1) *(14 peer-reviewed, h-index: 8, i10-index: 8, total number of citations: 188)*
+[Link to my Google Scholar profile](https://scholar.google.com/citations?user=F2Rlba0AAAAJ&hl=en&authuser=1) *(15 peer-reviewed, h-index: 8, i10-index: 8, total number of citations: 197)*
 
 **Selected 5 articles:** 
 
-1. `Luong NT`, Didier W, Mats M, Peter SJ (2025). ‘When global health meets global goals’: assessing the alignment between antimicrobial resistance and sustainable development policies in 10 African and Asian countries. *BMJ Global Health*
+1. Lea K,`Nguyen TL`, and 11 co-authors (2026). Correlation between heat exposure and perinatal depression-A spatial case-crossover study from Bangladesh, Lesotho, Mozambique, and Nepal. Science of The Total Environment
 
-2. Peter SJ, `Luong NT` and 10 co-authors (2025). Association between national action and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023. *PLOS Global Public Health*
+2. `Luong NT`, Didier W, Mats M, Peter SJ (2025). ‘When global health meets global goals’: assessing the alignment between antimicrobial resistance and sustainable development policies in 10 African and Asian countries. *BMJ Global Health*
 
-3. `Luong NT`, Didier W, Mats M, Tiscar G, Peter SJ (2024) Characterizing proximal and distal drivers of antimicrobial resistance: An umbrella review. *Journal of Global Antimicrobial Resistance*
+3. Peter SJ, `Luong NT` and 10 co-authors (2025). Association between national action and trends in antibiotic resistance: an analysis of 73 countries from 2000 to 2023. *PLOS Global Public Health*
 
-4. Ngo HTH, `Nguyen TL`, and 6 co-authors (2021). Microbial contamination and associated risk factors in retailed pork from key value chains in Northern Vietnam. *Food Microbiology *
+4. `Luong NT`, Didier W, Mats M, Tiscar G, Peter SJ (2024) Characterizing proximal and distal drivers of antimicrobial resistance: An umbrella review. *Journal of Global Antimicrobial Resistance*
 
-5. Lam S, Huyen NTT, Ngo HTH, `Nguyen TL`, and 6 co-authors (2021). Unpacking the Theory Behind One Health Food Safety Programs: A Vietnam Case Study. *Frontiers in Veterinary Science*
+5. Ngo HTH, `Nguyen TL`, and 6 co-authors (2021). Microbial contamination and associated risk factors in retailed pork from key value chains in Northern Vietnam. *Food Microbiology *
 
 
 

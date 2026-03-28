@@ -64,7 +64,7 @@ website:
 
   page-footer:
     border: true
-    left: "&#169; 2025 Luong Nguyen Thanh"
+    left: "&#169; 2026 Luong Nguyen Thanh"
     right: "Made with [Quarto Website](https://quarto.org)"
 
 format:
