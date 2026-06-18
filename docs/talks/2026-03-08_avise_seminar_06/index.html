@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Luong Nguyen Thanh">
-<meta name="dcterms.date" content="2026-02-28">
-<meta name="description" content="Julia language support for Positron — the modern data science IDE">
+<meta name="author" content="AVISE Group">
+<meta name="dcterms.date" content="2026-03-08">
+<meta name="description" content="AVISE Seminar #6 — Từ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững">
 
-<title>Luong Nguyen Thanh | Julia for Positron – Luong Nguyen Thanh</title>
+<title>Luong Nguyen Thanh | TTừ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững – Luong Nguyen Thanh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,26 +29,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-975e726794ce811e14261b5ab5acfd7c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-28428471636f35be178b1d6ed83555a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-975e726794ce811e14261b5ab5acfd7c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-28428471636f35be178b1d6ed83555a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,22 +95,18 @@ cookieconsent.run({
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Luong Nguyen Thanh | Julia for Positron">
-<meta property="og:description" content="Julia language support for Positron — the modern data science IDE">
-<meta property="og:image" content="https://ntluong95.github.io/profile/assets/img/julia-positron.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Luong Nguyen Thanh | TTừ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững">
+<meta property="og:description" content="AVISE Seminar #6 — Từ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững">
+<meta property="og:image" content="https://ntluong95.github.io/profile/talks/2026-03-08_avise_seminar_06/avise_seminar_06.jpeg">
 <meta property="og:site_name" content="Luong Nguyen Thanh">
 <meta property="og:locale" content="en_EN">
-<meta property="og:image:alt" content="extension logo">
-<meta property="og:image:height" content="1254">
-<meta property="og:image:width" content="1075">
-<meta name="twitter:title" content="Luong Nguyen Thanh | Julia for Positron">
-<meta name="twitter:description" content="Julia language support for Positron — the modern data science IDE">
-<meta name="twitter:image" content="https://ntluong95.github.io/profile/assets/img/julia-positron.png">
+<meta property="og:image:alt" content="Poster của AVISE Seminar #6: Từ dữ liệu đến quyết định: Hướng tới hạ tầng thông minh và bền vững">
+<meta name="twitter:title" content="Luong Nguyen Thanh | TTừ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững">
+<meta name="twitter:description" content="AVISE Seminar #6 — Từ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững">
+<meta name="twitter:image" content="https://ntluong95.github.io/profile/talks/2026-03-08_avise_seminar_06/avise_seminar_06.jpeg">
 <meta name="twitter:creator" content="@luongnt95">
-<meta name="twitter:image:alt" content="extension logo">
-<meta name="twitter:image-height" content="1254">
-<meta name="twitter:image-width" content="1075">
+<meta name="twitter:image:alt" content="Poster của AVISE Seminar #6: Từ dữ liệu đến quyết định: Hướng tới hạ tầng thông minh và bền vững">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -123,11 +117,11 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/img/JR-logo-circle.webp" alt="" class="navbar-logo light-content">
-    <img src="../assets/img/JR-logo-circle.webp" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/img/JR-logo-circle.webp" alt="" class="navbar-logo light-content">
+    <img src="../../assets/img/JR-logo-circle.webp" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Luong Nguyen Thanh</span>
     </a>
   </div>
@@ -138,34 +132,34 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> <i class="bi bi-person-circle" role="img">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-person-circle" role="img">
 </i> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html"> <i class="bi bi-file-earmark-text-fill" role="img">
+    <a class="nav-link" href="../../cv.html"> <i class="bi bi-file-earmark-text-fill" role="img">
 </i> 
 <span class="menu-text">Curriculum Vitae</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html"> <i class="bi bi-pen-fill" role="img">
+    <a class="nav-link" href="../../blog.html"> <i class="bi bi-pen-fill" role="img">
 </i> 
 <span class="menu-text">Personal Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks.html"> <i class="bi bi-people-fill" role="img">
+    <a class="nav-link" href="../../talks.html"> <i class="bi bi-people-fill" role="img">
 </i> 
 <span class="menu-text">Event organized</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.html"> <i class="bi bi-puzzle-fill" role="img">
+    <a class="nav-link" href="../../projects.html"> <i class="bi bi-puzzle-fill" role="img">
 </i> 
 <span class="menu-text">Personal Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../blog.xml"> <i class="bi bi-rss" role="img" aria-label="rss">
+    <a class="nav-link" href="../../blog.xml"> <i class="bi bi-rss" role="img" aria-label="rss">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -195,56 +189,43 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#julia-for-positron" id="toc-julia-for-positron" class="nav-link active" data-scroll-target="#julia-for-positron">📦 Julia for Positron</a>
-  <ul>
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">🚀 Features</a></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">🛠 Requirements</a></li>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">🏁 Getting Started</a></li>
-  <li><a href="#extension-settings" id="toc-extension-settings" class="nav-link" data-scroll-target="#extension-settings">⚙️ Extension Settings</a></li>
-  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">🙏 Attribution</a></li>
-  </ul></li>
+  <li><a href="#seminar-6-avise-series" id="toc-seminar-6-avise-series" class="nav-link active" data-scroll-target="#seminar-6-avise-series">🧬 Seminar #6: AVISE Series</a></li>
+  <li><a href="#hẹn-gặp-cộng-đồng-avise-trong-hành-trình-mới-của-năm-2026" id="toc-hẹn-gặp-cộng-đồng-avise-trong-hành-trình-mới-của-năm-2026" class="nav-link" data-scroll-target="#hẹn-gặp-cộng-đồng-avise-trong-hành-trình-mới-của-năm-2026">Hẹn gặp cộng đồng AVISE trong hành trình mới của năm 2026! 🚀</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ntluong95/profile/blob/main/projects/julia_positron.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ntluong95/profile/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ntluong95/profile/blob/main/talks/2026-03-08_avise_seminar_06/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ntluong95/profile/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Julia for Positron</h1>
+<h1 class="title">TTừ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">VSCode extension</div>
-    <div class="quarto-category">Julia</div>
+    <div class="quarto-category">Cancer</div>
+    <div class="quarto-category">STEAM</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Julia language support for Positron — the modern data science IDE
+    AVISE Seminar #6 — Từ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững
   </div>
 </div>
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Luong Nguyen Thanh </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Github
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>AVISE Group </p>
+          </div>
+  </div>
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 28, 2026</p>
+      <p class="date">March 8, 2026</p>
     </div>
   </div>
   
@@ -256,96 +237,39 @@ cookieconsent.run({
 </header>
 
 
-<p><span class="listing-btn-group"> <a href="https://github.com/ntluong95/julia-positron" class="btn" role="button"><i class="fa-brands fa-github" aria-label="github"></i> Code</a> <a href="https://github.com/posit-dev/positron/pull/11108" class="btn" role="button"><i class="fa-solid fa-code-pull-request" aria-label="code-pull-request"></i> Original PR</a> </span></p>
-<section id="julia-for-positron" class="level1">
-<h1>📦 Julia for Positron</h1>
-<p><img src="../assets/img/julia-positron.png" class="img-center img-fluid" style="width:15em" alt="extension logo"></p>
-<p>Julia language support for <a href="https://github.com/posit-dev/positron">Positron</a>. The project is a fork of a <a href="https://github.com/posit-dev/positron/pull/11108">PR</a> made by <span class="citation" data-cites="wesm">@wesm</span>.</p>
+<section id="seminar-6-avise-series" class="level3">
+<h3 class="anchored" data-anchor-id="seminar-6-avise-series">🧬 Seminar #6: AVISE Series</h3>
+<p><strong>Chủ đề:</strong> *Từ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững</p>
 <hr>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">🚀 Features</h2>
-<ul>
-<li><strong>Julia Runtime</strong> — Start interactive Julia sessions directly in Positron’s Console. Define variables, run code, and inspect results with the Variables pane and Data Explorer.</li>
-<li><strong>Language Server</strong> — Powered by <a href="https://github.com/julia-vscode/LanguageServer.jl">LanguageServer.jl</a> for diagnostics, completions, go-to-definition, hover info, and more. Automatically installed on first use.</li>
-<li><strong>Runtime Completions</strong> — Supplements LSP completions with live variables and functions from the running Julia session via the Jupyter <code>complete_request</code> protocol.</li>
-<li><strong>Run Multiline Statements</strong> — Press <code>Ctrl+Enter</code> / <code>Cmd+Enter</code> to send the full multiline statement at the cursor (functions, loops, blocks) to the console. Handles <code>function…end</code>, <code>if…end</code>, unclosed brackets, pipe chains, and more.</li>
-<li><strong>Semantic Highlighting</strong> — Enhanced syntax highlighting with semantic information from the Language Server for accurate color coding of functions, types, modules, and other language constructs.</li>
-<li><strong>Data Explorer</strong> — Open DataFrames, matrices, and other tabular data in Positron’s interactive Data Explorer with sorting, filtering, and summary statistics.</li>
-<li><strong>Variables Pane</strong> — Browse all session variables with type and value summaries.</li>
-<li><strong>Help Integration</strong> — View Julia documentation inline via Positron’s Help pane.</li>
-<li><strong>Plots</strong> — Julia plots are captured and displayed in Positron’s Plots pane.</li>
-<li><strong>Package Pane</strong> — Browse and manage Julia packages directly within Positron.</li>
-</ul>
-<hr>
+<p>#🎉 Bắt đầu năm mới 2026 Bính Ngọ, AVISE quay trở lại với seminar series đầy cảm hứng và chiều sâu học thuật! Mở đầu năm mới là seminar chuyên đề: Từ Dữ liệu đến Quyết Định: Hướng tới Hạ tầng Thông minh và Bền vững (From Data to Decisions: Engineering Intelligent &amp; Resilient Infrastructure)</p>
+<p>🎙 Diễn giả: Tiến sĩ Phạm Anh Tuấn</p>
+<p>🏛️ KTH Royal Institute of Technology (KTH), Thụy Điển</p>
+<p>🏆 Giải thưởng KHCN Quả Cầu Vàng 2025</p>
+<p>🏆 Rising Star Award 2025 ✍️ Đăng ký ngay: https://lnkd.in/dCx8WntD</p>
+<p>Trong thế kỷ 21 đầy biến động, hạ tầng bền vững không đến từ việc bổ sung thêm công nghệ rời rạc, mà từ khả năng kết nối dữ liệu, mô hình, trí tuệ nhân tạo và cơ học công trình thành một hệ sinh thái thông minh. Ở đó, khoa học và công nghệ hỗ trợ con người đưa ra quyết định nhanh hơn, chính xác hơn và giảm thiểu rủi ro trong môi trường ngày càng bất định.</p>
+<p>Trong buổi hội thảo, Tiến sĩ Phạm Anh Tuấn cũng sẽ chia sẻ về hành trình và ý nghĩa của Giải thưởng Quả Cầu Vàng mà anh vừa vinh dự được trao tặng.</p>
 </section>
-<section id="requirements" class="level2">
-<h2 class="anchored" data-anchor-id="requirements">🛠 Requirements</h2>
-<ul>
-<li><a href="https://github.com/posit-dev/positron">Positron IDE</a> (2026.02 or later)</li>
-<li><a href="https://julialang.org/downloads/">Julia</a> 1.10 or later</li>
-</ul>
-<hr>
-</section>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">🏁 Getting Started</h2>
-<ol type="1">
-<li>Install Julia from <a href="https://julialang.org/downloads/">julialang.org</a> or via <a href="https://github.com/JuliaLang/juliaup">juliaup</a>.</li>
-<li>Install this extension in Positron (Extensions view → Install from VSIX, or from the marketplace).</li>
-<li>Open a <code>.jl</code> file or start a Julia console session from the interpreter picker.</li>
-</ol>
-<p>On first launch, the extension automatically installs required Julia packages (<code>IJulia</code>, <code>LanguageServer.jl</code>, and supporting dependencies). This one-time setup may take a few minutes.</p>
-<hr>
-</section>
-<section id="extension-settings" class="level2">
-<h2 class="anchored" data-anchor-id="extension-settings">⚙️ Extension Settings</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 41%">
-<col style="width: 6%">
-<col style="width: 52%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Setting</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>positron.julia.executablePath</code></td>
-<td><code>""</code></td>
-<td>Path to a specific Julia executable</td>
-</tr>
-<tr class="even">
-<td><code>positron.julia.languageServer.enabled</code></td>
-<td><code>true</code></td>
-<td>Enable/disable the Julia Language Server</td>
-</tr>
-<tr class="odd">
-<td><code>positron.julia.languageServer.environmentPath</code></td>
-<td><code>""</code></td>
-<td>Path to a Julia project environment for the Language Server</td>
-</tr>
-<tr class="even">
-<td><code>julia.lint.missingrefs</code></td>
-<td><code>"all"</code></td>
-<td>Control missing-reference diagnostics (<code>all</code>, <code>id</code>, <code>none</code>)</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="attribution" class="level2">
-<h2 class="anchored" data-anchor-id="attribution">🙏 Attribution</h2>
-<p>Created by <a href="https://github.com/ntluong95">ntluong95</a>, forking the work of <a href="https://github.com/wesm">Wes McKinney</a>.<br>
-Licensed under the Elastic License 2.0.</p>
+<section id="hẹn-gặp-cộng-đồng-avise-trong-hành-trình-mới-của-năm-2026" class="level2">
+<h2 class="anchored" data-anchor-id="hẹn-gặp-cộng-đồng-avise-trong-hành-trình-mới-của-năm-2026">Hẹn gặp cộng đồng AVISE trong hành trình mới của năm 2026! 🚀</h2>
+<blockquote class="blockquote">
+<p>Một sự kiện thuộc chuỗi <strong>AVISE Seminar Series</strong>, kết nối các chuyên gia Việt Nam trong và ngoài nước để cùng chia sẻ tri thức và truyền cảm hứng nghiên cứu khoa học.</p>
+</blockquote>
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{group2026,
+  author = {Group, AVISE},
+  title = {TTừ {Dữ} Liệu Đến {Quyết} {Định:} {Hướng} Tới {Hạ} Tầng
+    {Thông} Minh Và {Bền} Vững},
+  date = {2026-03-08},
+  url = {https://ntluong95.github.io/profile/talks/2026-03-08_avise_seminar_06/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-group2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Group, AVISE. 2026. <span>“TTừ Dữ Liệu Đến Quyết Định: Hướng Tới Hạ Tầng
+Thông Minh Và Bền Vững.”</span> March 8. <a href="https://ntluong95.github.io/profile/talks/2026-03-08_avise_seminar_06/">https://ntluong95.github.io/profile/talks/2026-03-08_avise_seminar_06/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -759,7 +683,7 @@ Licensed under the Elastic License 2.0.</p>
 </div>   
     <div class="nav-footer-center">
 
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ntluong95/profile/blob/main/projects/julia_positron.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ntluong95/profile/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change cookies 🍪</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ntluong95/profile/blob/main/talks/2026-03-08_avise_seminar_06/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ntluong95/profile/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change cookies 🍪</a></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org">Quarto Website</a></p>
 </div>
@@ -769,5 +693,5 @@ Licensed under the Elastic License 2.0.</p>
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

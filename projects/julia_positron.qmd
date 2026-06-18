@@ -18,7 +18,7 @@ categories:
 
 # 📦 Julia for Positron
 
-![](../assets/img/julia-logo.png){.img-center width=15em fig-alt="extension logo"}
+![](../assets/img/julia-positron.png){.img-center width=15em fig-alt="extension logo"}
 
 Julia language support for [Positron](https://github.com/posit-dev/positron). The project is a fork of a [PR](https://github.com/posit-dev/positron/pull/11108) made by @wesm.
 
