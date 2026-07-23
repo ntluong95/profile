@@ -8,7 +8,7 @@ categories:
   - scholarships
 ---
 
-[<a href="scholarships_source.html" class="btn" role="button">{{< fa book >}} Book description</a> <a href="https://shop.spiderum.com/products/sach-buoc-ra-the-gioi-cam-nang-du-hoc-va-san-hoc-bong" class="btn" role="button">{{< fa cart-shopping >}} Buy</a>]{.listing-btn-group}
+[<a href="scholarships_source.html" class="btn" role="button">{{< fa book >}} Book description</a> <a href="https://drive.google.com/file/d/1d1WlNcaUqo-lAiTQgcAGu5-C1yjET_QK/view?usp=sharing" class="btn" role="button">{{< fa cart-shopping >}} Read</a>]{.listing-btn-group}
 
 The book was published in September 2022 and quickly became a bestseller, with over 3000 copies sold in the first three months. It has been widely covered in Vietnamese national media.
 
